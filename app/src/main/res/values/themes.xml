@@ -1,0 +1,35 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Tema base SEM DayNight -->
+    <style name="Theme.RQM" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Cor principal (vermelho da imagem) -->
+        <item name="colorPrimary">#D42027</item>
+        <item name="colorPrimaryVariant">#B71C1C</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+
+        <!-- Cor secundária (azul da cruz) -->
+        <item name="colorSecondary">#143C80</item>
+        <item name="colorSecondaryVariant">#0F2A5C</item>
+        <item name="colorOnSecondary">#FFFFFF</item>
+
+        <!-- Cor da barra de status -->
+        <item name="android:statusBarColor">#B71C1C</item>
+
+        <!-- Fundo padrão branco -->
+        <item name="android:colorBackground">#FFFFFF</item>
+        <item name="colorOnBackground">#000000</item>
+
+        <!-- Outros ajustes -->
+        <item name="android:navigationBarColor">#D42027</item>
+    </style>
+
+    <!-- Tema sem ActionBar -->
+    <style name="Theme.RQM.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.RQM.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="Theme.RQM.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

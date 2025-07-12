@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/txtCodigoResumo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Código do material"
+        android:textStyle="bold"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/txtDescricaoResumo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Descrição do material"
+        android:textStyle="bold"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/txtUmbResumo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="UMB do material"
+        android:textStyle="bold"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/txtTipoResumo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tipo do material"
+        android:textStyle="bold"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/txtPeçoResumo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Preço do material"
+        android:textStyle="bold"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/txtLPResumo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LP Trafo"
+        android:textStyle="bold"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/txtSerialResumo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Serial"
+        android:textStyle="bold"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/txtQuantidadeResumo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quantidade: 0"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_marginTop="2dp" />
+</LinearLayout>

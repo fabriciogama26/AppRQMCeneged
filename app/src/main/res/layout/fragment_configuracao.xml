@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".ui.configuracao.ConfiguracaoFragment">
+
+    <Button
+        android:id="@+id/btnExportarBanco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Exportar Banco de Dados" />
+
+    <Button
+        android:id="@+id/btnImportarBanco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Importar Banco de Dados" />
+</LinearLayout>

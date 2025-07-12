@@ -1,0 +1,48 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp">
+
+    <ImageView
+        android:id="@+id/logoRQM"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:contentDescription="Logo RQM"
+        android:src="@drawable/image_removebg_preview" />
+
+    <TextView
+        android:id="@+id/tituloApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RQM - REQUISIÇÃO DE MATERIAL"
+        android:textColor="#B71C1C"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="12dp" />
+
+    <Button
+        android:id="@+id/btnRequisicao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Requisição"
+        android:textSize="24sp"
+        android:padding="24dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#2196F3"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/btnDevolucao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Devolução"
+        android:textSize="24sp"
+        android:padding="24dp"
+        android:backgroundTint="#F44336"
+        android:textColor="@android:color/white" />
+</LinearLayout>

@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">RQM</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">RQM-Requisição de Materiais</string>
+    <string name="nav_header_subtitle">CENEGED-Energia Positiva </string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Nova Operação</string>
+    <string name="menu_operacao">Operação</string>
+    <string name="menu_materiais">Materiais</string>
+    <string name="menu_historico">Histórico</string>
+    <string name="menu_configuracao">Configuração</string>
+    <string name="menu_sobre">Sobre</string>
+    <string name="menu_confirmacao">Confirmação</string>
+    <string name="menu_login">Login</string>
+
+    <!-- Spinner -->
+    <string-array name="prefixo_array">
+        <item>OMI</item>
+        <item>OII</item>
+        <item>OS</item>
+        <item>OM</item>
+    </string-array>
+
+    <!-- Spinner -->
+    <string-array name="operacao_array">
+        <item>Requisição</item>
+        <item>Devolução</item>
+    </string-array>
+
+    <!-- Spinner -->
+    <string-array name="prefixo_array_filtro">
+        <item>Todos</item>
+        <item>OMI</item>
+        <item>OII</item>
+        <item>OS</item>
+        <item>OM</item>
+    </string-array>
+
+    <!-- Spinner -->
+    <string-array name="operacao_array_filtro">
+        <item>Todos</item>
+        <item>Requisição</item>
+        <item>Devolução</item>
+    </string-array>
+
+    <string-array name="grafico_array">
+        <item>Total por Requisitor</item>
+        <item>Valor por Prefixo</item>
+        <item>Quantidade por Tipo</item>
+    </string-array>
+
+    <!-- Requisição -->
+    <string name="label_projeto">Projeto</string>
+    <string name="hint_numero_projeto">Digite o número do projeto</string>
+    <string name="hint_data_requisicao">Data da Requisição</string>
+    <string name="hint_requisitor">Requisitor</string>
+    <string name="hint_usuario">Usuário</string>
+    <string name="btn_avancar">Avançar</string>
+</resources>

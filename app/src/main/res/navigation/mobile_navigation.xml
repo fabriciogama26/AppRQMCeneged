@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.rqm.ui.Home.HomeFragment"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_operacao"
+        android:name="com.example.rqm.ui.formulario_operacao.FormularioOperacaoFragment"
+        tools:layout="@layout/fragment_formulario_operacao" />
+
+    <fragment
+        android:id="@+id/nav_materiais"
+        android:name="com.example.rqm.ui.materiais.MateriaisFragment"
+        android:label="@string/menu_materiais"
+        tools:layout="@layout/fragment_materiais" />
+
+    <fragment
+        android:id="@+id/nav_historico"
+        android:name="com.example.rqm.ui.historico.HistoricoFragment"
+        android:label="@string/menu_historico"
+        tools:layout="@layout/fragment_historico" />
+
+    <fragment
+        android:id="@+id/nav_configuracao"
+        android:name="com.example.rqm.ui.configuracao.ConfiguracaoFragment"
+        android:label="@string/menu_configuracao"
+        tools:layout="@layout/fragment_configuracao" />
+
+    <fragment
+        android:id="@+id/nav_sobre"
+        android:name="com.example.rqm.ui.sobre.SobreFragment"
+        android:label="@string/menu_sobre"
+        tools:layout="@layout/fragment_sobre" />
+
+    <fragment
+        android:id="@+id/nav_confirmacao"
+        android:name="com.example.rqm.ui.confirmacao.ConfirmacaoFragment"
+        android:label="@string/menu_confirmacao"
+        tools:layout="@layout/fragment_confirmacao" />
+    <fragment
+        android:id="@+id/nav_loginFragment"
+        android:name="com.example.rqm.ui.login.LoginFragment"
+        android:label="@string/menu_login"
+        tools:layout="@layout/fragment_login" />
+
+</navigation>

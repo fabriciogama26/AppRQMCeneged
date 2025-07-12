@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <!-- Caminho para arquivos no diretório de arquivos externos privados do app -->
+    <external-files-path name="shared_files" path="." />
+
+    <!-- Caminho para arquivos em cache -->
+    <cache-path name="cache_files" path="." />
+
+    <!-- Caminho para arquivos no diretório de arquivos internos do app -->
+    <files-path name="internal_files" path="." />
+</paths>

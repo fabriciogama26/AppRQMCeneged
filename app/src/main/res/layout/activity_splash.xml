@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:id="@+id/splash_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/image_removebg_preview"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:id="@+id/text_rqm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RQM"
+            android:textColor="#D32F2F"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:visibility="invisible" />
+    </LinearLayout>
+</FrameLayout>

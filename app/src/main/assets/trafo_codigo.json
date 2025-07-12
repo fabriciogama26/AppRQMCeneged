@@ -1,0 +1,6397 @@
+[
+  {
+    "codigo":603964,
+    "descricao":"TRANSFORMADOR  TRIF 300KVA 13800\/..-440V",
+    "umb":"PC"
+  },
+  {
+    "codigo":603964,
+    "descricao":"TRANSFORMADOR  TRIF 300KVA 13800\/..-440V",
+    "umb":"PC"
+  },
+  {
+    "codigo":603965,
+    "descricao":"TRANSFORMADOR  TRIF 750KVA 13800\/..-440V",
+    "umb":"PC"
+  },
+  {
+    "codigo":603965,
+    "descricao":"TRANSFORMADOR  TRIF 750KVA 13800\/..-440V",
+    "umb":"PC"
+  },
+  {
+    "codigo":602450,
+    "descricao":"TRANSFORMADOR 20\/25MVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":412545,
+    "descricao":"TRANSFORMADOR AQUECIMENTO 1KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":413338,
+    "descricao":"TRANSFORMADOR AUX BBA OLEO TRAFO WESTIN",
+    "umb":"PC"
+  },
+  {
+    "codigo":811336,
+    "descricao":"TRANSFORMADOR AUX.;45KVA;13800\/216-125V",
+    "umb":"PC"
+  },
+  {
+    "codigo":811386,
+    "descricao":"TRANSFORMADOR AUX;45KVA;14490RM-216\/125V",
+    "umb":"PC"
+  },
+  {
+    "codigo":811395,
+    "descricao":"TRANSFORMADOR AUX;50KVA;25800RM-216\/125V",
+    "umb":"PC"
+  },
+  {
+    "codigo":811378,
+    "descricao":"TRANSFORMADOR AUXILIAR;30KVA;P\/BLIND.GE",
+    "umb":"PC"
+  },
+  {
+    "codigo":811380,
+    "descricao":"TRANSFORMADOR AUXILIAR;45KVA;EXTERNO",
+    "umb":"PC"
+  },
+  {
+    "codigo":811379,
+    "descricao":"TRANSFORMADOR AUXILIAR;45KVA;P\/BLID. M&D",
+    "umb":"PC"
+  },
+  {
+    "codigo":670340,
+    "descricao":"TRANSFORMADOR BT MONOF 110- 220V 24VA",
+    "umb":"PC"
+  },
+  {
+    "codigo":670341,
+    "descricao":"TRANSFORMADOR BT MONOF 110- 220V 60VA",
+    "umb":"PC"
+  },
+  {
+    "codigo":606997,
+    "descricao":"TRANSFORMADOR BT MONOF 240-2,4V 8,6KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":604417,
+    "descricao":"TRANSFORMADOR BT TRIF 220-380V 375KVA",
+    "umb":"UN"
+  },
+  {
+    "codigo":604418,
+    "descricao":"TRANSFORMADOR BT TRIF 380-220\/127V300KVA",
+    "umb":"UN"
+  },
+  {
+    "codigo":608097,
+    "descricao":"TRANSFORMADOR BT TRIF. 440-220V 200KVA",
+    "umb":"UN"
+  },
+  {
+    "codigo":608097,
+    "descricao":"TRANSFORMADOR BT TRIF. 440-220V 200KVA",
+    "umb":"UN"
+  },
+  {
+    "codigo":413241,
+    "descricao":"TRANSFORMADOR BUCHA DISJ CGE 302116 SPC",
+    "umb":"PC"
+  },
+  {
+    "codigo":404225,
+    "descricao":"TRANSFORMADOR BUCHA DISJ WESTINGHOUSE 3",
+    "umb":"PC"
+  },
+  {
+    "codigo":412039,
+    "descricao":"TRANSFORMADOR BUCHA DISJ WESTINGHOUSE 5",
+    "umb":"PC"
+  },
+  {
+    "codigo":413240,
+    "descricao":"TRANSFORMADOR BUCHA TRAFO",
+    "umb":"PC"
+  },
+  {
+    "codigo":606651,
+    "descricao":"TRANSFORMADOR CISCO CP-PWR-CUBE-3",
+    "umb":"UN"
+  },
+  {
+    "codigo":811375,
+    "descricao":"TRANSFORMADOR COMBINADO(TC E TPI);138KV",
+    "umb":"PC"
+  },
+  {
+    "codigo":607869,
+    "descricao":"TRANSFORMADOR COMBINADO;PEDESTAL;OLEO",
+    "umb":"UN"
+  },
+  {
+    "codigo":607869,
+    "descricao":"TRANSFORMADOR COMBINADO;PEDESTAL;OLEO",
+    "umb":"UN"
+  },
+  {
+    "codigo":411801,
+    "descricao":"TRANSFORMADOR CONTR 15 VA",
+    "umb":"PC"
+  },
+  {
+    "codigo":411802,
+    "descricao":"TRANSFORMADOR CONTR 26 VA",
+    "umb":"PC"
+  },
+  {
+    "codigo":411803,
+    "descricao":"TRANSFORMADOR CONTR 60 VA",
+    "umb":"PC"
+  },
+  {
+    "codigo":811524,
+    "descricao":"TRANSFORMADOR CORR BARRA 15KV 40-5A C\/PR",
+    "umb":"PC"
+  },
+  {
+    "codigo":811524,
+    "descricao":"TRANSFORMADOR CORR BARRA 15KV 40-5A C\/PR",
+    "umb":"PC"
+  },
+  {
+    "codigo":403994,
+    "descricao":"TRANSFORMADOR CORR DISJ",
+    "umb":"PC"
+  },
+  {
+    "codigo":404068,
+    "descricao":"TRANSFORMADOR CORR DISJ",
+    "umb":"PC"
+  },
+  {
+    "codigo":403167,
+    "descricao":"TRANSFORMADOR CORR DISJ CGE 28418",
+    "umb":"PC"
+  },
+  {
+    "codigo":412047,
+    "descricao":"TRANSFORMADOR CORR DISJ CGE 28440 TIPO",
+    "umb":"PC"
+  },
+  {
+    "codigo":403309,
+    "descricao":"TRANSFORMADOR CORR DISJ MITSUBISHI 409",
+    "umb":"PC"
+  },
+  {
+    "codigo":412053,
+    "descricao":"TRANSFORMADOR CORR DISJ MITSUBISHI 55 A",
+    "umb":"PC"
+  },
+  {
+    "codigo":403923,
+    "descricao":"TRANSFORMADOR CORR DISJ WESTINGHOUSE 12",
+    "umb":"PC"
+  },
+  {
+    "codigo":401362,
+    "descricao":"TRANSFORMADOR CORR DISJ WESTINGHOUSE 38",
+    "umb":"PC"
+  },
+  {
+    "codigo":404038,
+    "descricao":"TRANSFORMADOR CORR DISJ WESTINGHOUSE 38",
+    "umb":"PC"
+  },
+  {
+    "codigo":413101,
+    "descricao":"TRANSFORMADOR CORR DISJ WESTINGHOUSE BY",
+    "umb":"PC"
+  },
+  {
+    "codigo":811537,
+    "descricao":"TRANSFORMADOR CORR EPOXI 15KV 300\/600-5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":811537,
+    "descricao":"TRANSFORMADOR CORR EPOXI 15KV 300\/600-5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":608142,
+    "descricao":"TRANSFORMADOR CORR PARTIDO 0,6KV 1200-5A",
+    "umb":"UN"
+  },
+  {
+    "codigo":608142,
+    "descricao":"TRANSFORMADOR CORR PARTIDO 0,6KV 1200-5A",
+    "umb":"UN"
+  },
+  {
+    "codigo":413402,
+    "descricao":"TRANSFORMADOR CORR\/BUCHA DISJ MARINI DA",
+    "umb":"PC"
+  },
+  {
+    "codigo":401874,
+    "descricao":"TRANSFORMADOR CORREN",
+    "umb":"PC"
+  },
+  {
+    "codigo":416675,
+    "descricao":"TRANSFORMADOR CORREN",
+    "umb":"PC"
+  },
+  {
+    "codigo":608083,
+    "descricao":"TRANSFORMADOR CORREN 1,2KV 5VA 10-5 A",
+    "umb":"PC"
+  },
+  {
+    "codigo":401115,
+    "descricao":"TRANSFORMADOR CORREN 100\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":411363,
+    "descricao":"TRANSFORMADOR CORREN 1000\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820082,
+    "descricao":"TRANSFORMADOR CORREN 100X200-5A 36,2KV",
+    "umb":"PC"
+  },
+  {
+    "codigo":820082,
+    "descricao":"TRANSFORMADOR CORREN 100X200-5A 36,2KV",
+    "umb":"PC"
+  },
+  {
+    "codigo":820082,
+    "descricao":"TRANSFORMADOR CORREN 100X200-5A 36,2KV",
+    "umb":"PC"
+  },
+  {
+    "codigo":820082,
+    "descricao":"TRANSFORMADOR CORREN 100X200-5A 36,2KV",
+    "umb":"PC"
+  },
+  {
+    "codigo":401066,
+    "descricao":"TRANSFORMADOR CORREN 1200\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":401114,
+    "descricao":"TRANSFORMADOR CORREN 1200\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":313060,
+    "descricao":"TRANSFORMADOR CORREN 1500-5A SMART GRID",
+    "umb":"PC"
+  },
+  {
+    "codigo":820083,
+    "descricao":"TRANSFORMADOR CORREN 150X300-5A 36,2KV",
+    "umb":"PC"
+  },
+  {
+    "codigo":820083,
+    "descricao":"TRANSFORMADOR CORREN 150X300-5A 36,2KV",
+    "umb":"PC"
+  },
+  {
+    "codigo":820083,
+    "descricao":"TRANSFORMADOR CORREN 150X300-5A 36,2KV",
+    "umb":"PC"
+  },
+  {
+    "codigo":820083,
+    "descricao":"TRANSFORMADOR CORREN 150X300-5A 36,2KV",
+    "umb":"PC"
+  },
+  {
+    "codigo":401074,
+    "descricao":"TRANSFORMADOR CORREN 200\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":401091,
+    "descricao":"TRANSFORMADOR CORREN 200\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":401072,
+    "descricao":"TRANSFORMADOR CORREN 2000\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":401099,
+    "descricao":"TRANSFORMADOR CORREN 2000\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":401414,
+    "descricao":"TRANSFORMADOR CORREN 2000\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":609625,
+    "descricao":"TRANSFORMADOR CORREN 200VA 15KV 2500-5A",
+    "umb":"UN"
+  },
+  {
+    "codigo":609625,
+    "descricao":"TRANSFORMADOR CORREN 200VA 15KV 2500-5A",
+    "umb":"UN"
+  },
+  {
+    "codigo":609662,
+    "descricao":"TRANSFORMADOR CORREN 200VA 15KV 5000-5A",
+    "umb":"UN"
+  },
+  {
+    "codigo":609662,
+    "descricao":"TRANSFORMADOR CORREN 200VA 15KV 5000-5A",
+    "umb":"UN"
+  },
+  {
+    "codigo":820010,
+    "descricao":"TRANSFORMADOR CORREN 20X40-5A MED FATUR",
+    "umb":"PC"
+  },
+  {
+    "codigo":820010,
+    "descricao":"TRANSFORMADOR CORREN 20X40-5A MED FATUR",
+    "umb":"PC"
+  },
+  {
+    "codigo":820010,
+    "descricao":"TRANSFORMADOR CORREN 20X40-5A MED FATUR",
+    "umb":"PC"
+  },
+  {
+    "codigo":466071,
+    "descricao":"TRANSFORMADOR CORREN 300\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820084,
+    "descricao":"TRANSFORMADOR CORREN 300X600-5A 36,2KV",
+    "umb":"PC"
+  },
+  {
+    "codigo":820084,
+    "descricao":"TRANSFORMADOR CORREN 300X600-5A 36,2KV",
+    "umb":"PC"
+  },
+  {
+    "codigo":820084,
+    "descricao":"TRANSFORMADOR CORREN 300X600-5A 36,2KV",
+    "umb":"PC"
+  },
+  {
+    "codigo":820084,
+    "descricao":"TRANSFORMADOR CORREN 300X600-5A 36,2KV",
+    "umb":"PC"
+  },
+  {
+    "codigo":811505,
+    "descricao":"TRANSFORMADOR CORREN 36KV 600RM-5-5-5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":401073,
+    "descricao":"TRANSFORMADOR CORREN 400\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820080,
+    "descricao":"TRANSFORMADOR CORREN 50X100-5A 36,2KV",
+    "umb":"PC"
+  },
+  {
+    "codigo":820080,
+    "descricao":"TRANSFORMADOR CORREN 50X100-5A 36,2KV",
+    "umb":"PC"
+  },
+  {
+    "codigo":820080,
+    "descricao":"TRANSFORMADOR CORREN 50X100-5A 36,2KV",
+    "umb":"PC"
+  },
+  {
+    "codigo":820080,
+    "descricao":"TRANSFORMADOR CORREN 50X100-5A 36,2KV",
+    "umb":"PC"
+  },
+  {
+    "codigo":820008,
+    "descricao":"TRANSFORMADOR CORREN 5X10-5A MED FATUR",
+    "umb":"PC"
+  },
+  {
+    "codigo":820008,
+    "descricao":"TRANSFORMADOR CORREN 5X10-5A MED FATUR",
+    "umb":"PC"
+  },
+  {
+    "codigo":820008,
+    "descricao":"TRANSFORMADOR CORREN 5X10-5A MED FATUR",
+    "umb":"PC"
+  },
+  {
+    "codigo":401067,
+    "descricao":"TRANSFORMADOR CORREN 600\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":401070,
+    "descricao":"TRANSFORMADOR CORREN 600\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":401413,
+    "descricao":"TRANSFORMADOR CORREN 600\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":401607,
+    "descricao":"TRANSFORMADOR CORREN 600\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":401694,
+    "descricao":"TRANSFORMADOR CORREN 600\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":402113,
+    "descricao":"TRANSFORMADOR CORREN 600\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":402113,
+    "descricao":"TRANSFORMADOR CORREN 600\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":413244,
+    "descricao":"TRANSFORMADOR CORREN 600\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":811266,
+    "descricao":"TRANSFORMADOR CORREN 600\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":811266,
+    "descricao":"TRANSFORMADOR CORREN 600\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820081,
+    "descricao":"TRANSFORMADOR CORREN 75X150-5A 36,2KV",
+    "umb":"PC"
+  },
+  {
+    "codigo":820081,
+    "descricao":"TRANSFORMADOR CORREN 75X150-5A 36,2KV",
+    "umb":"PC"
+  },
+  {
+    "codigo":820081,
+    "descricao":"TRANSFORMADOR CORREN 75X150-5A 36,2KV",
+    "umb":"PC"
+  },
+  {
+    "codigo":820081,
+    "descricao":"TRANSFORMADOR CORREN 75X150-5A 36,2KV",
+    "umb":"PC"
+  },
+  {
+    "codigo":820013,
+    "descricao":"TRANSFORMADOR CORREN 75X150-5A MED FATUR",
+    "umb":"PC"
+  },
+  {
+    "codigo":820013,
+    "descricao":"TRANSFORMADOR CORREN 75X150-5A MED FATUR",
+    "umb":"PC"
+  },
+  {
+    "codigo":820013,
+    "descricao":"TRANSFORMADOR CORREN 75X150-5A MED FATUR",
+    "umb":"PC"
+  },
+  {
+    "codigo":604773,
+    "descricao":"TRANSFORMADOR CORREN 800\/ 5A 0,6KV",
+    "umb":"PC"
+  },
+  {
+    "codigo":811097,
+    "descricao":"TRANSFORMADOR CORREN BARRA 100\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":811097,
+    "descricao":"TRANSFORMADOR CORREN BARRA 100\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":811067,
+    "descricao":"TRANSFORMADOR CORREN BARRA 1200\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":811068,
+    "descricao":"TRANSFORMADOR CORREN BARRA 1200\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":811086,
+    "descricao":"TRANSFORMADOR CORREN BARRA 1200\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":811089,
+    "descricao":"TRANSFORMADOR CORREN BARRA 1200\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":811434,
+    "descricao":"TRANSFORMADOR CORREN BARRA 1200\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":404883,
+    "descricao":"TRANSFORMADOR CORREN BARRA 150\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":404883,
+    "descricao":"TRANSFORMADOR CORREN BARRA 150\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":811066,
+    "descricao":"TRANSFORMADOR CORREN BARRA 150\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":811087,
+    "descricao":"TRANSFORMADOR CORREN BARRA 1500 \/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":811446,
+    "descricao":"TRANSFORMADOR CORREN BARRA 20\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":811446,
+    "descricao":"TRANSFORMADOR CORREN BARRA 20\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":404470,
+    "descricao":"TRANSFORMADOR CORREN BARRA 200\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":811425,
+    "descricao":"TRANSFORMADOR CORREN BARRA 2000\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":811425,
+    "descricao":"TRANSFORMADOR CORREN BARRA 2000\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":811432,
+    "descricao":"TRANSFORMADOR CORREN BARRA 2000\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":811433,
+    "descricao":"TRANSFORMADOR CORREN BARRA 2000\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":811431,
+    "descricao":"TRANSFORMADOR CORREN BARRA 2000\/5\/5\/5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":811431,
+    "descricao":"TRANSFORMADOR CORREN BARRA 2000\/5\/5\/5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":811442,
+    "descricao":"TRANSFORMADOR CORREN BARRA 2000-5-5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":811442,
+    "descricao":"TRANSFORMADOR CORREN BARRA 2000-5-5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":811254,
+    "descricao":"TRANSFORMADOR CORREN BARRA 2500\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":811255,
+    "descricao":"TRANSFORMADOR CORREN BARRA 2500\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":811256,
+    "descricao":"TRANSFORMADOR CORREN BARRA 2500\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":811441,
+    "descricao":"TRANSFORMADOR CORREN BARRA 2500\/2000 5-5",
+    "umb":"PC"
+  },
+  {
+    "codigo":811441,
+    "descricao":"TRANSFORMADOR CORREN BARRA 2500\/2000 5-5",
+    "umb":"PC"
+  },
+  {
+    "codigo":811440,
+    "descricao":"TRANSFORMADOR CORREN BARRA 2500\/600-5-5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":811440,
+    "descricao":"TRANSFORMADOR CORREN BARRA 2500\/600-5-5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":402924,
+    "descricao":"TRANSFORMADOR CORREN BARRA 3000\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":402925,
+    "descricao":"TRANSFORMADOR CORREN BARRA 3000\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":313025,
+    "descricao":"TRANSFORMADOR CORREN BARRA 400\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":313025,
+    "descricao":"TRANSFORMADOR CORREN BARRA 400\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":313025,
+    "descricao":"TRANSFORMADOR CORREN BARRA 400\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":402957,
+    "descricao":"TRANSFORMADOR CORREN BARRA 400\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":811435,
+    "descricao":"TRANSFORMADOR CORREN BARRA 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":402923,
+    "descricao":"TRANSFORMADOR CORREN BARRA 600\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":403439,
+    "descricao":"TRANSFORMADOR CORREN BARRA 600\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":403439,
+    "descricao":"TRANSFORMADOR CORREN BARRA 600\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":606232,
+    "descricao":"TRANSFORMADOR CORREN BARRA 600\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":811069,
+    "descricao":"TRANSFORMADOR CORREN BARRA 600\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":811070,
+    "descricao":"TRANSFORMADOR CORREN BARRA 600\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":811100,
+    "descricao":"TRANSFORMADOR CORREN BARRA 600\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":811100,
+    "descricao":"TRANSFORMADOR CORREN BARRA 600\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":811436,
+    "descricao":"TRANSFORMADOR CORREN BARRA 600\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":403924,
+    "descricao":"TRANSFORMADOR CORREN BUCHA",
+    "umb":"PC"
+  },
+  {
+    "codigo":403621,
+    "descricao":"TRANSFORMADOR CORREN BUCHA 1000\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":401953,
+    "descricao":"TRANSFORMADOR CORREN BUCHA 2000\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":404778,
+    "descricao":"TRANSFORMADOR CORREN BUCHA 2000\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":811137,
+    "descricao":"TRANSFORMADOR CORREN BUCHA 2000\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":811138,
+    "descricao":"TRANSFORMADOR CORREN BUCHA 2000\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":404830,
+    "descricao":"TRANSFORMADOR CORREN BUCHA 250\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":404777,
+    "descricao":"TRANSFORMADOR CORREN BUCHA 2500\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":403620,
+    "descricao":"TRANSFORMADOR CORREN BUCHA 300\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":413403,
+    "descricao":"TRANSFORMADOR CORREN BUCHA 400\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":401069,
+    "descricao":"TRANSFORMADOR CORREN BUCHA 600\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":403618,
+    "descricao":"TRANSFORMADOR CORREN BUCHA 600\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":811139,
+    "descricao":"TRANSFORMADOR CORREN BUCHA 600\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":811140,
+    "descricao":"TRANSFORMADOR CORREN BUCHA 600\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":401954,
+    "descricao":"TRANSFORMADOR CORREN BUCHA 800\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":401955,
+    "descricao":"TRANSFORMADOR CORREN BUCHA 800\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":403619,
+    "descricao":"TRANSFORMADOR CORREN BUCHA 800\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":600884,
+    "descricao":"TRANSFORMADOR CORREN ENROL 10\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":600884,
+    "descricao":"TRANSFORMADOR CORREN ENROL 10\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":600884,
+    "descricao":"TRANSFORMADOR CORREN ENROL 10\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820001,
+    "descricao":"TRANSFORMADOR CORREN ENROL 10\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820001,
+    "descricao":"TRANSFORMADOR CORREN ENROL 10\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820001,
+    "descricao":"TRANSFORMADOR CORREN ENROL 10\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820001,
+    "descricao":"TRANSFORMADOR CORREN ENROL 10\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":600887,
+    "descricao":"TRANSFORMADOR CORREN ENROL 100\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":600887,
+    "descricao":"TRANSFORMADOR CORREN ENROL 100\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":600887,
+    "descricao":"TRANSFORMADOR CORREN ENROL 100\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820044,
+    "descricao":"TRANSFORMADOR CORREN ENROL 100\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820044,
+    "descricao":"TRANSFORMADOR CORREN ENROL 100\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820044,
+    "descricao":"TRANSFORMADOR CORREN ENROL 100\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820044,
+    "descricao":"TRANSFORMADOR CORREN ENROL 100\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820002,
+    "descricao":"TRANSFORMADOR CORREN ENROL 15\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820002,
+    "descricao":"TRANSFORMADOR CORREN ENROL 15\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820002,
+    "descricao":"TRANSFORMADOR CORREN ENROL 15\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820002,
+    "descricao":"TRANSFORMADOR CORREN ENROL 15\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":600888,
+    "descricao":"TRANSFORMADOR CORREN ENROL 150\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":600888,
+    "descricao":"TRANSFORMADOR CORREN ENROL 150\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":600888,
+    "descricao":"TRANSFORMADOR CORREN ENROL 150\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820007,
+    "descricao":"TRANSFORMADOR CORREN ENROL 150\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820007,
+    "descricao":"TRANSFORMADOR CORREN ENROL 150\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820007,
+    "descricao":"TRANSFORMADOR CORREN ENROL 150\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820007,
+    "descricao":"TRANSFORMADOR CORREN ENROL 150\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820057,
+    "descricao":"TRANSFORMADOR CORREN ENROL 1600\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820057,
+    "descricao":"TRANSFORMADOR CORREN ENROL 1600\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820057,
+    "descricao":"TRANSFORMADOR CORREN ENROL 1600\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820057,
+    "descricao":"TRANSFORMADOR CORREN ENROL 1600\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820003,
+    "descricao":"TRANSFORMADOR CORREN ENROL 20\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820003,
+    "descricao":"TRANSFORMADOR CORREN ENROL 20\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820003,
+    "descricao":"TRANSFORMADOR CORREN ENROL 20\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820003,
+    "descricao":"TRANSFORMADOR CORREN ENROL 20\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":600889,
+    "descricao":"TRANSFORMADOR CORREN ENROL 200\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":600889,
+    "descricao":"TRANSFORMADOR CORREN ENROL 200\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":600889,
+    "descricao":"TRANSFORMADOR CORREN ENROL 200\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820039,
+    "descricao":"TRANSFORMADOR CORREN ENROL 200\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820039,
+    "descricao":"TRANSFORMADOR CORREN ENROL 200\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820039,
+    "descricao":"TRANSFORMADOR CORREN ENROL 200\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820039,
+    "descricao":"TRANSFORMADOR CORREN ENROL 200\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820055,
+    "descricao":"TRANSFORMADOR CORREN ENROL 25X50\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820055,
+    "descricao":"TRANSFORMADOR CORREN ENROL 25X50\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820055,
+    "descricao":"TRANSFORMADOR CORREN ENROL 25X50\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820055,
+    "descricao":"TRANSFORMADOR CORREN ENROL 25X50\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":600885,
+    "descricao":"TRANSFORMADOR CORREN ENROL 30\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":600885,
+    "descricao":"TRANSFORMADOR CORREN ENROL 30\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":600885,
+    "descricao":"TRANSFORMADOR CORREN ENROL 30\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820004,
+    "descricao":"TRANSFORMADOR CORREN ENROL 30\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820004,
+    "descricao":"TRANSFORMADOR CORREN ENROL 30\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820004,
+    "descricao":"TRANSFORMADOR CORREN ENROL 30\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820004,
+    "descricao":"TRANSFORMADOR CORREN ENROL 30\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820036,
+    "descricao":"TRANSFORMADOR CORREN ENROL 30\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820036,
+    "descricao":"TRANSFORMADOR CORREN ENROL 30\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820036,
+    "descricao":"TRANSFORMADOR CORREN ENROL 30\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820036,
+    "descricao":"TRANSFORMADOR CORREN ENROL 30\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":600890,
+    "descricao":"TRANSFORMADOR CORREN ENROL 300\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":600890,
+    "descricao":"TRANSFORMADOR CORREN ENROL 300\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":600890,
+    "descricao":"TRANSFORMADOR CORREN ENROL 300\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820040,
+    "descricao":"TRANSFORMADOR CORREN ENROL 300\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820040,
+    "descricao":"TRANSFORMADOR CORREN ENROL 300\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820040,
+    "descricao":"TRANSFORMADOR CORREN ENROL 300\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820040,
+    "descricao":"TRANSFORMADOR CORREN ENROL 300\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820058,
+    "descricao":"TRANSFORMADOR CORREN ENROL 300\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820058,
+    "descricao":"TRANSFORMADOR CORREN ENROL 300\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820058,
+    "descricao":"TRANSFORMADOR CORREN ENROL 300\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820058,
+    "descricao":"TRANSFORMADOR CORREN ENROL 300\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820042,
+    "descricao":"TRANSFORMADOR CORREN ENROL 40\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820042,
+    "descricao":"TRANSFORMADOR CORREN ENROL 40\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820042,
+    "descricao":"TRANSFORMADOR CORREN ENROL 40\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820042,
+    "descricao":"TRANSFORMADOR CORREN ENROL 40\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820000,
+    "descricao":"TRANSFORMADOR CORREN ENROL 5\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820000,
+    "descricao":"TRANSFORMADOR CORREN ENROL 5\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820000,
+    "descricao":"TRANSFORMADOR CORREN ENROL 5\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820000,
+    "descricao":"TRANSFORMADOR CORREN ENROL 5\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":600886,
+    "descricao":"TRANSFORMADOR CORREN ENROL 50\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":600886,
+    "descricao":"TRANSFORMADOR CORREN ENROL 50\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":600886,
+    "descricao":"TRANSFORMADOR CORREN ENROL 50\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820005,
+    "descricao":"TRANSFORMADOR CORREN ENROL 50\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820005,
+    "descricao":"TRANSFORMADOR CORREN ENROL 50\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820005,
+    "descricao":"TRANSFORMADOR CORREN ENROL 50\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820005,
+    "descricao":"TRANSFORMADOR CORREN ENROL 50\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820051,
+    "descricao":"TRANSFORMADOR CORREN ENROL 50\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820051,
+    "descricao":"TRANSFORMADOR CORREN ENROL 50\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820051,
+    "descricao":"TRANSFORMADOR CORREN ENROL 50\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820051,
+    "descricao":"TRANSFORMADOR CORREN ENROL 50\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820071,
+    "descricao":"TRANSFORMADOR CORREN ENROL 50X100-5 A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820071,
+    "descricao":"TRANSFORMADOR CORREN ENROL 50X100-5 A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820071,
+    "descricao":"TRANSFORMADOR CORREN ENROL 50X100-5 A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820071,
+    "descricao":"TRANSFORMADOR CORREN ENROL 50X100-5 A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820037,
+    "descricao":"TRANSFORMADOR CORREN ENROL 5X10\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820037,
+    "descricao":"TRANSFORMADOR CORREN ENROL 5X10\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820037,
+    "descricao":"TRANSFORMADOR CORREN ENROL 5X10\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820037,
+    "descricao":"TRANSFORMADOR CORREN ENROL 5X10\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820043,
+    "descricao":"TRANSFORMADOR CORREN ENROL 60\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820043,
+    "descricao":"TRANSFORMADOR CORREN ENROL 60\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820043,
+    "descricao":"TRANSFORMADOR CORREN ENROL 60\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820043,
+    "descricao":"TRANSFORMADOR CORREN ENROL 60\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":600891,
+    "descricao":"TRANSFORMADOR CORREN ENROL 600\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":600891,
+    "descricao":"TRANSFORMADOR CORREN ENROL 600\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":600891,
+    "descricao":"TRANSFORMADOR CORREN ENROL 600\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820041,
+    "descricao":"TRANSFORMADOR CORREN ENROL 600\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820041,
+    "descricao":"TRANSFORMADOR CORREN ENROL 600\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820041,
+    "descricao":"TRANSFORMADOR CORREN ENROL 600\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820041,
+    "descricao":"TRANSFORMADOR CORREN ENROL 600\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820056,
+    "descricao":"TRANSFORMADOR CORREN ENROL 600\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820056,
+    "descricao":"TRANSFORMADOR CORREN ENROL 600\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820056,
+    "descricao":"TRANSFORMADOR CORREN ENROL 600\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820056,
+    "descricao":"TRANSFORMADOR CORREN ENROL 600\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820006,
+    "descricao":"TRANSFORMADOR CORREN ENROL 75\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820006,
+    "descricao":"TRANSFORMADOR CORREN ENROL 75\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820006,
+    "descricao":"TRANSFORMADOR CORREN ENROL 75\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820006,
+    "descricao":"TRANSFORMADOR CORREN ENROL 75\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820077,
+    "descricao":"TRANSFORMADOR CORREN EPOX ENR 200X400-5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820077,
+    "descricao":"TRANSFORMADOR CORREN EPOX ENR 200X400-5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820077,
+    "descricao":"TRANSFORMADOR CORREN EPOX ENR 200X400-5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":811523,
+    "descricao":"TRANSFORMADOR CORREN EPOXI 36KV 2000\/5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":811523,
+    "descricao":"TRANSFORMADOR CORREN EPOXI 36KV 2000\/5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820079,
+    "descricao":"TRANSFORMADOR CORREN EPOXI ENR 25X50-5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820079,
+    "descricao":"TRANSFORMADOR CORREN EPOXI ENR 25X50-5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820079,
+    "descricao":"TRANSFORMADOR CORREN EPOXI ENR 25X50-5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820079,
+    "descricao":"TRANSFORMADOR CORREN EPOXI ENR 25X50-5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820076,
+    "descricao":"TRANSFORMADOR CORREN EPOXI ENR 50X100-5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820076,
+    "descricao":"TRANSFORMADOR CORREN EPOXI ENR 50X100-5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820076,
+    "descricao":"TRANSFORMADOR CORREN EPOXI ENR 50X100-5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820078,
+    "descricao":"TRANSFORMADOR CORREN EPOXI ENR 60X120-5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820078,
+    "descricao":"TRANSFORMADOR CORREN EPOXI ENR 60X120-5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820078,
+    "descricao":"TRANSFORMADOR CORREN EPOXI ENR 60X120-5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":811449,
+    "descricao":"TRANSFORMADOR CORREN JAN 2 ENROL MED\/PRO",
+    "umb":"PC"
+  },
+  {
+    "codigo":811449,
+    "descricao":"TRANSFORMADOR CORREN JAN 2 ENROL MED\/PRO",
+    "umb":"PC"
+  },
+  {
+    "codigo":811448,
+    "descricao":"TRANSFORMADOR CORREN JAN 2000\/ 5A PROT",
+    "umb":"PC"
+  },
+  {
+    "codigo":811447,
+    "descricao":"TRANSFORMADOR CORREN JAN 2000\/5A MED\/PRO",
+    "umb":"PC"
+  },
+  {
+    "codigo":313056,
+    "descricao":"TRANSFORMADOR CORREN JANELA 0,6KV 100-5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":313056,
+    "descricao":"TRANSFORMADOR CORREN JANELA 0,6KV 100-5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":313056,
+    "descricao":"TRANSFORMADOR CORREN JANELA 0,6KV 100-5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":313056,
+    "descricao":"TRANSFORMADOR CORREN JANELA 0,6KV 100-5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":313049,
+    "descricao":"TRANSFORMADOR CORREN JANELA 0,6KV 200\/5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":313049,
+    "descricao":"TRANSFORMADOR CORREN JANELA 0,6KV 200\/5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":313049,
+    "descricao":"TRANSFORMADOR CORREN JANELA 0,6KV 200\/5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":313049,
+    "descricao":"TRANSFORMADOR CORREN JANELA 0,6KV 200\/5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":313050,
+    "descricao":"TRANSFORMADOR CORREN JANELA 0,6KV 400-5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":313050,
+    "descricao":"TRANSFORMADOR CORREN JANELA 0,6KV 400-5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":313050,
+    "descricao":"TRANSFORMADOR CORREN JANELA 0,6KV 400-5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":313046,
+    "descricao":"TRANSFORMADOR CORREN JANELA 0,6KV 500\/5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":313046,
+    "descricao":"TRANSFORMADOR CORREN JANELA 0,6KV 500\/5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":313051,
+    "descricao":"TRANSFORMADOR CORREN JANELA 0,6KV 600-5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":313051,
+    "descricao":"TRANSFORMADOR CORREN JANELA 0,6KV 600-5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":313051,
+    "descricao":"TRANSFORMADOR CORREN JANELA 0,6KV 600-5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":313045,
+    "descricao":"TRANSFORMADOR CORREN JANELA 0,6KV 8000A",
+    "umb":"PC"
+  },
+  {
+    "codigo":313052,
+    "descricao":"TRANSFORMADOR CORREN JANELA 0,6KV 800-5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":313052,
+    "descricao":"TRANSFORMADOR CORREN JANELA 0,6KV 800-5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":313052,
+    "descricao":"TRANSFORMADOR CORREN JANELA 0,6KV 800-5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":313044,
+    "descricao":"TRANSFORMADOR CORREN JANELA 1000\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":313044,
+    "descricao":"TRANSFORMADOR CORREN JANELA 1000\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":313044,
+    "descricao":"TRANSFORMADOR CORREN JANELA 1000\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":600656,
+    "descricao":"TRANSFORMADOR CORREN JANELA 1000VA 3600",
+    "umb":"PC"
+  },
+  {
+    "codigo":401759,
+    "descricao":"TRANSFORMADOR CORREN JANELA 1200\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":401760,
+    "descricao":"TRANSFORMADOR CORREN JANELA 1200\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":401801,
+    "descricao":"TRANSFORMADOR CORREN JANELA 1200\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":401808,
+    "descricao":"TRANSFORMADOR CORREN JANELA 1200\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":401809,
+    "descricao":"TRANSFORMADOR CORREN JANELA 1200\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":401809,
+    "descricao":"TRANSFORMADOR CORREN JANELA 1200\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":401956,
+    "descricao":"TRANSFORMADOR CORREN JANELA 1200\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":402138,
+    "descricao":"TRANSFORMADOR CORREN JANELA 1200\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":403633,
+    "descricao":"TRANSFORMADOR CORREN JANELA 1200\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":403634,
+    "descricao":"TRANSFORMADOR CORREN JANELA 1200\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":403635,
+    "descricao":"TRANSFORMADOR CORREN JANELA 1200\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":411083,
+    "descricao":"TRANSFORMADOR CORREN JANELA 1200\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":811259,
+    "descricao":"TRANSFORMADOR CORREN JANELA 1200\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":601020,
+    "descricao":"TRANSFORMADOR CORREN JANELA 200\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":402017,
+    "descricao":"TRANSFORMADOR CORREN JANELA 2000 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":402018,
+    "descricao":"TRANSFORMADOR CORREN JANELA 2000 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":313026,
+    "descricao":"TRANSFORMADOR CORREN JANELA 2000\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":313026,
+    "descricao":"TRANSFORMADOR CORREN JANELA 2000\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":313026,
+    "descricao":"TRANSFORMADOR CORREN JANELA 2000\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":401252,
+    "descricao":"TRANSFORMADOR CORREN JANELA 2000\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":401252,
+    "descricao":"TRANSFORMADOR CORREN JANELA 2000\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":401796,
+    "descricao":"TRANSFORMADOR CORREN JANELA 2000\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":401807,
+    "descricao":"TRANSFORMADOR CORREN JANELA 2000\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":402034,
+    "descricao":"TRANSFORMADOR CORREN JANELA 2000\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":402035,
+    "descricao":"TRANSFORMADOR CORREN JANELA 2000\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":402245,
+    "descricao":"TRANSFORMADOR CORREN JANELA 2000\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":402944,
+    "descricao":"TRANSFORMADOR CORREN JANELA 2000\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":402946,
+    "descricao":"TRANSFORMADOR CORREN JANELA 2000\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":402928,
+    "descricao":"TRANSFORMADOR CORREN JANELA 2500\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":811261,
+    "descricao":"TRANSFORMADOR CORREN JANELA 2500\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":811262,
+    "descricao":"TRANSFORMADOR CORREN JANELA 2500\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":402920,
+    "descricao":"TRANSFORMADOR CORREN JANELA 300\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":401696,
+    "descricao":"TRANSFORMADOR CORREN JANELA 3000\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":401697,
+    "descricao":"TRANSFORMADOR CORREN JANELA 3000\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":402921,
+    "descricao":"TRANSFORMADOR CORREN JANELA 3000\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":402921,
+    "descricao":"TRANSFORMADOR CORREN JANELA 3000\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":402930,
+    "descricao":"TRANSFORMADOR CORREN JANELA 3000\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":402936,
+    "descricao":"TRANSFORMADOR CORREN JANELA 3000\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":402945,
+    "descricao":"TRANSFORMADOR CORREN JANELA 3000\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":402950,
+    "descricao":"TRANSFORMADOR CORREN JANELA 3000\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":402953,
+    "descricao":"TRANSFORMADOR CORREN JANELA 3000\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":411868,
+    "descricao":"TRANSFORMADOR CORREN JANELA 3000\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":601264,
+    "descricao":"TRANSFORMADOR CORREN JANELA 3000\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":601264,
+    "descricao":"TRANSFORMADOR CORREN JANELA 3000\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":601264,
+    "descricao":"TRANSFORMADOR CORREN JANELA 3000\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":402933,
+    "descricao":"TRANSFORMADOR CORREN JANELA 3000\/ 5A\/5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":313043,
+    "descricao":"TRANSFORMADOR CORREN JANELA 400\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":313043,
+    "descricao":"TRANSFORMADOR CORREN JANELA 400\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":313043,
+    "descricao":"TRANSFORMADOR CORREN JANELA 400\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":313043,
+    "descricao":"TRANSFORMADOR CORREN JANELA 400\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":601265,
+    "descricao":"TRANSFORMADOR CORREN JANELA 4000\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":601265,
+    "descricao":"TRANSFORMADOR CORREN JANELA 4000\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":601265,
+    "descricao":"TRANSFORMADOR CORREN JANELA 4000\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":601019,
+    "descricao":"TRANSFORMADOR CORREN JANELA 50\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":401068,
+    "descricao":"TRANSFORMADOR CORREN JANELA 600\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":401068,
+    "descricao":"TRANSFORMADOR CORREN JANELA 600\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":401346,
+    "descricao":"TRANSFORMADOR CORREN JANELA 600\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":401695,
+    "descricao":"TRANSFORMADOR CORREN JANELA 600\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":401804,
+    "descricao":"TRANSFORMADOR CORREN JANELA 600\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":401957,
+    "descricao":"TRANSFORMADOR CORREN JANELA 600\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":402019,
+    "descricao":"TRANSFORMADOR CORREN JANELA 600\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":402020,
+    "descricao":"TRANSFORMADOR CORREN JANELA 600\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":402244,
+    "descricao":"TRANSFORMADOR CORREN JANELA 600\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":402246,
+    "descricao":"TRANSFORMADOR CORREN JANELA 600\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":402922,
+    "descricao":"TRANSFORMADOR CORREN JANELA 600\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":402922,
+    "descricao":"TRANSFORMADOR CORREN JANELA 600\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":402926,
+    "descricao":"TRANSFORMADOR CORREN JANELA 600\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":402929,
+    "descricao":"TRANSFORMADOR CORREN JANELA 600\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":402931,
+    "descricao":"TRANSFORMADOR CORREN JANELA 600\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":402934,
+    "descricao":"TRANSFORMADOR CORREN JANELA 600\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":402937,
+    "descricao":"TRANSFORMADOR CORREN JANELA 600\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":402962,
+    "descricao":"TRANSFORMADOR CORREN JANELA 600\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":402963,
+    "descricao":"TRANSFORMADOR CORREN JANELA 600\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":403632,
+    "descricao":"TRANSFORMADOR CORREN JANELA 600\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":404318,
+    "descricao":"TRANSFORMADOR CORREN JANELA 600\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":404318,
+    "descricao":"TRANSFORMADOR CORREN JANELA 600\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":404693,
+    "descricao":"TRANSFORMADOR CORREN JANELA 600\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":404693,
+    "descricao":"TRANSFORMADOR CORREN JANELA 600\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":404694,
+    "descricao":"TRANSFORMADOR CORREN JANELA 600\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":404694,
+    "descricao":"TRANSFORMADOR CORREN JANELA 600\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":411085,
+    "descricao":"TRANSFORMADOR CORREN JANELA 600\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":811258,
+    "descricao":"TRANSFORMADOR CORREN JANELA 600\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":811260,
+    "descricao":"TRANSFORMADOR CORREN JANELA 600\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":411865,
+    "descricao":"TRANSFORMADOR CORREN JANELA 6000\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":411866,
+    "descricao":"TRANSFORMADOR CORREN JANELA 6000\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":411867,
+    "descricao":"TRANSFORMADOR CORREN JANELA 6000\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":811522,
+    "descricao":"TRANSFORMADOR CORREN PEDEST 10\/5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":811522,
+    "descricao":"TRANSFORMADOR CORREN PEDEST 10\/5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820054,
+    "descricao":"TRANSFORMADOR CORREN PEDEST 100\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820054,
+    "descricao":"TRANSFORMADOR CORREN PEDEST 100\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820054,
+    "descricao":"TRANSFORMADOR CORREN PEDEST 100\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820054,
+    "descricao":"TRANSFORMADOR CORREN PEDEST 100\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820053,
+    "descricao":"TRANSFORMADOR CORREN PEDEST 100X200\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820053,
+    "descricao":"TRANSFORMADOR CORREN PEDEST 100X200\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820053,
+    "descricao":"TRANSFORMADOR CORREN PEDEST 100X200\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820053,
+    "descricao":"TRANSFORMADOR CORREN PEDEST 100X200\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820059,
+    "descricao":"TRANSFORMADOR CORREN PEDEST 150X300-5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820059,
+    "descricao":"TRANSFORMADOR CORREN PEDEST 150X300-5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820059,
+    "descricao":"TRANSFORMADOR CORREN PEDEST 150X300-5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":811344,
+    "descricao":"TRANSFORMADOR CORREN PEDEST 2000\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":811344,
+    "descricao":"TRANSFORMADOR CORREN PEDEST 2000\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":811359,
+    "descricao":"TRANSFORMADOR CORREN PEDEST 2000\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":811359,
+    "descricao":"TRANSFORMADOR CORREN PEDEST 2000\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":811426,
+    "descricao":"TRANSFORMADOR CORREN PEDEST 2000\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":811426,
+    "descricao":"TRANSFORMADOR CORREN PEDEST 2000\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":811141,
+    "descricao":"TRANSFORMADOR CORREN PEDEST 300\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":607322,
+    "descricao":"TRANSFORMADOR CORREN PEDEST 36KV 2000-5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":607322,
+    "descricao":"TRANSFORMADOR CORREN PEDEST 36KV 2000-5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":607322,
+    "descricao":"TRANSFORMADOR CORREN PEDEST 36KV 2000-5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":811382,
+    "descricao":"TRANSFORMADOR CORREN PEDEST 36KV 5-5-5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":811382,
+    "descricao":"TRANSFORMADOR CORREN PEDEST 36KV 5-5-5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":601021,
+    "descricao":"TRANSFORMADOR CORREN PEDEST EN 400\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":811065,
+    "descricao":"TRANSFORMADOR CORREN PEDESTAL 1500\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":811101,
+    "descricao":"TRANSFORMADOR CORREN SUPORTE 600\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":811101,
+    "descricao":"TRANSFORMADOR CORREN SUPORTE 600\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":313047,
+    "descricao":"TRANSFORMADOR CORRENTE",
+    "umb":"PC"
+  },
+  {
+    "codigo":313047,
+    "descricao":"TRANSFORMADOR CORRENTE",
+    "umb":"PC"
+  },
+  {
+    "codigo":313047,
+    "descricao":"TRANSFORMADOR CORRENTE",
+    "umb":"PC"
+  },
+  {
+    "codigo":313047,
+    "descricao":"TRANSFORMADOR CORRENTE",
+    "umb":"PC"
+  },
+  {
+    "codigo":811051,
+    "descricao":"TRANSFORMADOR CORRENTE",
+    "umb":"PC"
+  },
+  {
+    "codigo":801804,
+    "descricao":"TRANSFORMADOR CORRENTE 0,6KV",
+    "umb":"PC"
+  },
+  {
+    "codigo":609349,
+    "descricao":"TRANSFORMADOR CORRENTE 138KV 1200\/2000-5",
+    "umb":"PC"
+  },
+  {
+    "codigo":609349,
+    "descricao":"TRANSFORMADOR CORRENTE 138KV 1200\/2000-5",
+    "umb":"PC"
+  },
+  {
+    "codigo":606916,
+    "descricao":"TRANSFORMADOR CORRENTE 145KV 0,3SC12,5 A",
+    "umb":"UN"
+  },
+  {
+    "codigo":606916,
+    "descricao":"TRANSFORMADOR CORRENTE 145KV 0,3SC12,5 A",
+    "umb":"UN"
+  },
+  {
+    "codigo":609401,
+    "descricao":"TRANSFORMADOR CORRENTE 145KV 1600A OLEO",
+    "umb":"UN"
+  },
+  {
+    "codigo":609401,
+    "descricao":"TRANSFORMADOR CORRENTE 145KV 1600A OLEO",
+    "umb":"UN"
+  },
+  {
+    "codigo":609120,
+    "descricao":"TRANSFORMADOR CORRENTE 145KV 2000A OLEO",
+    "umb":"PC"
+  },
+  {
+    "codigo":609120,
+    "descricao":"TRANSFORMADOR CORRENTE 145KV 2000A OLEO",
+    "umb":"PC"
+  },
+  {
+    "codigo":801866,
+    "descricao":"TRANSFORMADOR CORRENTE 15 KV",
+    "umb":"PC"
+  },
+  {
+    "codigo":802101,
+    "descricao":"TRANSFORMADOR CORRENTE 15KV",
+    "umb":"PC"
+  },
+  {
+    "codigo":609617,
+    "descricao":"TRANSFORMADOR CORRENTE 15KV 200VA 1000:1",
+    "umb":"PC"
+  },
+  {
+    "codigo":609617,
+    "descricao":"TRANSFORMADOR CORRENTE 15KV 200VA 1000:1",
+    "umb":"PC"
+  },
+  {
+    "codigo":609748,
+    "descricao":"TRANSFORMADOR CORRENTE 15KV 200VA 3000:5",
+    "umb":"PC"
+  },
+  {
+    "codigo":609748,
+    "descricao":"TRANSFORMADOR CORRENTE 15KV 200VA 3000:5",
+    "umb":"PC"
+  },
+  {
+    "codigo":602411,
+    "descricao":"TRANSFORMADOR CORRENTE 15KV 40-5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820086,
+    "descricao":"TRANSFORMADOR CORRENTE 15X30-5A 36,2KV",
+    "umb":"PC"
+  },
+  {
+    "codigo":820086,
+    "descricao":"TRANSFORMADOR CORRENTE 15X30-5A 36,2KV",
+    "umb":"PC"
+  },
+  {
+    "codigo":820086,
+    "descricao":"TRANSFORMADOR CORRENTE 15X30-5A 36,2KV",
+    "umb":"PC"
+  },
+  {
+    "codigo":820086,
+    "descricao":"TRANSFORMADOR CORRENTE 15X30-5A 36,2KV",
+    "umb":"PC"
+  },
+  {
+    "codigo":811514,
+    "descricao":"TRANSFORMADOR CORRENTE 17,5 KV",
+    "umb":"PC"
+  },
+  {
+    "codigo":811514,
+    "descricao":"TRANSFORMADOR CORRENTE 17,5 KV",
+    "umb":"PC"
+  },
+  {
+    "codigo":811516,
+    "descricao":"TRANSFORMADOR CORRENTE 17,5KV 600-5A BAR",
+    "umb":"PC"
+  },
+  {
+    "codigo":811516,
+    "descricao":"TRANSFORMADOR CORRENTE 17,5KV 600-5A BAR",
+    "umb":"PC"
+  },
+  {
+    "codigo":609125,
+    "descricao":"TRANSFORMADOR CORRENTE 242KV 1200A OLEO",
+    "umb":"PC"
+  },
+  {
+    "codigo":609125,
+    "descricao":"TRANSFORMADOR CORRENTE 242KV 1200A OLEO",
+    "umb":"PC"
+  },
+  {
+    "codigo":603683,
+    "descricao":"TRANSFORMADOR CORRENTE 36,2KV 100\/200-5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":607847,
+    "descricao":"TRANSFORMADOR CORRENTE 36,2KV 2000\/600-5",
+    "umb":"UN"
+  },
+  {
+    "codigo":607847,
+    "descricao":"TRANSFORMADOR CORRENTE 36,2KV 2000\/600-5",
+    "umb":"UN"
+  },
+  {
+    "codigo":607089,
+    "descricao":"TRANSFORMADOR CORRENTE 36,2KV 2000-5A",
+    "umb":"UN"
+  },
+  {
+    "codigo":607089,
+    "descricao":"TRANSFORMADOR CORRENTE 36,2KV 2000-5A",
+    "umb":"UN"
+  },
+  {
+    "codigo":606419,
+    "descricao":"TRANSFORMADOR CORRENTE 36,2KV TURN KEY",
+    "umb":"PC"
+  },
+  {
+    "codigo":607390,
+    "descricao":"TRANSFORMADOR CORRENTE 36,2KV;2000-5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":607390,
+    "descricao":"TRANSFORMADOR CORRENTE 36,2KV;2000-5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":405124,
+    "descricao":"TRANSFORMADOR CORRENTE 3KV 1200\/2000-5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":405124,
+    "descricao":"TRANSFORMADOR CORRENTE 3KV 1200\/2000-5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":411207,
+    "descricao":"TRANSFORMADOR CORRENTE 4000\/5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":609624,
+    "descricao":"TRANSFORMADOR CORRENTE 50VA 15KV 5000-5A",
+    "umb":"UN"
+  },
+  {
+    "codigo":609624,
+    "descricao":"TRANSFORMADOR CORRENTE 50VA 15KV 5000-5A",
+    "umb":"UN"
+  },
+  {
+    "codigo":820085,
+    "descricao":"TRANSFORMADOR CORRENTE 5X10-5A 36,2KV",
+    "umb":"PC"
+  },
+  {
+    "codigo":820085,
+    "descricao":"TRANSFORMADOR CORRENTE 5X10-5A 36,2KV",
+    "umb":"PC"
+  },
+  {
+    "codigo":820085,
+    "descricao":"TRANSFORMADOR CORRENTE 5X10-5A 36,2KV",
+    "umb":"PC"
+  },
+  {
+    "codigo":820085,
+    "descricao":"TRANSFORMADOR CORRENTE 5X10-5A 36,2KV",
+    "umb":"PC"
+  },
+  {
+    "codigo":405220,
+    "descricao":"TRANSFORMADOR CORRENTE 75A NUCLEO PARTID",
+    "umb":"PC"
+  },
+  {
+    "codigo":405220,
+    "descricao":"TRANSFORMADOR CORRENTE 75A NUCLEO PARTID",
+    "umb":"PC"
+  },
+  {
+    "codigo":608180,
+    "descricao":"TRANSFORMADOR CORRENTE BARRA 15KV 10-5A",
+    "umb":"UN"
+  },
+  {
+    "codigo":608180,
+    "descricao":"TRANSFORMADOR CORRENTE BARRA 15KV 10-5A",
+    "umb":"UN"
+  },
+  {
+    "codigo":405317,
+    "descricao":"TRANSFORMADOR CORRENTE BUCHA DISJ 3AP1-D",
+    "umb":"PC"
+  },
+  {
+    "codigo":405317,
+    "descricao":"TRANSFORMADOR CORRENTE BUCHA DISJ 3AP1-D",
+    "umb":"PC"
+  },
+  {
+    "codigo":820069,
+    "descricao":"TRANSFORMADOR CORRENTE ENROL 400\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820069,
+    "descricao":"TRANSFORMADOR CORRENTE ENROL 400\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820069,
+    "descricao":"TRANSFORMADOR CORRENTE ENROL 400\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820072,
+    "descricao":"TRANSFORMADOR CORRENTE ENROL 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":608089,
+    "descricao":"TRANSFORMADOR CORRENTE EPOXI 1,2KV 50-5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":608089,
+    "descricao":"TRANSFORMADOR CORRENTE EPOXI 1,2KV 50-5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":608081,
+    "descricao":"TRANSFORMADOR CORRENTE EPOXI 15KV 1500-5",
+    "umb":"PC"
+  },
+  {
+    "codigo":608081,
+    "descricao":"TRANSFORMADOR CORRENTE EPOXI 15KV 1500-5",
+    "umb":"PC"
+  },
+  {
+    "codigo":811535,
+    "descricao":"TRANSFORMADOR CORRENTE EPOXI 15KV 2000A",
+    "umb":"PC"
+  },
+  {
+    "codigo":811535,
+    "descricao":"TRANSFORMADOR CORRENTE EPOXI 15KV 2000A",
+    "umb":"PC"
+  },
+  {
+    "codigo":210558,
+    "descricao":"TRANSFORMADOR CORRENTE IRME-36",
+    "umb":"PC"
+  },
+  {
+    "codigo":313268,
+    "descricao":"TRANSFORMADOR CORRENTE IRME-36",
+    "umb":"PC"
+  },
+  {
+    "codigo":403908,
+    "descricao":"TRANSFORMADOR CORRENTE IRME-36",
+    "umb":"PC"
+  },
+  {
+    "codigo":313054,
+    "descricao":"TRANSFORMADOR CORRENTE JANELA 0,6KV 160A",
+    "umb":"PC"
+  },
+  {
+    "codigo":313054,
+    "descricao":"TRANSFORMADOR CORRENTE JANELA 0,6KV 160A",
+    "umb":"PC"
+  },
+  {
+    "codigo":313054,
+    "descricao":"TRANSFORMADOR CORRENTE JANELA 0,6KV 160A",
+    "umb":"PC"
+  },
+  {
+    "codigo":313055,
+    "descricao":"TRANSFORMADOR CORRENTE JANELA 0,6KV 300A",
+    "umb":"PC"
+  },
+  {
+    "codigo":313055,
+    "descricao":"TRANSFORMADOR CORRENTE JANELA 0,6KV 300A",
+    "umb":"PC"
+  },
+  {
+    "codigo":313055,
+    "descricao":"TRANSFORMADOR CORRENTE JANELA 0,6KV 300A",
+    "umb":"PC"
+  },
+  {
+    "codigo":313053,
+    "descricao":"TRANSFORMADOR CORRENTE JANELA 0,6KV 550A",
+    "umb":"PC"
+  },
+  {
+    "codigo":313053,
+    "descricao":"TRANSFORMADOR CORRENTE JANELA 0,6KV 550A",
+    "umb":"PC"
+  },
+  {
+    "codigo":313053,
+    "descricao":"TRANSFORMADOR CORRENTE JANELA 0,6KV 550A",
+    "umb":"PC"
+  },
+  {
+    "codigo":404863,
+    "descricao":"TRANSFORMADOR CORRENTE JANELA 1200\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":404866,
+    "descricao":"TRANSFORMADOR CORRENTE JANELA 2000\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":404865,
+    "descricao":"TRANSFORMADOR CORRENTE JANELA 2500\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":404864,
+    "descricao":"TRANSFORMADOR CORRENTE JANELA 3000\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":404319,
+    "descricao":"TRANSFORMADOR CORRENTE JANELA 600\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":404319,
+    "descricao":"TRANSFORMADOR CORRENTE JANELA 600\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":404899,
+    "descricao":"TRANSFORMADOR CORRENTE JANELA 600\/300-5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":404899,
+    "descricao":"TRANSFORMADOR CORRENTE JANELA 600\/300-5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":404900,
+    "descricao":"TRANSFORMADOR CORRENTE JANELA 600\/300-5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":404900,
+    "descricao":"TRANSFORMADOR CORRENTE JANELA 600\/300-5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":405364,
+    "descricao":"TRANSFORMADOR CORRENTE JANELA 600\/300-5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":405364,
+    "descricao":"TRANSFORMADOR CORRENTE JANELA 600\/300-5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":404884,
+    "descricao":"TRANSFORMADOR CORRENTE JANELA 600\/5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":609749,
+    "descricao":"TRANSFORMADOR CORRENTE MED 15KV 1200-1:1",
+    "umb":"PC"
+  },
+  {
+    "codigo":609749,
+    "descricao":"TRANSFORMADOR CORRENTE MED 15KV 1200-1:1",
+    "umb":"PC"
+  },
+  {
+    "codigo":609751,
+    "descricao":"TRANSFORMADOR CORRENTE MED 15KV 1200-1:1",
+    "umb":"PC"
+  },
+  {
+    "codigo":609751,
+    "descricao":"TRANSFORMADOR CORRENTE MED 15KV 1200-1:1",
+    "umb":"PC"
+  },
+  {
+    "codigo":609715,
+    "descricao":"TRANSFORMADOR CORRENTE MED 15KV 5000-5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":609715,
+    "descricao":"TRANSFORMADOR CORRENTE MED 15KV 5000-5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":604356,
+    "descricao":"TRANSFORMADOR CORRENTE PEDESTAL 10\/ 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":608176,
+    "descricao":"TRANSFORMADOR CORRENTE PEDESTAL 245KV",
+    "umb":"PC"
+  },
+  {
+    "codigo":608176,
+    "descricao":"TRANSFORMADOR CORRENTE PEDESTAL 245KV",
+    "umb":"PC"
+  },
+  {
+    "codigo":606690,
+    "descricao":"TRANSFORMADOR CORRENTE PEDESTAL 36,2KV",
+    "umb":"PC"
+  },
+  {
+    "codigo":603007,
+    "descricao":"TRANSFORMADOR CORRENTE PEDESTAL 5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":609752,
+    "descricao":"TRANSFORMADOR CORRENTE PRO 15KV 1200-1:1",
+    "umb":"UN"
+  },
+  {
+    "codigo":609752,
+    "descricao":"TRANSFORMADOR CORRENTE PRO 15KV 1200-1:1",
+    "umb":"UN"
+  },
+  {
+    "codigo":607106,
+    "descricao":"TRANSFORMADOR CORRENTE SF6 145KV 2000-5A",
+    "umb":"UN"
+  },
+  {
+    "codigo":607106,
+    "descricao":"TRANSFORMADOR CORRENTE SF6 145KV 2000-5A",
+    "umb":"UN"
+  },
+  {
+    "codigo":210050,
+    "descricao":"TRANSFORMADOR CORRENTE; 15 KV; 15X30-5",
+    "umb":"PC"
+  },
+  {
+    "codigo":210495,
+    "descricao":"TRANSFORMADOR CORRENTE; 15 KV; 15X30-5",
+    "umb":"PC"
+  },
+  {
+    "codigo":601822,
+    "descricao":"TRANSFORMADOR CORRENTE;0,6KV;10-6A;BARRA",
+    "umb":"PC"
+  },
+  {
+    "codigo":402955,
+    "descricao":"TRANSFORMADOR CORRENTE;0,6KV;1200-5A;EP",
+    "umb":"PC"
+  },
+  {
+    "codigo":402960,
+    "descricao":"TRANSFORMADOR CORRENTE;0,6kV;1200-5A;EPO",
+    "umb":"PC"
+  },
+  {
+    "codigo":402954,
+    "descricao":"TRANSFORMADOR CORRENTE;0,6kV;1200-5A;EPÓ",
+    "umb":"PC"
+  },
+  {
+    "codigo":402958,
+    "descricao":"TRANSFORMADOR CORRENTE;0,6kV;1200-5A;EPÓ",
+    "umb":"PC"
+  },
+  {
+    "codigo":402947,
+    "descricao":"TRANSFORMADOR CORRENTE;0,6KV;2000(RM)-5",
+    "umb":"PC"
+  },
+  {
+    "codigo":402940,
+    "descricao":"TRANSFORMADOR CORRENTE;0,6kV;2000-5A;EPÓ",
+    "umb":"PC"
+  },
+  {
+    "codigo":601820,
+    "descricao":"TRANSFORMADOR CORRENTE;0,6KV;2000-5A;JAN",
+    "umb":"PC"
+  },
+  {
+    "codigo":402935,
+    "descricao":"TRANSFORMADOR CORRENTE;0,6KV;2500(RM)-5",
+    "umb":"PC"
+  },
+  {
+    "codigo":402927,
+    "descricao":"TRANSFORMADOR CORRENTE;0,6kV;2500-5-5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":402932,
+    "descricao":"TRANSFORMADOR CORRENTE;0,6KV;600(RM)-5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":402951,
+    "descricao":"TRANSFORMADOR CORRENTE;0,6KV;600\/250\/..",
+    "umb":"PC"
+  },
+  {
+    "codigo":402943,
+    "descricao":"TRANSFORMADOR CORRENTE;0,6KV;600\/300-5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":402948,
+    "descricao":"TRANSFORMADOR CORRENTE;0,6KV;600\/300-5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":402952,
+    "descricao":"TRANSFORMADOR CORRENTE;0,6kV;600\/300-5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":402959,
+    "descricao":"TRANSFORMADOR CORRENTE;0,6kV;600\/300-5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":402964,
+    "descricao":"TRANSFORMADOR CORRENTE;0,6kV;600\/300-5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":402956,
+    "descricao":"TRANSFORMADOR CORRENTE;0,6KV;600\/400\/..",
+    "umb":"PC"
+  },
+  {
+    "codigo":402961,
+    "descricao":"TRANSFORMADOR CORRENTE;0,6kV;600\/400\/...",
+    "umb":"PC"
+  },
+  {
+    "codigo":402941,
+    "descricao":"TRANSFORMADOR CORRENTE;0,6kV;600-5A;EPÓX",
+    "umb":"PC"
+  },
+  {
+    "codigo":402949,
+    "descricao":"TRANSFORMADOR CORRENTE;0,6kV;600-5A;EPÓX",
+    "umb":"PC"
+  },
+  {
+    "codigo":402942,
+    "descricao":"TRANSFORMADOR CORRENTE;0,6kV;75-5A;EPÓXI",
+    "umb":"PC"
+  },
+  {
+    "codigo":600716,
+    "descricao":"TRANSFORMADOR CORRENTE;145KV; VER 81126",
+    "umb":"PC"
+  },
+  {
+    "codigo":602818,
+    "descricao":"TRANSFORMADOR CORRENTE;145KV;1200-5A;TK",
+    "umb":"PC"
+  },
+  {
+    "codigo":602311,
+    "descricao":"TRANSFORMADOR CORRENTE;145KV;2000-5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":602311,
+    "descricao":"TRANSFORMADOR CORRENTE;145KV;2000-5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":604023,
+    "descricao":"TRANSFORMADOR CORRENTE;145KV;600\/300-5",
+    "umb":"PC"
+  },
+  {
+    "codigo":210051,
+    "descricao":"TRANSFORMADOR CORRENTE;15 KV;300-5 A",
+    "umb":"PC"
+  },
+  {
+    "codigo":210052,
+    "descricao":"TRANSFORMADOR CORRENTE;15 KV;600-5 A",
+    "umb":"PC"
+  },
+  {
+    "codigo":417167,
+    "descricao":"TRANSFORMADOR CORRENTE;150-5A;10B100",
+    "umb":"PC"
+  },
+  {
+    "codigo":313012,
+    "descricao":"TRANSFORMADOR CORRENTE;15KV",
+    "umb":"PC"
+  },
+  {
+    "codigo":313013,
+    "descricao":"TRANSFORMADOR CORRENTE;15KV",
+    "umb":"PC"
+  },
+  {
+    "codigo":313033,
+    "descricao":"TRANSFORMADOR CORRENTE;15KV;200\/400-5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":602137,
+    "descricao":"TRANSFORMADOR CORRENTE;15KV;2000-5A;BAR",
+    "umb":"PC"
+  },
+  {
+    "codigo":605135,
+    "descricao":"TRANSFORMADOR CORRENTE;15KV;2000-5A;BARR",
+    "umb":"PC"
+  },
+  {
+    "codigo":402938,
+    "descricao":"TRANSFORMADOR CORRENTE;15kV;2000-5A;EPÓX",
+    "umb":"PC"
+  },
+  {
+    "codigo":313032,
+    "descricao":"TRANSFORMADOR CORRENTE;15KV;200-5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":313019,
+    "descricao":"TRANSFORMADOR CORRENTE;15KV;50-5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":402939,
+    "descricao":"TRANSFORMADOR CORRENTE;15KV;600-5A;EPÓX",
+    "umb":"PC"
+  },
+  {
+    "codigo":809766,
+    "descricao":"TRANSFORMADOR CORRENTE;15KV;SECO",
+    "umb":"PC"
+  },
+  {
+    "codigo":811343,
+    "descricao":"TRANSFORMADOR CORRENTE;34,5KV;1200\/5A;RM",
+    "umb":"PC"
+  },
+  {
+    "codigo":811342,
+    "descricao":"TRANSFORMADOR CORRENTE;34KV;2000-5-5A;RM",
+    "umb":"PC"
+  },
+  {
+    "codigo":600883,
+    "descricao":"TRANSFORMADOR CORRENTE;36,2KV;5\/10-5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":820024,
+    "descricao":"TRANSFORMADOR CORRENTE;36,2KV;5\/10-5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":811236,
+    "descricao":"TRANSFORMADOR CORRENTE;36KV;1200-5-5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":811236,
+    "descricao":"TRANSFORMADOR CORRENTE;36KV;1200-5-5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":811237,
+    "descricao":"TRANSFORMADOR CORRENTE;36KV;2000\/800-5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":811237,
+    "descricao":"TRANSFORMADOR CORRENTE;36KV;2000\/800-5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":602817,
+    "descricao":"TRANSFORMADOR CORRENTE;7,2KV;600-5A;TK",
+    "umb":"PC"
+  },
+  {
+    "codigo":601972,
+    "descricao":"TRANSFORMADOR CORRENTE;FIOCRUZ;TURN KEY",
+    "umb":"PC"
+  },
+  {
+    "codigo":602809,
+    "descricao":"TRANSFORMADOR CORRENTE;FIOCRUZ;TURN KEY",
+    "umb":"PC"
+  },
+  {
+    "codigo":811249,
+    "descricao":"TRANSFORMADOR CORRENTE;SECO;15kV;2000A",
+    "umb":"PC"
+  },
+  {
+    "codigo":811250,
+    "descricao":"TRANSFORMADOR CORRENTE;SECO;15kV;600A",
+    "umb":"PC"
+  },
+  {
+    "codigo":610644,
+    "descricao":"TRANSFORMADOR DE CORRENTE 145kV",
+    "umb":"PC"
+  },
+  {
+    "codigo":602789,
+    "descricao":"TRANSFORMADOR DE CORRENTE 36,2 KV 40-5A",
+    "umb":"PC"
+  },
+  {
+    "codigo":416690,
+    "descricao":"TRANSFORMADOR DE CORRENTE, 5A\/20mA.",
+    "umb":"PC"
+  },
+  {
+    "codigo":610645,
+    "descricao":"TRANSFORMADOR DE POTENCIAL 145kV",
+    "umb":"PC"
+  },
+  {
+    "codigo":413404,
+    "descricao":"TRANSFORMADOR DISJ MARINI DAMINELLI TMQ",
+    "umb":"PC"
+  },
+  {
+    "codigo":313989,
+    "descricao":"TRANSFORMADOR DIST. MINI-CAM; VER 60113",
+    "umb":"PC"
+  },
+  {
+    "codigo":313989,
+    "descricao":"TRANSFORMADOR DIST. MINI-CAM; VER 60113",
+    "umb":"PC"
+  },
+  {
+    "codigo":313989,
+    "descricao":"TRANSFORMADOR DIST. MINI-CAM; VER 60113",
+    "umb":"PC"
+  },
+  {
+    "codigo":313993,
+    "descricao":"TRANSFORMADOR DIST. MINI-CAM; VER 601141",
+    "umb":"PC"
+  },
+  {
+    "codigo":313993,
+    "descricao":"TRANSFORMADOR DIST. MINI-CAM; VER 601141",
+    "umb":"PC"
+  },
+  {
+    "codigo":313993,
+    "descricao":"TRANSFORMADOR DIST. MINI-CAM; VER 601141",
+    "umb":"PC"
+  },
+  {
+    "codigo":323993,
+    "descricao":"TRANSFORMADOR DIST. MINI-CAMARA;112,5KV",
+    "umb":"PC"
+  },
+  {
+    "codigo":323993,
+    "descricao":"TRANSFORMADOR DIST. MINI-CAMARA;112,5KV",
+    "umb":"PC"
+  },
+  {
+    "codigo":601140,
+    "descricao":"TRANSFORMADOR DIST. MINI-CAMARA;112,5KV",
+    "umb":"PC"
+  },
+  {
+    "codigo":601538,
+    "descricao":"TRANSFORMADOR DIST.;PEDESTAL;30KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":601538,
+    "descricao":"TRANSFORMADOR DIST.;PEDESTAL;30KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":601538,
+    "descricao":"TRANSFORMADOR DIST.;PEDESTAL;30KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":601538,
+    "descricao":"TRANSFORMADOR DIST.;PEDESTAL;30KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":601538,
+    "descricao":"TRANSFORMADOR DIST.;PEDESTAL;30KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":603319,
+    "descricao":"TRANSFORMADOR DIST; 34,5\/25,6KV; 500 KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":601206,
+    "descricao":"TRANSFORMADOR DIST;PEDESTAL,VER 314004",
+    "umb":"PC"
+  },
+  {
+    "codigo":601206,
+    "descricao":"TRANSFORMADOR DIST;PEDESTAL,VER 314004",
+    "umb":"PC"
+  },
+  {
+    "codigo":601206,
+    "descricao":"TRANSFORMADOR DIST;PEDESTAL,VER 314004",
+    "umb":"PC"
+  },
+  {
+    "codigo":601206,
+    "descricao":"TRANSFORMADOR DIST;PEDESTAL,VER 314004",
+    "umb":"PC"
+  },
+  {
+    "codigo":601206,
+    "descricao":"TRANSFORMADOR DIST;PEDESTAL,VER 314004",
+    "umb":"PC"
+  },
+  {
+    "codigo":600370,
+    "descricao":"TRANSFORMADOR DISTR 1000,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":600366,
+    "descricao":"TRANSFORMADOR DISTR 100KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":600367,
+    "descricao":"TRANSFORMADOR DISTR 150,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":600363,
+    "descricao":"TRANSFORMADOR DISTR 25,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":600365,
+    "descricao":"TRANSFORMADOR DISTR 2X50,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":600368,
+    "descricao":"TRANSFORMADOR DISTR 300,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":600369,
+    "descricao":"TRANSFORMADOR DISTR 500,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":600877,
+    "descricao":"TRANSFORMADOR DISTR 500,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":600877,
+    "descricao":"TRANSFORMADOR DISTR 500,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":600877,
+    "descricao":"TRANSFORMADOR DISTR 500,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":601088,
+    "descricao":"TRANSFORMADOR DISTR 500,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":601088,
+    "descricao":"TRANSFORMADOR DISTR 500,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":601088,
+    "descricao":"TRANSFORMADOR DISTR 500,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":313980,
+    "descricao":"TRANSFORMADOR DISTR MONOF 10,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":313980,
+    "descricao":"TRANSFORMADOR DISTR MONOF 10,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":313980,
+    "descricao":"TRANSFORMADOR DISTR MONOF 10,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":313969,
+    "descricao":"TRANSFORMADOR DISTR MONOF 100,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":313969,
+    "descricao":"TRANSFORMADOR DISTR MONOF 100,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":313969,
+    "descricao":"TRANSFORMADOR DISTR MONOF 100,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":601267,
+    "descricao":"TRANSFORMADOR DISTR MONOF 100,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":601267,
+    "descricao":"TRANSFORMADOR DISTR MONOF 100,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":601267,
+    "descricao":"TRANSFORMADOR DISTR MONOF 100,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":601267,
+    "descricao":"TRANSFORMADOR DISTR MONOF 100,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":601267,
+    "descricao":"TRANSFORMADOR DISTR MONOF 100,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":600350,
+    "descricao":"TRANSFORMADOR DISTR MONOF 10KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":600384,
+    "descricao":"TRANSFORMADOR DISTR MONOF 10KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":600385,
+    "descricao":"TRANSFORMADOR DISTR MONOF 10KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":313982,
+    "descricao":"TRANSFORMADOR DISTR MONOF 15KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":313982,
+    "descricao":"TRANSFORMADOR DISTR MONOF 15KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":313982,
+    "descricao":"TRANSFORMADOR DISTR MONOF 15KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":600351,
+    "descricao":"TRANSFORMADOR DISTR MONOF 15KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":600388,
+    "descricao":"TRANSFORMADOR DISTR MONOF 15KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":600389,
+    "descricao":"TRANSFORMADOR DISTR MONOF 15KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":600391,
+    "descricao":"TRANSFORMADOR DISTR MONOF 20,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":600392,
+    "descricao":"TRANSFORMADOR DISTR MONOF 20,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":313146,
+    "descricao":"TRANSFORMADOR DISTR MONOF 25,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":313146,
+    "descricao":"TRANSFORMADOR DISTR MONOF 25,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":313146,
+    "descricao":"TRANSFORMADOR DISTR MONOF 25,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":600353,
+    "descricao":"TRANSFORMADOR DISTR MONOF 25,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":600395,
+    "descricao":"TRANSFORMADOR DISTR MONOF 25,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":600396,
+    "descricao":"TRANSFORMADOR DISTR MONOF 25,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":313978,
+    "descricao":"TRANSFORMADOR DISTR MONOF 5,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":313978,
+    "descricao":"TRANSFORMADOR DISTR MONOF 5,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":313978,
+    "descricao":"TRANSFORMADOR DISTR MONOF 5,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":600349,
+    "descricao":"TRANSFORMADOR DISTR MONOF 5,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":600380,
+    "descricao":"TRANSFORMADOR DISTR MONOF 5,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":600381,
+    "descricao":"TRANSFORMADOR DISTR MONOF 5,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":313147,
+    "descricao":"TRANSFORMADOR DISTR MONOF 50,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":313147,
+    "descricao":"TRANSFORMADOR DISTR MONOF 50,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":313147,
+    "descricao":"TRANSFORMADOR DISTR MONOF 50,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":600355,
+    "descricao":"TRANSFORMADOR DISTR MONOF 50,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":313968,
+    "descricao":"TRANSFORMADOR DISTR MONOF 75,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":313968,
+    "descricao":"TRANSFORMADOR DISTR MONOF 75,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":313968,
+    "descricao":"TRANSFORMADOR DISTR MONOF 75,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":600402,
+    "descricao":"TRANSFORMADOR DISTR MONOF 75,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":601266,
+    "descricao":"TRANSFORMADOR DISTR MONOF 75,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":601266,
+    "descricao":"TRANSFORMADOR DISTR MONOF 75,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":601266,
+    "descricao":"TRANSFORMADOR DISTR MONOF 75,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":601266,
+    "descricao":"TRANSFORMADOR DISTR MONOF 75,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":601266,
+    "descricao":"TRANSFORMADOR DISTR MONOF 75,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":314025,
+    "descricao":"TRANSFORMADOR DISTR SUBT PEDESTAL 30KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":314025,
+    "descricao":"TRANSFORMADOR DISTR SUBT PEDESTAL 30KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":314025,
+    "descricao":"TRANSFORMADOR DISTR SUBT PEDESTAL 30KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":314025,
+    "descricao":"TRANSFORMADOR DISTR SUBT PEDESTAL 30KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":313990,
+    "descricao":"TRANSFORMADOR DISTR TRIF 1000KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":313990,
+    "descricao":"TRANSFORMADOR DISTR TRIF 1000KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":313990,
+    "descricao":"TRANSFORMADOR DISTR TRIF 1000KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":313991,
+    "descricao":"TRANSFORMADOR DISTR TRIF 1000KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":313991,
+    "descricao":"TRANSFORMADOR DISTR TRIF 1000KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":313991,
+    "descricao":"TRANSFORMADOR DISTR TRIF 1000KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":313992,
+    "descricao":"TRANSFORMADOR DISTR TRIF 1000KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":313992,
+    "descricao":"TRANSFORMADOR DISTR TRIF 1000KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":313992,
+    "descricao":"TRANSFORMADOR DISTR TRIF 1000KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":315998,
+    "descricao":"TRANSFORMADOR DISTR TRIF 1000KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":315998,
+    "descricao":"TRANSFORMADOR DISTR TRIF 1000KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":315998,
+    "descricao":"TRANSFORMADOR DISTR TRIF 1000KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":314028,
+    "descricao":"TRANSFORMADOR DISTR TRIF 1000KVA DEADBR",
+    "umb":"PC"
+  },
+  {
+    "codigo":314028,
+    "descricao":"TRANSFORMADOR DISTR TRIF 1000KVA DEADBR",
+    "umb":"PC"
+  },
+  {
+    "codigo":314028,
+    "descricao":"TRANSFORMADOR DISTR TRIF 1000KVA DEADBR",
+    "umb":"PC"
+  },
+  {
+    "codigo":314028,
+    "descricao":"TRANSFORMADOR DISTR TRIF 1000KVA DEADBR",
+    "umb":"PC"
+  },
+  {
+    "codigo":314028,
+    "descricao":"TRANSFORMADOR DISTR TRIF 1000KVA DEADBR",
+    "umb":"PC"
+  },
+  {
+    "codigo":314029,
+    "descricao":"TRANSFORMADOR DISTR TRIF 1000KVA DEADBR",
+    "umb":"PC"
+  },
+  {
+    "codigo":314029,
+    "descricao":"TRANSFORMADOR DISTR TRIF 1000KVA DEADBR",
+    "umb":"PC"
+  },
+  {
+    "codigo":314029,
+    "descricao":"TRANSFORMADOR DISTR TRIF 1000KVA DEADBR",
+    "umb":"PC"
+  },
+  {
+    "codigo":314029,
+    "descricao":"TRANSFORMADOR DISTR TRIF 1000KVA DEADBR",
+    "umb":"PC"
+  },
+  {
+    "codigo":600359,
+    "descricao":"TRANSFORMADOR DISTR TRIF 100KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":600360,
+    "descricao":"TRANSFORMADOR DISTR TRIF 100KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":600386,
+    "descricao":"TRANSFORMADOR DISTR TRIF 10KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":600387,
+    "descricao":"TRANSFORMADOR DISTR TRIF 10KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":313145,
+    "descricao":"TRANSFORMADOR DISTR TRIF 112,5KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":313145,
+    "descricao":"TRANSFORMADOR DISTR TRIF 112,5KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":313145,
+    "descricao":"TRANSFORMADOR DISTR TRIF 112,5KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":313145,
+    "descricao":"TRANSFORMADOR DISTR TRIF 112,5KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":313145,
+    "descricao":"TRANSFORMADOR DISTR TRIF 112,5KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":313974,
+    "descricao":"TRANSFORMADOR DISTR TRIF 112,5KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":313974,
+    "descricao":"TRANSFORMADOR DISTR TRIF 112,5KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":313974,
+    "descricao":"TRANSFORMADOR DISTR TRIF 112,5KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":313977,
+    "descricao":"TRANSFORMADOR DISTR TRIF 112,5KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":313977,
+    "descricao":"TRANSFORMADOR DISTR TRIF 112,5KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":313977,
+    "descricao":"TRANSFORMADOR DISTR TRIF 112,5KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":314024,
+    "descricao":"TRANSFORMADOR DISTR TRIF 112,5KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":314024,
+    "descricao":"TRANSFORMADOR DISTR TRIF 112,5KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":314024,
+    "descricao":"TRANSFORMADOR DISTR TRIF 112,5KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":314024,
+    "descricao":"TRANSFORMADOR DISTR TRIF 112,5KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":600462,
+    "descricao":"TRANSFORMADOR DISTR TRIF 112,5KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":600463,
+    "descricao":"TRANSFORMADOR DISTR TRIF 112,5KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":601022,
+    "descricao":"TRANSFORMADOR DISTR TRIF 112,5KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":601022,
+    "descricao":"TRANSFORMADOR DISTR TRIF 112,5KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":601022,
+    "descricao":"TRANSFORMADOR DISTR TRIF 112,5KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":601141,
+    "descricao":"TRANSFORMADOR DISTR TRIF 112,5KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":601141,
+    "descricao":"TRANSFORMADOR DISTR TRIF 112,5KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":601141,
+    "descricao":"TRANSFORMADOR DISTR TRIF 112,5KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":606196,
+    "descricao":"TRANSFORMADOR DISTR TRIF 112KVA P&D34\/08",
+    "umb":"PC"
+  },
+  {
+    "codigo":606196,
+    "descricao":"TRANSFORMADOR DISTR TRIF 112KVA P&D34\/08",
+    "umb":"PC"
+  },
+  {
+    "codigo":606196,
+    "descricao":"TRANSFORMADOR DISTR TRIF 112KVA P&D34\/08",
+    "umb":"PC"
+  },
+  {
+    "codigo":313998,
+    "descricao":"TRANSFORMADOR DISTR TRIF 150,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":313998,
+    "descricao":"TRANSFORMADOR DISTR TRIF 150,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":313998,
+    "descricao":"TRANSFORMADOR DISTR TRIF 150,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":313998,
+    "descricao":"TRANSFORMADOR DISTR TRIF 150,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":314001,
+    "descricao":"TRANSFORMADOR DISTR TRIF 150,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":314001,
+    "descricao":"TRANSFORMADOR DISTR TRIF 150,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":314001,
+    "descricao":"TRANSFORMADOR DISTR TRIF 150,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":313994,
+    "descricao":"TRANSFORMADOR DISTR TRIF 150KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":313994,
+    "descricao":"TRANSFORMADOR DISTR TRIF 150KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":313994,
+    "descricao":"TRANSFORMADOR DISTR TRIF 150KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":314035,
+    "descricao":"TRANSFORMADOR DISTR TRIF 150KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":314035,
+    "descricao":"TRANSFORMADOR DISTR TRIF 150KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":314035,
+    "descricao":"TRANSFORMADOR DISTR TRIF 150KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":314035,
+    "descricao":"TRANSFORMADOR DISTR TRIF 150KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":314035,
+    "descricao":"TRANSFORMADOR DISTR TRIF 150KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":314030,
+    "descricao":"TRANSFORMADOR DISTR TRIF 150KVA 15KV SUB",
+    "umb":"PC"
+  },
+  {
+    "codigo":314030,
+    "descricao":"TRANSFORMADOR DISTR TRIF 150KVA 15KV SUB",
+    "umb":"PC"
+  },
+  {
+    "codigo":314030,
+    "descricao":"TRANSFORMADOR DISTR TRIF 150KVA 15KV SUB",
+    "umb":"PC"
+  },
+  {
+    "codigo":314030,
+    "descricao":"TRANSFORMADOR DISTR TRIF 150KVA 15KV SUB",
+    "umb":"PC"
+  },
+  {
+    "codigo":609929,
+    "descricao":"TRANSFORMADOR DISTR TRIF 150KVA 25,6KV",
+    "umb":"PC"
+  },
+  {
+    "codigo":609929,
+    "descricao":"TRANSFORMADOR DISTR TRIF 150KVA 25,6KV",
+    "umb":"PC"
+  },
+  {
+    "codigo":609929,
+    "descricao":"TRANSFORMADOR DISTR TRIF 150KVA 25,6KV",
+    "umb":"PC"
+  },
+  {
+    "codigo":609929,
+    "descricao":"TRANSFORMADOR DISTR TRIF 150KVA 25,6KV",
+    "umb":"PC"
+  },
+  {
+    "codigo":315999,
+    "descricao":"TRANSFORMADOR DISTR TRIF 150KVA DEADBR",
+    "umb":"PC"
+  },
+  {
+    "codigo":315999,
+    "descricao":"TRANSFORMADOR DISTR TRIF 150KVA DEADBR",
+    "umb":"PC"
+  },
+  {
+    "codigo":315999,
+    "descricao":"TRANSFORMADOR DISTR TRIF 150KVA DEADBR",
+    "umb":"PC"
+  },
+  {
+    "codigo":315999,
+    "descricao":"TRANSFORMADOR DISTR TRIF 150KVA DEADBR",
+    "umb":"PC"
+  },
+  {
+    "codigo":313141,
+    "descricao":"TRANSFORMADOR DISTR TRIF 15KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":313141,
+    "descricao":"TRANSFORMADOR DISTR TRIF 15KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":313141,
+    "descricao":"TRANSFORMADOR DISTR TRIF 15KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":313141,
+    "descricao":"TRANSFORMADOR DISTR TRIF 15KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":313141,
+    "descricao":"TRANSFORMADOR DISTR TRIF 15KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":313970,
+    "descricao":"TRANSFORMADOR DISTR TRIF 15KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":313970,
+    "descricao":"TRANSFORMADOR DISTR TRIF 15KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":313970,
+    "descricao":"TRANSFORMADOR DISTR TRIF 15KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":600390,
+    "descricao":"TRANSFORMADOR DISTR TRIF 15KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":600393,
+    "descricao":"TRANSFORMADOR DISTR TRIF 20,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":600394,
+    "descricao":"TRANSFORMADOR DISTR TRIF 20,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":601142,
+    "descricao":"TRANSFORMADOR DISTR TRIF 2000,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":601142,
+    "descricao":"TRANSFORMADOR DISTR TRIF 2000,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":601142,
+    "descricao":"TRANSFORMADOR DISTR TRIF 2000,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":314033,
+    "descricao":"TRANSFORMADOR DISTR TRIF 225KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":314033,
+    "descricao":"TRANSFORMADOR DISTR TRIF 225KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":314033,
+    "descricao":"TRANSFORMADOR DISTR TRIF 225KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":600354,
+    "descricao":"TRANSFORMADOR DISTR TRIF 25,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":600397,
+    "descricao":"TRANSFORMADOR DISTR TRIF 25,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":313142,
+    "descricao":"TRANSFORMADOR DISTR TRIF 30,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":313142,
+    "descricao":"TRANSFORMADOR DISTR TRIF 30,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":313142,
+    "descricao":"TRANSFORMADOR DISTR TRIF 30,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":313142,
+    "descricao":"TRANSFORMADOR DISTR TRIF 30,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":313142,
+    "descricao":"TRANSFORMADOR DISTR TRIF 30,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":313971,
+    "descricao":"TRANSFORMADOR DISTR TRIF 30,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":313971,
+    "descricao":"TRANSFORMADOR DISTR TRIF 30,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":313971,
+    "descricao":"TRANSFORMADOR DISTR TRIF 30,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":313996,
+    "descricao":"TRANSFORMADOR DISTR TRIF 300,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":313996,
+    "descricao":"TRANSFORMADOR DISTR TRIF 300,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":313996,
+    "descricao":"TRANSFORMADOR DISTR TRIF 300,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":313999,
+    "descricao":"TRANSFORMADOR DISTR TRIF 300,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":313999,
+    "descricao":"TRANSFORMADOR DISTR TRIF 300,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":313999,
+    "descricao":"TRANSFORMADOR DISTR TRIF 300,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":313999,
+    "descricao":"TRANSFORMADOR DISTR TRIF 300,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":314000,
+    "descricao":"TRANSFORMADOR DISTR TRIF 300,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":314000,
+    "descricao":"TRANSFORMADOR DISTR TRIF 300,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":314000,
+    "descricao":"TRANSFORMADOR DISTR TRIF 300,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":314002,
+    "descricao":"TRANSFORMADOR DISTR TRIF 300,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":314002,
+    "descricao":"TRANSFORMADOR DISTR TRIF 300,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":314002,
+    "descricao":"TRANSFORMADOR DISTR TRIF 300,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":314003,
+    "descricao":"TRANSFORMADOR DISTR TRIF 300,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":314003,
+    "descricao":"TRANSFORMADOR DISTR TRIF 300,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":314003,
+    "descricao":"TRANSFORMADOR DISTR TRIF 300,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":314004,
+    "descricao":"TRANSFORMADOR DISTR TRIF 300,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":314004,
+    "descricao":"TRANSFORMADOR DISTR TRIF 300,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":314004,
+    "descricao":"TRANSFORMADOR DISTR TRIF 300,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":314004,
+    "descricao":"TRANSFORMADOR DISTR TRIF 300,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":315996,
+    "descricao":"TRANSFORMADOR DISTR TRIF 300,0KVA DEADBR",
+    "umb":"PC"
+  },
+  {
+    "codigo":315996,
+    "descricao":"TRANSFORMADOR DISTR TRIF 300,0KVA DEADBR",
+    "umb":"PC"
+  },
+  {
+    "codigo":315996,
+    "descricao":"TRANSFORMADOR DISTR TRIF 300,0KVA DEADBR",
+    "umb":"PC"
+  },
+  {
+    "codigo":315996,
+    "descricao":"TRANSFORMADOR DISTR TRIF 300,0KVA DEADBR",
+    "umb":"PC"
+  },
+  {
+    "codigo":315996,
+    "descricao":"TRANSFORMADOR DISTR TRIF 300,0KVA DEADBR",
+    "umb":"PC"
+  },
+  {
+    "codigo":315997,
+    "descricao":"TRANSFORMADOR DISTR TRIF 300,0KVA DEADBR",
+    "umb":"PC"
+  },
+  {
+    "codigo":315997,
+    "descricao":"TRANSFORMADOR DISTR TRIF 300,0KVA DEADBR",
+    "umb":"PC"
+  },
+  {
+    "codigo":315997,
+    "descricao":"TRANSFORMADOR DISTR TRIF 300,0KVA DEADBR",
+    "umb":"PC"
+  },
+  {
+    "codigo":315997,
+    "descricao":"TRANSFORMADOR DISTR TRIF 300,0KVA DEADBR",
+    "umb":"PC"
+  },
+  {
+    "codigo":314034,
+    "descricao":"TRANSFORMADOR DISTR TRIF 300KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":314034,
+    "descricao":"TRANSFORMADOR DISTR TRIF 300KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":314034,
+    "descricao":"TRANSFORMADOR DISTR TRIF 300KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":607751,
+    "descricao":"TRANSFORMADOR DISTR TRIF 300KVA 13,2\/6,3",
+    "umb":"PC"
+  },
+  {
+    "codigo":607751,
+    "descricao":"TRANSFORMADOR DISTR TRIF 300KVA 13,2\/6,3",
+    "umb":"PC"
+  },
+  {
+    "codigo":607751,
+    "descricao":"TRANSFORMADOR DISTR TRIF 300KVA 13,2\/6,3",
+    "umb":"PC"
+  },
+  {
+    "codigo":607751,
+    "descricao":"TRANSFORMADOR DISTR TRIF 300KVA 13,2\/6,3",
+    "umb":"PC"
+  },
+  {
+    "codigo":313143,
+    "descricao":"TRANSFORMADOR DISTR TRIF 45,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":313143,
+    "descricao":"TRANSFORMADOR DISTR TRIF 45,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":313143,
+    "descricao":"TRANSFORMADOR DISTR TRIF 45,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":313143,
+    "descricao":"TRANSFORMADOR DISTR TRIF 45,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":313143,
+    "descricao":"TRANSFORMADOR DISTR TRIF 45,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":313972,
+    "descricao":"TRANSFORMADOR DISTR TRIF 45,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":313972,
+    "descricao":"TRANSFORMADOR DISTR TRIF 45,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":313972,
+    "descricao":"TRANSFORMADOR DISTR TRIF 45,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":313975,
+    "descricao":"TRANSFORMADOR DISTR TRIF 45,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":313975,
+    "descricao":"TRANSFORMADOR DISTR TRIF 45,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":313975,
+    "descricao":"TRANSFORMADOR DISTR TRIF 45,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":314022,
+    "descricao":"TRANSFORMADOR DISTR TRIF 45,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":314022,
+    "descricao":"TRANSFORMADOR DISTR TRIF 45,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":314022,
+    "descricao":"TRANSFORMADOR DISTR TRIF 45,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":314022,
+    "descricao":"TRANSFORMADOR DISTR TRIF 45,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":600382,
+    "descricao":"TRANSFORMADOR DISTR TRIF 5,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":600383,
+    "descricao":"TRANSFORMADOR DISTR TRIF 5,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":600400,
+    "descricao":"TRANSFORMADOR DISTR TRIF 50,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":600401,
+    "descricao":"TRANSFORMADOR DISTR TRIF 50,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":313042,
+    "descricao":"TRANSFORMADOR DISTR TRIF 500,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":313042,
+    "descricao":"TRANSFORMADOR DISTR TRIF 500,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":313042,
+    "descricao":"TRANSFORMADOR DISTR TRIF 500,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":313988,
+    "descricao":"TRANSFORMADOR DISTR TRIF 500,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":313988,
+    "descricao":"TRANSFORMADOR DISTR TRIF 500,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":313988,
+    "descricao":"TRANSFORMADOR DISTR TRIF 500,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":600866,
+    "descricao":"TRANSFORMADOR DISTR TRIF 500,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":600866,
+    "descricao":"TRANSFORMADOR DISTR TRIF 500,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":600866,
+    "descricao":"TRANSFORMADOR DISTR TRIF 500,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":314026,
+    "descricao":"TRANSFORMADOR DISTR TRIF 500,0KVA DEADBR",
+    "umb":"PC"
+  },
+  {
+    "codigo":314026,
+    "descricao":"TRANSFORMADOR DISTR TRIF 500,0KVA DEADBR",
+    "umb":"PC"
+  },
+  {
+    "codigo":314026,
+    "descricao":"TRANSFORMADOR DISTR TRIF 500,0KVA DEADBR",
+    "umb":"PC"
+  },
+  {
+    "codigo":314026,
+    "descricao":"TRANSFORMADOR DISTR TRIF 500,0KVA DEADBR",
+    "umb":"PC"
+  },
+  {
+    "codigo":314026,
+    "descricao":"TRANSFORMADOR DISTR TRIF 500,0KVA DEADBR",
+    "umb":"PC"
+  },
+  {
+    "codigo":314027,
+    "descricao":"TRANSFORMADOR DISTR TRIF 500,0KVA DEADBR",
+    "umb":"PC"
+  },
+  {
+    "codigo":314027,
+    "descricao":"TRANSFORMADOR DISTR TRIF 500,0KVA DEADBR",
+    "umb":"PC"
+  },
+  {
+    "codigo":314027,
+    "descricao":"TRANSFORMADOR DISTR TRIF 500,0KVA DEADBR",
+    "umb":"PC"
+  },
+  {
+    "codigo":314027,
+    "descricao":"TRANSFORMADOR DISTR TRIF 500,0KVA DEADBR",
+    "umb":"PC"
+  },
+  {
+    "codigo":313144,
+    "descricao":"TRANSFORMADOR DISTR TRIF 75,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":313144,
+    "descricao":"TRANSFORMADOR DISTR TRIF 75,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":313144,
+    "descricao":"TRANSFORMADOR DISTR TRIF 75,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":313144,
+    "descricao":"TRANSFORMADOR DISTR TRIF 75,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":313144,
+    "descricao":"TRANSFORMADOR DISTR TRIF 75,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":313973,
+    "descricao":"TRANSFORMADOR DISTR TRIF 75,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":313973,
+    "descricao":"TRANSFORMADOR DISTR TRIF 75,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":313973,
+    "descricao":"TRANSFORMADOR DISTR TRIF 75,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":313976,
+    "descricao":"TRANSFORMADOR DISTR TRIF 75,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":313976,
+    "descricao":"TRANSFORMADOR DISTR TRIF 75,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":313976,
+    "descricao":"TRANSFORMADOR DISTR TRIF 75,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":313997,
+    "descricao":"TRANSFORMADOR DISTR TRIF 75,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":313997,
+    "descricao":"TRANSFORMADOR DISTR TRIF 75,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":314023,
+    "descricao":"TRANSFORMADOR DISTR TRIF 75,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":314023,
+    "descricao":"TRANSFORMADOR DISTR TRIF 75,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":314023,
+    "descricao":"TRANSFORMADOR DISTR TRIF 75,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":314023,
+    "descricao":"TRANSFORMADOR DISTR TRIF 75,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":601023,
+    "descricao":"TRANSFORMADOR DISTR TRIF 75,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":601023,
+    "descricao":"TRANSFORMADOR DISTR TRIF 75,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":601139,
+    "descricao":"TRANSFORMADOR DISTR TRIF 75,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":601139,
+    "descricao":"TRANSFORMADOR DISTR TRIF 75,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":601139,
+    "descricao":"TRANSFORMADOR DISTR TRIF 75,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":607983,
+    "descricao":"TRANSFORMADOR DISTR TRIF 75KVA 36,2KV",
+    "umb":"UN"
+  },
+  {
+    "codigo":607983,
+    "descricao":"TRANSFORMADOR DISTR TRIF 75KVA 36,2KV",
+    "umb":"UN"
+  },
+  {
+    "codigo":607983,
+    "descricao":"TRANSFORMADOR DISTR TRIF 75KVA 36,2KV",
+    "umb":"UN"
+  },
+  {
+    "codigo":607983,
+    "descricao":"TRANSFORMADOR DISTR TRIF 75KVA 36,2KV",
+    "umb":"UN"
+  },
+  {
+    "codigo":606195,
+    "descricao":"TRANSFORMADOR DISTR TRIF 75KVA P&D34\/08",
+    "umb":"PC"
+  },
+  {
+    "codigo":606195,
+    "descricao":"TRANSFORMADOR DISTR TRIF 75KVA P&D34\/08",
+    "umb":"PC"
+  },
+  {
+    "codigo":606195,
+    "descricao":"TRANSFORMADOR DISTR TRIF 75KVA P&D34\/08",
+    "umb":"PC"
+  },
+  {
+    "codigo":606861,
+    "descricao":"TRANSFORMADOR DISTRIBUICAO 300KVA 15KV",
+    "umb":"PC"
+  },
+  {
+    "codigo":606861,
+    "descricao":"TRANSFORMADOR DISTRIBUICAO 300KVA 15KV",
+    "umb":"PC"
+  },
+  {
+    "codigo":606861,
+    "descricao":"TRANSFORMADOR DISTRIBUICAO 300KVA 15KV",
+    "umb":"PC"
+  },
+  {
+    "codigo":313981,
+    "descricao":"TRANSFORMADOR DISTRIBUIÇÃO RURAL;10 kVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":313981,
+    "descricao":"TRANSFORMADOR DISTRIBUIÇÃO RURAL;10 kVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":313981,
+    "descricao":"TRANSFORMADOR DISTRIBUIÇÃO RURAL;10 kVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":313983,
+    "descricao":"TRANSFORMADOR DISTRIBUIÇÃO RURAL;15 kVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":313983,
+    "descricao":"TRANSFORMADOR DISTRIBUIÇÃO RURAL;15 kVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":313983,
+    "descricao":"TRANSFORMADOR DISTRIBUIÇÃO RURAL;15 kVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":313979,
+    "descricao":"TRANSFORMADOR DISTRIBUIÇÃO RURAL;5 kVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":313979,
+    "descricao":"TRANSFORMADOR DISTRIBUIÇÃO RURAL;5 kVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":313979,
+    "descricao":"TRANSFORMADOR DISTRIBUIÇÃO RURAL;5 kVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":601029,
+    "descricao":"TRANSFORMADOR DISTRIBUIÇÃO;VER 313991",
+    "umb":"PC"
+  },
+  {
+    "codigo":601029,
+    "descricao":"TRANSFORMADOR DISTRIBUIÇÃO;VER 313991",
+    "umb":"PC"
+  },
+  {
+    "codigo":601029,
+    "descricao":"TRANSFORMADOR DISTRIBUIÇÃO;VER 313991",
+    "umb":"PC"
+  },
+  {
+    "codigo":606452,
+    "descricao":"TRANSFORMADOR FONTE ALIMENT 16V 1,5A",
+    "umb":"UN"
+  },
+  {
+    "codigo":314011,
+    "descricao":"TRANSFORMADOR FORCA MONOF 2,0MVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":314011,
+    "descricao":"TRANSFORMADOR FORCA MONOF 2,0MVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":314010,
+    "descricao":"TRANSFORMADOR FORCA TRIF 1,0MVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":314010,
+    "descricao":"TRANSFORMADOR FORCA TRIF 1,0MVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":314010,
+    "descricao":"TRANSFORMADOR FORCA TRIF 1,0MVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":313006,
+    "descricao":"TRANSFORMADOR FORCA TRIF 2,0MVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":313006,
+    "descricao":"TRANSFORMADOR FORCA TRIF 2,0MVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":313006,
+    "descricao":"TRANSFORMADOR FORCA TRIF 2,0MVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":313006,
+    "descricao":"TRANSFORMADOR FORCA TRIF 2,0MVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":314006,
+    "descricao":"TRANSFORMADOR FORCA TRIF 2,0MVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":314006,
+    "descricao":"TRANSFORMADOR FORCA TRIF 2,0MVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":314006,
+    "descricao":"TRANSFORMADOR FORCA TRIF 2,0MVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":314006,
+    "descricao":"TRANSFORMADOR FORCA TRIF 2,0MVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":314009,
+    "descricao":"TRANSFORMADOR FORCA TRIF 2,0MVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":314009,
+    "descricao":"TRANSFORMADOR FORCA TRIF 2,0MVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":314009,
+    "descricao":"TRANSFORMADOR FORCA TRIF 2,0MVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":314009,
+    "descricao":"TRANSFORMADOR FORCA TRIF 2,0MVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":314016,
+    "descricao":"TRANSFORMADOR FORCA TRIF 2,0MVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":314016,
+    "descricao":"TRANSFORMADOR FORCA TRIF 2,0MVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":314016,
+    "descricao":"TRANSFORMADOR FORCA TRIF 2,0MVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":314016,
+    "descricao":"TRANSFORMADOR FORCA TRIF 2,0MVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":313038,
+    "descricao":"TRANSFORMADOR FORCA TRIF 3,0MVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":313038,
+    "descricao":"TRANSFORMADOR FORCA TRIF 3,0MVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":313041,
+    "descricao":"TRANSFORMADOR FORCA TRIF 3,0MVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":313041,
+    "descricao":"TRANSFORMADOR FORCA TRIF 3,0MVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":314005,
+    "descricao":"TRANSFORMADOR FORCA TRIF 3,0MVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":314005,
+    "descricao":"TRANSFORMADOR FORCA TRIF 3,0MVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":314005,
+    "descricao":"TRANSFORMADOR FORCA TRIF 3,0MVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":314005,
+    "descricao":"TRANSFORMADOR FORCA TRIF 3,0MVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":314007,
+    "descricao":"TRANSFORMADOR FORCA TRIF 3,0MVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":314007,
+    "descricao":"TRANSFORMADOR FORCA TRIF 3,0MVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":314007,
+    "descricao":"TRANSFORMADOR FORCA TRIF 3,0MVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":314007,
+    "descricao":"TRANSFORMADOR FORCA TRIF 3,0MVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":314008,
+    "descricao":"TRANSFORMADOR FORCA TRIF 3,0MVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":314008,
+    "descricao":"TRANSFORMADOR FORCA TRIF 3,0MVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":314008,
+    "descricao":"TRANSFORMADOR FORCA TRIF 3,0MVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":314008,
+    "descricao":"TRANSFORMADOR FORCA TRIF 3,0MVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":314012,
+    "descricao":"TRANSFORMADOR FORCA TRIF 3,0MVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":314012,
+    "descricao":"TRANSFORMADOR FORCA TRIF 3,0MVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":314012,
+    "descricao":"TRANSFORMADOR FORCA TRIF 3,0MVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":314012,
+    "descricao":"TRANSFORMADOR FORCA TRIF 3,0MVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":314013,
+    "descricao":"TRANSFORMADOR FORCA TRIF 3,0MVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":314013,
+    "descricao":"TRANSFORMADOR FORCA TRIF 3,0MVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":314013,
+    "descricao":"TRANSFORMADOR FORCA TRIF 3,0MVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":314013,
+    "descricao":"TRANSFORMADOR FORCA TRIF 3,0MVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":314014,
+    "descricao":"TRANSFORMADOR FORCA TRIF 3,0MVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":314014,
+    "descricao":"TRANSFORMADOR FORCA TRIF 3,0MVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":314014,
+    "descricao":"TRANSFORMADOR FORCA TRIF 3,0MVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":314014,
+    "descricao":"TRANSFORMADOR FORCA TRIF 3,0MVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":314017,
+    "descricao":"TRANSFORMADOR FORCA TRIF 3,0MVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":314017,
+    "descricao":"TRANSFORMADOR FORCA TRIF 3,0MVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":314017,
+    "descricao":"TRANSFORMADOR FORCA TRIF 3,0MVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":314017,
+    "descricao":"TRANSFORMADOR FORCA TRIF 3,0MVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":602055,
+    "descricao":"TRANSFORMADOR FORÇA;SE FIOCRUZ;TURN KEY",
+    "umb":"PC"
+  },
+  {
+    "codigo":313319,
+    "descricao":"TRANSFORMADOR GE 35-211307-01",
+    "umb":"PC"
+  },
+  {
+    "codigo":413075,
+    "descricao":"TRANSFORMADOR GE 61G169 SERIE YF",
+    "umb":"PC"
+  },
+  {
+    "codigo":413076,
+    "descricao":"TRANSFORMADOR GE 76G132 SERIE ZF",
+    "umb":"PC"
+  },
+  {
+    "codigo":606722,
+    "descricao":"TRANSFORMADOR ISOLADOR 120KVA - 220\/380V",
+    "umb":"UN"
+  },
+  {
+    "codigo":601182,
+    "descricao":"TRANSFORMADOR ISOLAMENTO;50KVA;25\/19KV",
+    "umb":"PC"
+  },
+  {
+    "codigo":416691,
+    "descricao":"TRANSFORMADOR MONOFÁSICO,100VA,110V.",
+    "umb":"PC"
+  },
+  {
+    "codigo":602744,
+    "descricao":"TRANSFORMADOR MONOFÁSICO;VER 812008",
+    "umb":"PC"
+  },
+  {
+    "codigo":602744,
+    "descricao":"TRANSFORMADOR MONOFÁSICO;VER 812008",
+    "umb":"PC"
+  },
+  {
+    "codigo":314021,
+    "descricao":"TRANSFORMADOR P.;2MVA;34,5-25,6\/13,8-6,3",
+    "umb":"PC"
+  },
+  {
+    "codigo":314021,
+    "descricao":"TRANSFORMADOR P.;2MVA;34,5-25,6\/13,8-6,3",
+    "umb":"PC"
+  },
+  {
+    "codigo":461088,
+    "descricao":"TRANSFORMADOR P\/CONTROLE PTCC NULEC",
+    "umb":"PC"
+  },
+  {
+    "codigo":609353,
+    "descricao":"TRANSFORMADOR P\/LAMP HALOG 220\/12V 7W",
+    "umb":"UN"
+  },
+  {
+    "codigo":603839,
+    "descricao":"TRANSFORMADOR P\/MEDICAO; TP",
+    "umb":"PC"
+  },
+  {
+    "codigo":604421,
+    "descricao":"TRANSFORMADOR P\/SIST EXCITACAO 1430 KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":604421,
+    "descricao":"TRANSFORMADOR P\/SIST EXCITACAO 1430 KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":604421,
+    "descricao":"TRANSFORMADOR P\/SIST EXCITACAO 1430 KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":604424,
+    "descricao":"TRANSFORMADOR P\/SIST EXCITACAO 360 KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":604424,
+    "descricao":"TRANSFORMADOR P\/SIST EXCITACAO 360 KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":604424,
+    "descricao":"TRANSFORMADOR P\/SIST EXCITACAO 360 KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":604425,
+    "descricao":"TRANSFORMADOR P\/SIST EXCITACAO 620 KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":604425,
+    "descricao":"TRANSFORMADOR P\/SIST EXCITACAO 620 KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":604425,
+    "descricao":"TRANSFORMADOR P\/SIST EXCITACAO 620 KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":607760,
+    "descricao":"TRANSFORMADOR POT AUX SECO 13,8KV 750KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":607760,
+    "descricao":"TRANSFORMADOR POT AUX SECO 13,8KV 750KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":609526,
+    "descricao":"TRANSFORMADOR POT SECO 500KVA 13,8KV",
+    "umb":"UN"
+  },
+  {
+    "codigo":416677,
+    "descricao":"TRANSFORMADOR POT SEMIKRON TE 3\/3",
+    "umb":"PC"
+  },
+  {
+    "codigo":411804,
+    "descricao":"TRANSFORMADOR POT TRIF",
+    "umb":"KG"
+  },
+  {
+    "codigo":411805,
+    "descricao":"TRANSFORMADOR POT TRIF",
+    "umb":"PC"
+  },
+  {
+    "codigo":607900,
+    "descricao":"TRANSFORMADOR POT TRIF 112,5KVA 36,2KV",
+    "umb":"UN"
+  },
+  {
+    "codigo":607900,
+    "descricao":"TRANSFORMADOR POT TRIF 112,5KVA 36,2KV",
+    "umb":"UN"
+  },
+  {
+    "codigo":609310,
+    "descricao":"TRANSFORMADOR POT TRIF 20MVA COMUT",
+    "umb":"PC"
+  },
+  {
+    "codigo":609310,
+    "descricao":"TRANSFORMADOR POT TRIF 20MVA COMUT",
+    "umb":"PC"
+  },
+  {
+    "codigo":811213,
+    "descricao":"TRANSFORMADOR POTEN 138\/113,9KV-",
+    "umb":"PC"
+  },
+  {
+    "codigo":600634,
+    "descricao":"TRANSFORMADOR POTEN 13800- 115V",
+    "umb":"PC"
+  },
+  {
+    "codigo":812002,
+    "descricao":"TRANSFORMADOR POTEN 13800- 115V",
+    "umb":"PC"
+  },
+  {
+    "codigo":820038,
+    "descricao":"TRANSFORMADOR POTEN 13800- 115V",
+    "umb":"PC"
+  },
+  {
+    "codigo":820038,
+    "descricao":"TRANSFORMADOR POTEN 13800- 115V",
+    "umb":"PC"
+  },
+  {
+    "codigo":820038,
+    "descricao":"TRANSFORMADOR POTEN 13800- 115V",
+    "umb":"PC"
+  },
+  {
+    "codigo":466052,
+    "descricao":"TRANSFORMADOR POTEN 13800- 230V",
+    "umb":"PC"
+  },
+  {
+    "codigo":820060,
+    "descricao":"TRANSFORMADOR POTEN 13800\/6900- 115V",
+    "umb":"PC"
+  },
+  {
+    "codigo":820060,
+    "descricao":"TRANSFORMADOR POTEN 13800\/6900- 115V",
+    "umb":"PC"
+  },
+  {
+    "codigo":820060,
+    "descricao":"TRANSFORMADOR POTEN 13800\/6900- 115V",
+    "umb":"PC"
+  },
+  {
+    "codigo":811538,
+    "descricao":"TRANSFORMADOR POTEN 13800\/V3-115\/115\/V3",
+    "umb":"PC"
+  },
+  {
+    "codigo":811538,
+    "descricao":"TRANSFORMADOR POTEN 13800\/V3-115\/115\/V3",
+    "umb":"PC"
+  },
+  {
+    "codigo":813196,
+    "descricao":"TRANSFORMADOR POTEN 13800\/V3-115\/115\/V3",
+    "umb":"PC"
+  },
+  {
+    "codigo":813196,
+    "descricao":"TRANSFORMADOR POTEN 13800\/V3-115\/115\/V3",
+    "umb":"PC"
+  },
+  {
+    "codigo":811011,
+    "descricao":"TRANSFORMADOR POTEN 138000- 120V",
+    "umb":"PC"
+  },
+  {
+    "codigo":811011,
+    "descricao":"TRANSFORMADOR POTEN 138000- 120V",
+    "umb":"PC"
+  },
+  {
+    "codigo":811267,
+    "descricao":"TRANSFORMADOR POTEN 138KV\/RAIZ3-115-115V",
+    "umb":"PC"
+  },
+  {
+    "codigo":811204,
+    "descricao":"TRANSFORMADOR POTEN 138KV\/V3- 115V",
+    "umb":"PC"
+  },
+  {
+    "codigo":811204,
+    "descricao":"TRANSFORMADOR POTEN 138KV\/V3- 115V",
+    "umb":"PC"
+  },
+  {
+    "codigo":413243,
+    "descricao":"TRANSFORMADOR POTEN 14400-",
+    "umb":"PC"
+  },
+  {
+    "codigo":811216,
+    "descricao":"TRANSFORMADOR POTEN 14400- 115V",
+    "umb":"PC"
+  },
+  {
+    "codigo":411084,
+    "descricao":"TRANSFORMADOR POTEN 14400- 120V",
+    "umb":"PC"
+  },
+  {
+    "codigo":811079,
+    "descricao":"TRANSFORMADOR POTEN 14400- 120V",
+    "umb":"PC"
+  },
+  {
+    "codigo":811105,
+    "descricao":"TRANSFORMADOR POTEN 14400- 120V",
+    "umb":"PC"
+  },
+  {
+    "codigo":811106,
+    "descricao":"TRANSFORMADOR POTEN 14400- 120V",
+    "umb":"PC"
+  },
+  {
+    "codigo":811128,
+    "descricao":"TRANSFORMADOR POTEN 14400- 120V",
+    "umb":"PC"
+  },
+  {
+    "codigo":811129,
+    "descricao":"TRANSFORMADOR POTEN 14400- 120V",
+    "umb":"PC"
+  },
+  {
+    "codigo":811211,
+    "descricao":"TRANSFORMADOR POTEN 14400- 120V",
+    "umb":"PC"
+  },
+  {
+    "codigo":811212,
+    "descricao":"TRANSFORMADOR POTEN 14400- 120V",
+    "umb":"PC"
+  },
+  {
+    "codigo":811212,
+    "descricao":"TRANSFORMADOR POTEN 14400- 120V",
+    "umb":"PC"
+  },
+  {
+    "codigo":811226,
+    "descricao":"TRANSFORMADOR POTEN 14400- 120V",
+    "umb":"PC"
+  },
+  {
+    "codigo":811221,
+    "descricao":"TRANSFORMADOR POTEN 14400\/7200- 115V",
+    "umb":"PC"
+  },
+  {
+    "codigo":811224,
+    "descricao":"TRANSFORMADOR POTEN 14400\/7200- 120-120",
+    "umb":"PC"
+  },
+  {
+    "codigo":811224,
+    "descricao":"TRANSFORMADOR POTEN 14400\/7200- 120-120",
+    "umb":"PC"
+  },
+  {
+    "codigo":811071,
+    "descricao":"TRANSFORMADOR POTEN 14400\/V3- 120V\/V3",
+    "umb":"PC"
+  },
+  {
+    "codigo":811074,
+    "descricao":"TRANSFORMADOR POTEN 14400\/V3- 120V\/V3",
+    "umb":"PC"
+  },
+  {
+    "codigo":811078,
+    "descricao":"TRANSFORMADOR POTEN 14400\/V3- 120V\/V3",
+    "umb":"PC"
+  },
+  {
+    "codigo":811225,
+    "descricao":"TRANSFORMADOR POTEN 14400\/V3- 120V\/V3",
+    "umb":"PC"
+  },
+  {
+    "codigo":811096,
+    "descricao":"TRANSFORMADOR POTEN 14400\/V3- 120V-70V\/",
+    "umb":"PC"
+  },
+  {
+    "codigo":811091,
+    "descricao":"TRANSFORMADOR POTEN 20125\/14375- 6708V",
+    "umb":"PC"
+  },
+  {
+    "codigo":600892,
+    "descricao":"TRANSFORMADOR POTEN 25\/34,5KV- 125\/115V",
+    "umb":"PC"
+  },
+  {
+    "codigo":600892,
+    "descricao":"TRANSFORMADOR POTEN 25\/34,5KV- 125\/115V",
+    "umb":"PC"
+  },
+  {
+    "codigo":600892,
+    "descricao":"TRANSFORMADOR POTEN 25\/34,5KV- 125\/115V",
+    "umb":"PC"
+  },
+  {
+    "codigo":820052,
+    "descricao":"TRANSFORMADOR POTEN 25\/34,5KV- 125\/115V",
+    "umb":"PC"
+  },
+  {
+    "codigo":820052,
+    "descricao":"TRANSFORMADOR POTEN 25\/34,5KV- 125\/115V",
+    "umb":"PC"
+  },
+  {
+    "codigo":820052,
+    "descricao":"TRANSFORMADOR POTEN 25\/34,5KV- 125\/115V",
+    "umb":"PC"
+  },
+  {
+    "codigo":820052,
+    "descricao":"TRANSFORMADOR POTEN 25\/34,5KV- 125\/115V",
+    "umb":"PC"
+  },
+  {
+    "codigo":820087,
+    "descricao":"TRANSFORMADOR POTEN 25\/34,5KV- 125\/115V",
+    "umb":"PC"
+  },
+  {
+    "codigo":820087,
+    "descricao":"TRANSFORMADOR POTEN 25\/34,5KV- 125\/115V",
+    "umb":"PC"
+  },
+  {
+    "codigo":820087,
+    "descricao":"TRANSFORMADOR POTEN 25\/34,5KV- 125\/115V",
+    "umb":"PC"
+  },
+  {
+    "codigo":820087,
+    "descricao":"TRANSFORMADOR POTEN 25\/34,5KV- 125\/115V",
+    "umb":"PC"
+  },
+  {
+    "codigo":811094,
+    "descricao":"TRANSFORMADOR POTEN 25000\/V3- 100V-100V",
+    "umb":"PC"
+  },
+  {
+    "codigo":811094,
+    "descricao":"TRANSFORMADOR POTEN 25000\/V3- 100V-100V",
+    "umb":"PC"
+  },
+  {
+    "codigo":811073,
+    "descricao":"TRANSFORMADOR POTEN 25KV\/V3- 100V-100V\/",
+    "umb":"PC"
+  },
+  {
+    "codigo":412029,
+    "descricao":"TRANSFORMADOR POTEN 6900- 115V",
+    "umb":"PC"
+  },
+  {
+    "codigo":811361,
+    "descricao":"TRANSFORMADOR POTEN 6900\/V3- 115V",
+    "umb":"PC"
+  },
+  {
+    "codigo":411870,
+    "descricao":"TRANSFORMADOR POTEN 6900\/V3- 115V-5V\/V3",
+    "umb":"PC"
+  },
+  {
+    "codigo":811220,
+    "descricao":"TRANSFORMADOR POTEN 69000\/V3- 115V",
+    "umb":"PC"
+  },
+  {
+    "codigo":811222,
+    "descricao":"TRANSFORMADOR POTEN 7200- 120V",
+    "umb":"PC"
+  },
+  {
+    "codigo":811072,
+    "descricao":"TRANSFORMADOR POTEN 7200\/14400- 120V-12",
+    "umb":"PC"
+  },
+  {
+    "codigo":607805,
+    "descricao":"TRANSFORMADOR POTENCIA 145-36\/26KV 50MVA",
+    "umb":"UN"
+  },
+  {
+    "codigo":607805,
+    "descricao":"TRANSFORMADOR POTENCIA 145-36\/26KV 50MVA",
+    "umb":"UN"
+  },
+  {
+    "codigo":607805,
+    "descricao":"TRANSFORMADOR POTENCIA 145-36\/26KV 50MVA",
+    "umb":"UN"
+  },
+  {
+    "codigo":606807,
+    "descricao":"TRANSFORMADOR POTENCIA 145KV 40MVA OFAN",
+    "umb":"UN"
+  },
+  {
+    "codigo":606807,
+    "descricao":"TRANSFORMADOR POTENCIA 145KV 40MVA OFAN",
+    "umb":"UN"
+  },
+  {
+    "codigo":606807,
+    "descricao":"TRANSFORMADOR POTENCIA 145KV 40MVA OFAN",
+    "umb":"UN"
+  },
+  {
+    "codigo":606812,
+    "descricao":"TRANSFORMADOR POTENCIA 145KV 40MVA ONAN",
+    "umb":"UN"
+  },
+  {
+    "codigo":606812,
+    "descricao":"TRANSFORMADOR POTENCIA 145KV 40MVA ONAN",
+    "umb":"UN"
+  },
+  {
+    "codigo":606812,
+    "descricao":"TRANSFORMADOR POTENCIA 145KV 40MVA ONAN",
+    "umb":"UN"
+  },
+  {
+    "codigo":606993,
+    "descricao":"TRANSFORMADOR POTENCIA 17,5 MVA 145 KV",
+    "umb":"PC"
+  },
+  {
+    "codigo":607956,
+    "descricao":"TRANSFORMADOR POTENCIA 1F 138-36\/26 KV",
+    "umb":"PC"
+  },
+  {
+    "codigo":607956,
+    "descricao":"TRANSFORMADOR POTENCIA 1F 138-36\/26 KV",
+    "umb":"PC"
+  },
+  {
+    "codigo":606832,
+    "descricao":"TRANSFORMADOR POTENCIA 2,5MVA 13,8KV",
+    "umb":"PC"
+  },
+  {
+    "codigo":606995,
+    "descricao":"TRANSFORMADOR POTENCIA 21,0 MVA 145 KV",
+    "umb":"PC"
+  },
+  {
+    "codigo":606994,
+    "descricao":"TRANSFORMADOR POTENCIA 23,9 MVA 145 KV",
+    "umb":"PC"
+  },
+  {
+    "codigo":604891,
+    "descricao":"TRANSFORMADOR POTENCIA 37,5\/50-27\/36 MVA",
+    "umb":"UN"
+  },
+  {
+    "codigo":604891,
+    "descricao":"TRANSFORMADOR POTENCIA 37,5\/50-27\/36 MVA",
+    "umb":"UN"
+  },
+  {
+    "codigo":607008,
+    "descricao":"TRANSFORMADOR POTENCIA 40MVA ONAN",
+    "umb":"UN"
+  },
+  {
+    "codigo":607008,
+    "descricao":"TRANSFORMADOR POTENCIA 40MVA ONAN",
+    "umb":"UN"
+  },
+  {
+    "codigo":607008,
+    "descricao":"TRANSFORMADOR POTENCIA 40MVA ONAN",
+    "umb":"UN"
+  },
+  {
+    "codigo":602969,
+    "descricao":"TRANSFORMADOR POTÊNCIA MONOFÁSICO",
+    "umb":"PC"
+  },
+  {
+    "codigo":602969,
+    "descricao":"TRANSFORMADOR POTÊNCIA MONOFÁSICO",
+    "umb":"PC"
+  },
+  {
+    "codigo":671191,
+    "descricao":"TRANSFORMADOR POTENCIA SECO 1750KVA 15KV",
+    "umb":"UN"
+  },
+  {
+    "codigo":671191,
+    "descricao":"TRANSFORMADOR POTENCIA SECO 1750KVA 15KV",
+    "umb":"UN"
+  },
+  {
+    "codigo":671091,
+    "descricao":"TRANSFORMADOR POTENCIA SECO 3MVA 34,5KV",
+    "umb":"UN"
+  },
+  {
+    "codigo":671091,
+    "descricao":"TRANSFORMADOR POTENCIA SECO 3MVA 34,5KV",
+    "umb":"UN"
+  },
+  {
+    "codigo":671092,
+    "descricao":"TRANSFORMADOR POTENCIA SECO 5MVA 34,5KV",
+    "umb":"UN"
+  },
+  {
+    "codigo":671092,
+    "descricao":"TRANSFORMADOR POTENCIA SECO 5MVA 34,5KV",
+    "umb":"UN"
+  },
+  {
+    "codigo":671098,
+    "descricao":"TRANSFORMADOR POTENCIA SECO 5MVA 36,2KV",
+    "umb":"UN"
+  },
+  {
+    "codigo":671098,
+    "descricao":"TRANSFORMADOR POTENCIA SECO 5MVA 36,2KV",
+    "umb":"UN"
+  },
+  {
+    "codigo":671099,
+    "descricao":"TRANSFORMADOR POTENCIA SECO 5MVA 36,2KV",
+    "umb":"UN"
+  },
+  {
+    "codigo":671099,
+    "descricao":"TRANSFORMADOR POTENCIA SECO 5MVA 36,2KV",
+    "umb":"UN"
+  },
+  {
+    "codigo":603944,
+    "descricao":"TRANSFORMADOR POTENCIA TRI 138KV 12,5MVA",
+    "umb":"UN"
+  },
+  {
+    "codigo":603803,
+    "descricao":"TRANSFORMADOR POTENCIA TRIF - 300kVA",
+    "umb":"UN"
+  },
+  {
+    "codigo":603902,
+    "descricao":"TRANSFORMADOR POTENCIA TRIF - 300kVA",
+    "umb":"UN"
+  },
+  {
+    "codigo":314015,
+    "descricao":"TRANSFORMADOR POTENCIA TRIF 1,0MVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":314015,
+    "descricao":"TRANSFORMADOR POTENCIA TRIF 1,0MVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":314015,
+    "descricao":"TRANSFORMADOR POTENCIA TRIF 1,0MVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":314018,
+    "descricao":"TRANSFORMADOR POTENCIA TRIF 1,0MVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":314018,
+    "descricao":"TRANSFORMADOR POTENCIA TRIF 1,0MVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":670424,
+    "descricao":"TRANSFORMADOR POTENCIA TRIF 112,5 KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":811496,
+    "descricao":"TRANSFORMADOR POTENCIA TRIF 145KV 15\/20",
+    "umb":"PC"
+  },
+  {
+    "codigo":604763,
+    "descricao":"TRANSFORMADOR POTENCIA TRIF 145KV 40MVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":607701,
+    "descricao":"TRANSFORMADOR POTENCIA TRIF 145KV 80MVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":670423,
+    "descricao":"TRANSFORMADOR POTENCIA TRIF 150,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":314019,
+    "descricao":"TRANSFORMADOR POTENCIA TRIF 2,0MVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":314019,
+    "descricao":"TRANSFORMADOR POTENCIA TRIF 2,0MVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":314019,
+    "descricao":"TRANSFORMADOR POTENCIA TRIF 2,0MVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":314019,
+    "descricao":"TRANSFORMADOR POTENCIA TRIF 2,0MVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":670422,
+    "descricao":"TRANSFORMADOR POTENCIA TRIF 750,0KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":603919,
+    "descricao":"TRANSFORMADOR POTENCIA TRIF;TURN KEY",
+    "umb":"PC"
+  },
+  {
+    "codigo":602923,
+    "descricao":"TRANSFORMADOR POTENCIA TRIF;VER 603919",
+    "umb":"PC"
+  },
+  {
+    "codigo":602967,
+    "descricao":"TRANSFORMADOR POTENCIA TRIFÁSICO",
+    "umb":"PC"
+  },
+  {
+    "codigo":602967,
+    "descricao":"TRANSFORMADOR POTENCIA TRIFÁSICO",
+    "umb":"PC"
+  },
+  {
+    "codigo":602967,
+    "descricao":"TRANSFORMADOR POTENCIA TRIFÁSICO",
+    "umb":"PC"
+  },
+  {
+    "codigo":602968,
+    "descricao":"TRANSFORMADOR POTENCIA TRIFÁSICO",
+    "umb":"PC"
+  },
+  {
+    "codigo":602968,
+    "descricao":"TRANSFORMADOR POTENCIA TRIFÁSICO",
+    "umb":"PC"
+  },
+  {
+    "codigo":606111,
+    "descricao":"TRANSFORMADOR POTÊNCIA; 20 MVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":606110,
+    "descricao":"TRANSFORMADOR POTÊNCIA; 8,33 MVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":811416,
+    "descricao":"TRANSFORMADOR POTÊNCIA;18\/25;VER 601813",
+    "umb":"PC"
+  },
+  {
+    "codigo":811416,
+    "descricao":"TRANSFORMADOR POTÊNCIA;18\/25;VER 601813",
+    "umb":"PC"
+  },
+  {
+    "codigo":811416,
+    "descricao":"TRANSFORMADOR POTÊNCIA;18\/25;VER 601813",
+    "umb":"PC"
+  },
+  {
+    "codigo":601813,
+    "descricao":"TRANSFORMADOR POTÊNCIA;18\/25MVA;138\/26-",
+    "umb":"PC"
+  },
+  {
+    "codigo":601813,
+    "descricao":"TRANSFORMADOR POTÊNCIA;18\/25MVA;138\/26-",
+    "umb":"PC"
+  },
+  {
+    "codigo":601813,
+    "descricao":"TRANSFORMADOR POTÊNCIA;18\/25MVA;138\/26-",
+    "umb":"PC"
+  },
+  {
+    "codigo":605068,
+    "descricao":"TRANSFORMADOR POTÊNCIA;18\/25MVA;138\/26-.",
+    "umb":"PC"
+  },
+  {
+    "codigo":605068,
+    "descricao":"TRANSFORMADOR POTÊNCIA;18\/25MVA;138\/26-.",
+    "umb":"PC"
+  },
+  {
+    "codigo":605068,
+    "descricao":"TRANSFORMADOR POTÊNCIA;18\/25MVA;138\/26-.",
+    "umb":"PC"
+  },
+  {
+    "codigo":313007,
+    "descricao":"TRANSFORMADOR POTÊNCIA;36,2KV;3MVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":313007,
+    "descricao":"TRANSFORMADOR POTÊNCIA;36,2KV;3MVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":313007,
+    "descricao":"TRANSFORMADOR POTÊNCIA;36,2KV;3MVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":601018,
+    "descricao":"TRANSFORMADOR POTÊNCIA;VER 313038",
+    "umb":"PC"
+  },
+  {
+    "codigo":601018,
+    "descricao":"TRANSFORMADOR POTÊNCIA;VER 313038",
+    "umb":"PC"
+  },
+  {
+    "codigo":601018,
+    "descricao":"TRANSFORMADOR POTÊNCIA;VER 313038",
+    "umb":"PC"
+  },
+  {
+    "codigo":601024,
+    "descricao":"TRANSFORMADOR POTÊNCIA;VER 313038",
+    "umb":"PC"
+  },
+  {
+    "codigo":601024,
+    "descricao":"TRANSFORMADOR POTÊNCIA;VER 313038",
+    "umb":"PC"
+  },
+  {
+    "codigo":601025,
+    "descricao":"TRANSFORMADOR POTÊNCIA;VER 313041",
+    "umb":"PC"
+  },
+  {
+    "codigo":601025,
+    "descricao":"TRANSFORMADOR POTÊNCIA;VER 313041",
+    "umb":"PC"
+  },
+  {
+    "codigo":602548,
+    "descricao":"TRANSFORMADOR POTENCIAL - TURN KEY",
+    "umb":"PC"
+  },
+  {
+    "codigo":602548,
+    "descricao":"TRANSFORMADOR POTENCIAL - TURN KEY",
+    "umb":"PC"
+  },
+  {
+    "codigo":603684,
+    "descricao":"TRANSFORMADOR POTENCIAL 1200\/2400-120V",
+    "umb":"PC"
+  },
+  {
+    "codigo":811427,
+    "descricao":"TRANSFORMADOR POTENCIAL 13800\/V3-",
+    "umb":"PC"
+  },
+  {
+    "codigo":603074,
+    "descricao":"TRANSFORMADOR POTENCIAL 13800\/V3- 115V\/V",
+    "umb":"PC"
+  },
+  {
+    "codigo":811374,
+    "descricao":"TRANSFORMADOR POTENCIAL 13800\/V3- 115V\/V",
+    "umb":"PC"
+  },
+  {
+    "codigo":811003,
+    "descricao":"TRANSFORMADOR POTENCIAL 138KV\/V3- 115V\/",
+    "umb":"PC"
+  },
+  {
+    "codigo":811003,
+    "descricao":"TRANSFORMADOR POTENCIAL 138KV\/V3- 115V\/",
+    "umb":"PC"
+  },
+  {
+    "codigo":811439,
+    "descricao":"TRANSFORMADOR POTENCIAL 138KV\/V3 5000VA",
+    "umb":"PC"
+  },
+  {
+    "codigo":811424,
+    "descricao":"TRANSFORMADOR POTENCIAL 14400\/V3- 120V-*",
+    "umb":"PC"
+  },
+  {
+    "codigo":811450,
+    "descricao":"TRANSFORMADOR POTENCIAL 145 KV MED\/PROT",
+    "umb":"PC"
+  },
+  {
+    "codigo":609116,
+    "descricao":"TRANSFORMADOR POTENCIAL 145KV 1000VA",
+    "umb":"PC"
+  },
+  {
+    "codigo":609116,
+    "descricao":"TRANSFORMADOR POTENCIAL 145KV 1000VA",
+    "umb":"PC"
+  },
+  {
+    "codigo":609407,
+    "descricao":"TRANSFORMADOR POTENCIAL 145KV 2000VA",
+    "umb":"UN"
+  },
+  {
+    "codigo":609407,
+    "descricao":"TRANSFORMADOR POTENCIAL 145KV 2000VA",
+    "umb":"UN"
+  },
+  {
+    "codigo":820075,
+    "descricao":"TRANSFORMADOR POTENCIAL 145KV MED. FATUR",
+    "umb":"PC"
+  },
+  {
+    "codigo":820075,
+    "descricao":"TRANSFORMADOR POTENCIAL 145KV MED. FATUR",
+    "umb":"PC"
+  },
+  {
+    "codigo":820075,
+    "descricao":"TRANSFORMADOR POTENCIAL 145KV MED. FATUR",
+    "umb":"PC"
+  },
+  {
+    "codigo":314355,
+    "descricao":"TRANSFORMADOR POTENCIAL 15KV 300VA 110:1",
+    "umb":"PC"
+  },
+  {
+    "codigo":314355,
+    "descricao":"TRANSFORMADOR POTENCIAL 15KV 300VA 110:1",
+    "umb":"PC"
+  },
+  {
+    "codigo":314355,
+    "descricao":"TRANSFORMADOR POTENCIAL 15KV 300VA 110:1",
+    "umb":"PC"
+  },
+  {
+    "codigo":608084,
+    "descricao":"TRANSFORMADOR POTENCIAL 15KV 350VA P100",
+    "umb":"PC"
+  },
+  {
+    "codigo":608084,
+    "descricao":"TRANSFORMADOR POTENCIAL 15KV 350VA P100",
+    "umb":"PC"
+  },
+  {
+    "codigo":608085,
+    "descricao":"TRANSFORMADOR POTENCIAL 15KV 350VA P75",
+    "umb":"PC"
+  },
+  {
+    "codigo":608085,
+    "descricao":"TRANSFORMADOR POTENCIAL 15KV 350VA P75",
+    "umb":"PC"
+  },
+  {
+    "codigo":820068,
+    "descricao":"TRANSFORMADOR POTENCIAL 15KV MED. FATURA",
+    "umb":"PC"
+  },
+  {
+    "codigo":820068,
+    "descricao":"TRANSFORMADOR POTENCIAL 15KV MED. FATURA",
+    "umb":"PC"
+  },
+  {
+    "codigo":820068,
+    "descricao":"TRANSFORMADOR POTENCIAL 15KV MED. FATURA",
+    "umb":"PC"
+  },
+  {
+    "codigo":811451,
+    "descricao":"TRANSFORMADOR POTENCIAL 17,5 KV MED\/PROT",
+    "umb":"PC"
+  },
+  {
+    "codigo":603682,
+    "descricao":"TRANSFORMADOR POTENCIAL 23000\/34500V-115",
+    "umb":"PC"
+  },
+  {
+    "codigo":608175,
+    "descricao":"TRANSFORMADOR POTENCIAL 242KV 529VA",
+    "umb":"PC"
+  },
+  {
+    "codigo":609126,
+    "descricao":"TRANSFORMADOR POTENCIAL 245KV 1000VA",
+    "umb":"PC"
+  },
+  {
+    "codigo":609126,
+    "descricao":"TRANSFORMADOR POTENCIAL 245KV 1000VA",
+    "umb":"PC"
+  },
+  {
+    "codigo":811422,
+    "descricao":"TRANSFORMADOR POTENCIAL 34500- 125\/115V",
+    "umb":"PC"
+  },
+  {
+    "codigo":811429,
+    "descricao":"TRANSFORMADOR POTENCIAL 34500\/V3-",
+    "umb":"PC"
+  },
+  {
+    "codigo":820073,
+    "descricao":"TRANSFORMADOR POTENCIAL 36,2 KV; 1000 VA",
+    "umb":"PC"
+  },
+  {
+    "codigo":820073,
+    "descricao":"TRANSFORMADOR POTENCIAL 36,2 KV; 1000 VA",
+    "umb":"PC"
+  },
+  {
+    "codigo":820073,
+    "descricao":"TRANSFORMADOR POTENCIAL 36,2 KV; 1000 VA",
+    "umb":"PC"
+  },
+  {
+    "codigo":670432,
+    "descricao":"TRANSFORMADOR POTENCIAL 36,2KV 500VA",
+    "umb":"PC"
+  },
+  {
+    "codigo":670432,
+    "descricao":"TRANSFORMADOR POTENCIAL 36,2KV 500VA",
+    "umb":"PC"
+  },
+  {
+    "codigo":606413,
+    "descricao":"TRANSFORMADOR POTENCIAL 36,2KV TURN KEY",
+    "umb":"PC"
+  },
+  {
+    "codigo":811525,
+    "descricao":"TRANSFORMADOR POTENCIAL 36,2KV;1000VA",
+    "umb":"PC"
+  },
+  {
+    "codigo":811525,
+    "descricao":"TRANSFORMADOR POTENCIAL 36,2KV;1000VA",
+    "umb":"PC"
+  },
+  {
+    "codigo":820074,
+    "descricao":"TRANSFORMADOR POTENCIAL 36,KV 1000VA INT",
+    "umb":"PC"
+  },
+  {
+    "codigo":820074,
+    "descricao":"TRANSFORMADOR POTENCIAL 36,KV 1000VA INT",
+    "umb":"PC"
+  },
+  {
+    "codigo":820074,
+    "descricao":"TRANSFORMADOR POTENCIAL 36,KV 1000VA INT",
+    "umb":"PC"
+  },
+  {
+    "codigo":811325,
+    "descricao":"TRANSFORMADOR POTENCIAL 36KV 600VA",
+    "umb":"PC"
+  },
+  {
+    "codigo":601005,
+    "descricao":"TRANSFORMADOR POTENCIAL 6900\/13800- 115",
+    "umb":"PC"
+  },
+  {
+    "codigo":603037,
+    "descricao":"TRANSFORMADOR POTENCIAL 6900\/V3-134 V",
+    "umb":"UN"
+  },
+  {
+    "codigo":606959,
+    "descricao":"TRANSFORMADOR POTENCIAL EPOXI 25KV 540VA",
+    "umb":"UN"
+  },
+  {
+    "codigo":606959,
+    "descricao":"TRANSFORMADOR POTENCIAL EPOXI 25KV 540VA",
+    "umb":"UN"
+  },
+  {
+    "codigo":607309,
+    "descricao":"TRANSFORMADOR POTENCIAL EPOXI 36KV 270VA",
+    "umb":"PC"
+  },
+  {
+    "codigo":607309,
+    "descricao":"TRANSFORMADOR POTENCIAL EPOXI 36KV 270VA",
+    "umb":"PC"
+  },
+  {
+    "codigo":811512,
+    "descricao":"TRANSFORMADOR POTENCIAL III 36,2KV 400VA",
+    "umb":"PC"
+  },
+  {
+    "codigo":812001,
+    "descricao":"TRANSFORMADOR POTENCIAL IND.;15KV;EPOXI",
+    "umb":"PC"
+  },
+  {
+    "codigo":811223,
+    "descricao":"TRANSFORMADOR POTENCIAL IND.;15kV;ÓLEO",
+    "umb":"PC"
+  },
+  {
+    "codigo":811223,
+    "descricao":"TRANSFORMADOR POTENCIAL IND.;15kV;ÓLEO",
+    "umb":"PC"
+  },
+  {
+    "codigo":313015,
+    "descricao":"TRANSFORMADOR POTENCIAL IND;15KV",
+    "umb":"PC"
+  },
+  {
+    "codigo":811265,
+    "descricao":"TRANSFORMADOR POTENCIAL INDUTIVO;145 KV",
+    "umb":"PC"
+  },
+  {
+    "codigo":600717,
+    "descricao":"TRANSFORMADOR POTENCIAL INDUTIVO;36,2kV",
+    "umb":"PC"
+  },
+  {
+    "codigo":811428,
+    "descricao":"TRANSFORMADOR POTENCIAL; 36,2KV",
+    "umb":"PC"
+  },
+  {
+    "codigo":811430,
+    "descricao":"TRANSFORMADOR POTENCIAL; 38KV",
+    "umb":"PC"
+  },
+  {
+    "codigo":811153,
+    "descricao":"TRANSFORMADOR POTENCIAL;138KV;P\/BL.TOSH.",
+    "umb":"PC"
+  },
+  {
+    "codigo":602312,
+    "descricao":"TRANSFORMADOR POTENCIAL;145KV",
+    "umb":"PC"
+  },
+  {
+    "codigo":602312,
+    "descricao":"TRANSFORMADOR POTENCIAL;145KV",
+    "umb":"PC"
+  },
+  {
+    "codigo":604024,
+    "descricao":"TRANSFORMADOR POTENCIAL;145KV;700\/1200:1",
+    "umb":"PC"
+  },
+  {
+    "codigo":600718,
+    "descricao":"TRANSFORMADOR POTENCIAL;145KV;VER 81126",
+    "umb":"PC"
+  },
+  {
+    "codigo":811347,
+    "descricao":"TRANSFORMADOR POTENCIAL;15 KV;0,3P75",
+    "umb":"PC"
+  },
+  {
+    "codigo":811346,
+    "descricao":"TRANSFORMADOR POTENCIAL;25 KV;0,3P200",
+    "umb":"PC"
+  },
+  {
+    "codigo":820022,
+    "descricao":"TRANSFORMADOR POTENCIAL;25kV;200:1;FATUR",
+    "umb":"PC"
+  },
+  {
+    "codigo":820023,
+    "descricao":"TRANSFORMADOR POTENCIAL;25kV;250:1;FATUR",
+    "umb":"PC"
+  },
+  {
+    "codigo":601895,
+    "descricao":"TRANSFORMADOR POTENCIAL;36,2KV",
+    "umb":"PC"
+  },
+  {
+    "codigo":416904,
+    "descricao":"TRANSFORMADOR POTENCIAL;3ABJ451572;SOLET",
+    "umb":"PC"
+  },
+  {
+    "codigo":416903,
+    "descricao":"TRANSFORMADOR POTENCIAL;3ABJ451631;SOLET",
+    "umb":"PC"
+  },
+  {
+    "codigo":416900,
+    "descricao":"TRANSFORMADOR POTENCIAL;3ABJ451632;SOLET",
+    "umb":"PC"
+  },
+  {
+    "codigo":416918,
+    "descricao":"TRANSFORMADOR POTENCIAL;3ABJ451688,SOLET",
+    "umb":"PC"
+  },
+  {
+    "codigo":811345,
+    "descricao":"TRANSFORMADOR POTENCIAL;7,2 KV;0,3P75",
+    "umb":"PC"
+  },
+  {
+    "codigo":416912,
+    "descricao":"TRANSFORMADOR POTENCIAL;BDE FX06,ISOLET",
+    "umb":"PC"
+  },
+  {
+    "codigo":600373,
+    "descricao":"TRANSFORMADOR POTENCIAL;CHAVE TRANS.AUT.",
+    "umb":"PC"
+  },
+  {
+    "codigo":602061,
+    "descricao":"TRANSFORMADOR POTENCIAL;FIOCRUZ;TURN KEY",
+    "umb":"PC"
+  },
+  {
+    "codigo":602071,
+    "descricao":"TRANSFORMADOR POTENCIAL;FIOCRUZ;TURN KEY",
+    "umb":"PC"
+  },
+  {
+    "codigo":602812,
+    "descricao":"TRANSFORMADOR POTENCIAL;FIOCRUZ;TURN KEY",
+    "umb":"PC"
+  },
+  {
+    "codigo":811348,
+    "descricao":"TRANSFORMADOR POTENCIAL;SF6;138KV;P\/BLIN",
+    "umb":"PC"
+  },
+  {
+    "codigo":607789,
+    "descricao":"TRANSFORMADOR SERV AUX 112,5 KVA",
+    "umb":"UN"
+  },
+  {
+    "codigo":607789,
+    "descricao":"TRANSFORMADOR SERV AUX 112,5 KVA",
+    "umb":"UN"
+  },
+  {
+    "codigo":606423,
+    "descricao":"TRANSFORMADOR SERV AUX 75\/..KVA TURN KEY",
+    "umb":"PC"
+  },
+  {
+    "codigo":314032,
+    "descricao":"TRANSFORMADOR SERV AUX MONOF 25,6KV 5KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":314032,
+    "descricao":"TRANSFORMADOR SERV AUX MONOF 25,6KV 5KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":314032,
+    "descricao":"TRANSFORMADOR SERV AUX MONOF 25,6KV 5KVA",
+    "umb":"PC"
+  },
+  {
+    "codigo":602801,
+    "descricao":"TRANSFORMADOR SERV.;300KVA;COP;TURN KEY",
+    "umb":"PC"
+  },
+  {
+    "codigo":602059,
+    "descricao":"TRANSFORMADOR SERV.AUX.;FIOCRUZ;TURN KEY",
+    "umb":"PC"
+  },
+  {
+    "codigo":601689,
+    "descricao":"TRANSFORMADOR SERVIÇO LOCAL;75KVA;13800",
+    "umb":"PC"
+  },
+  {
+    "codigo":601689,
+    "descricao":"TRANSFORMADOR SERVIÇO LOCAL;75KVA;13800",
+    "umb":"PC"
+  },
+  {
+    "codigo":605043,
+    "descricao":"TRANSFORMADOR SERVIÇO LOCAL;75KVA;13800V",
+    "umb":"PC"
+  },
+  {
+    "codigo":605043,
+    "descricao":"TRANSFORMADOR SERVIÇO LOCAL;75KVA;13800V",
+    "umb":"PC"
+  },
+  {
+    "codigo":313995,
+    "descricao":"TRANSFORMADOR SUBT.;2000 kVA; VER 601142",
+    "umb":"PC"
+  },
+  {
+    "codigo":313995,
+    "descricao":"TRANSFORMADOR SUBT.;2000 kVA; VER 601142",
+    "umb":"PC"
+  },
+  {
+    "codigo":313995,
+    "descricao":"TRANSFORMADOR SUBT.;2000 kVA; VER 601142",
+    "umb":"PC"
+  },
+  {
+    "codigo":314020,
+    "descricao":"TRANSFORMADOR SUBT.;2000 KVA;13800\/400 V",
+    "umb":"PC"
+  },
+  {
+    "codigo":314020,
+    "descricao":"TRANSFORMADOR SUBT.;2000 KVA;13800\/400 V",
+    "umb":"PC"
+  },
+  {
+    "codigo":314020,
+    "descricao":"TRANSFORMADOR SUBT.;2000 KVA;13800\/400 V",
+    "umb":"PC"
+  },
+  {
+    "codigo":601207,
+    "descricao":"TRANSFORMADOR SUBT.;300 KVA;VER 314003",
+    "umb":"PC"
+  },
+  {
+    "codigo":601207,
+    "descricao":"TRANSFORMADOR SUBT.;300 KVA;VER 314003",
+    "umb":"PC"
+  },
+  {
+    "codigo":601207,
+    "descricao":"TRANSFORMADOR SUBT.;300 KVA;VER 314003",
+    "umb":"PC"
+  },
+  {
+    "codigo":601207,
+    "descricao":"TRANSFORMADOR SUBT.;300 KVA;VER 314003",
+    "umb":"PC"
+  },
+  {
+    "codigo":600955,
+    "descricao":"TRANSFORMADOR SUBT.;300kVA;VER 314002",
+    "umb":"PC"
+  },
+  {
+    "codigo":600955,
+    "descricao":"TRANSFORMADOR SUBT.;300kVA;VER 314002",
+    "umb":"PC"
+  },
+  {
+    "codigo":600955,
+    "descricao":"TRANSFORMADOR SUBT.;300kVA;VER 314002",
+    "umb":"PC"
+  },
+  {
+    "codigo":314031,
+    "descricao":"TRANSFORMADOR SUBT; 2000 KVA; 13800\/400V",
+    "umb":"PC"
+  },
+  {
+    "codigo":314031,
+    "descricao":"TRANSFORMADOR SUBT; 2000 KVA; 13800\/400V",
+    "umb":"PC"
+  },
+  {
+    "codigo":314031,
+    "descricao":"TRANSFORMADOR SUBT; 2000 KVA; 13800\/400V",
+    "umb":"PC"
+  },
+  {
+    "codigo":314031,
+    "descricao":"TRANSFORMADOR SUBT; 2000 KVA; 13800\/400V",
+    "umb":"PC"
+  },
+  {
+    "codigo":812007,
+    "descricao":"TRANSFORMADOR SUBTER.;150KVA;TOSHIBA",
+    "umb":"PC"
+  },
+  {
+    "codigo":812005,
+    "descricao":"TRANSFORMADOR SUBTER.;300KVA;TOSHIBA",
+    "umb":"PC"
+  },
+  {
+    "codigo":812006,
+    "descricao":"TRANSFORMADOR SUBTER.;500KVA;TOSHIBA",
+    "umb":"PC"
+  },
+  {
+    "codigo":411602,
+    "descricao":"TRANSFORMADOR TENS AUX 10000 VA",
+    "umb":"PC"
+  },
+  {
+    "codigo":600331,
+    "descricao":"TRANSFORMADOR TENS AUX 150000 VA",
+    "umb":"PC"
+  },
+  {
+    "codigo":411198,
+    "descricao":"TRANSFORMADOR TENS AUX 1500VA",
+    "umb":"PC"
+  },
+  {
+    "codigo":600064,
+    "descricao":"TRANSFORMADOR TENS AUX 2000 VA",
+    "umb":"PC"
+  },
+  {
+    "codigo":600064,
+    "descricao":"TRANSFORMADOR TENS AUX 2000 VA",
+    "umb":"PC"
+  },
+  {
+    "codigo":600064,
+    "descricao":"TRANSFORMADOR TENS AUX 2000 VA",
+    "umb":"PC"
+  },
+  {
+    "codigo":812008,
+    "descricao":"TRANSFORMADOR TENS AUX 2KVA 13,8KV-120V",
+    "umb":"PC"
+  },
+  {
+    "codigo":812008,
+    "descricao":"TRANSFORMADOR TENS AUX 2KVA 13,8KV-120V",
+    "umb":"PC"
+  },
+  {
+    "codigo":411112,
+    "descricao":"TRANSFORMADOR TENS AUX 3000 VA",
+    "umb":"PC"
+  },
+  {
+    "codigo":411197,
+    "descricao":"TRANSFORMADOR TENS AUX 3600VA",
+    "umb":"PC"
+  },
+  {
+    "codigo":411197,
+    "descricao":"TRANSFORMADOR TENS AUX 3600VA",
+    "umb":"PC"
+  },
+  {
+    "codigo":411199,
+    "descricao":"TRANSFORMADOR TENS AUX 3600VA",
+    "umb":"PC"
+  },
+  {
+    "codigo":603760,
+    "descricao":"TRANSFORMADOR TENS AUX 50KVA 440-220\/120",
+    "umb":"UN"
+  },
+  {
+    "codigo":417010,
+    "descricao":"TRANSFORMADOR TENSÃO AUX.;11139,JOTRANS",
+    "umb":"PC"
+  },
+  {
+    "codigo":417175,
+    "descricao":"TRANSFORMADOR TENSÃO AUX.;2\/3\/4KVA;480V",
+    "umb":"PC"
+  },
+  {
+    "codigo":417176,
+    "descricao":"TRANSFORMADOR TENSÃO AUX.;3\/5\/7KVA;480V",
+    "umb":"PC"
+  },
+  {
+    "codigo":417103,
+    "descricao":"TRANSFORMADOR TENSÃO AUX.;TCS,WALTEC",
+    "umb":"PC"
+  },
+  {
+    "codigo":417095,
+    "descricao":"TRANSFORMADOR TENSÃO AUX.;TRB 2040,NIFE",
+    "umb":"PC"
+  },
+  {
+    "codigo":417011,
+    "descricao":"TRANSFORMADOR TENSÃO AUX;440-220V,HERTON",
+    "umb":"PC"
+  },
+  {
+    "codigo":417077,
+    "descricao":"TRANSFORMADOR TENSÃO AUX;9065.134,WALTEC",
+    "umb":"PC"
+  },
+  {
+    "codigo":601049,
+    "descricao":"TRANSFORMADOR TOROIDAL OFF LIGHT COD TT",
+    "umb":"PC"
+  },
+  {
+    "codigo":601543,
+    "descricao":"TRANSFORMADOR TRIF.;SECO;75KVA;440-....V",
+    "umb":"PC"
+  },
+  {
+    "codigo":601543,
+    "descricao":"TRANSFORMADOR TRIF.;SECO;75KVA;440-....V",
+    "umb":"PC"
+  },
+  {
+    "codigo":601542,
+    "descricao":"TRANSFORMADOR TRIF.;SECO;75KVA;440-380V",
+    "umb":"PC"
+  },
+  {
+    "codigo":601542,
+    "descricao":"TRANSFORMADOR TRIF.;SECO;75KVA;440-380V",
+    "umb":"PC"
+  },
+  {
+    "codigo":610509,
+    "descricao":"TRANSFORMADOR TRIFÁSICO",
+    "umb":"PC"
+  },
+  {
+    "codigo":311752,
+    "descricao":"TRANSFORMADOR WHSE FE-49871-26",
+    "umb":"PC"
+  },
+  {
+    "codigo":602074,
+    "descricao":"TRANSFORMADOR;25,34\/33,70MVA;6,6-13.8\/..",
+    "umb":"PC"
+  },
+  {
+    "codigo":602077,
+    "descricao":"TRANSFORMADOR;MONOFÁSICO;20MVA;6,6\/138KV",
+    "umb":"PC"
+  }
+]
