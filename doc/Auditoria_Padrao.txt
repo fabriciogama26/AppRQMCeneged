@@ -1,0 +1,24 @@
+﻿Padrao de auditoria do banco
+
+Colunas padrao
+- created_by
+- updated_by
+- created_at
+- updated_at
+
+Convencao
+- Nomes em ingles.
+- `created_by` e `updated_by` apontam para `public.app_users.id`.
+- `created_at` e `updated_at` usam `timestamptz`.
+
+Regras
+- Toda tabela de cadastro e toda tabela alimentada pelo app para o SaaS deve seguir esse padrao.
+- Logs e movimentos tambem podem usar o mesmo padrao quando houver alteracao posterior.
+
+Migration
+- `supabase/migrations/015_add_audit_columns.sql`
+
+Observacoes
+- Triggers atualizam `updated_at` automaticamente.
+- Quando ha usuario autenticado no contexto SQL, os triggers tentam preencher `created_by` e `updated_by`.
+- Em fluxos por Edge Function, o backend deve preencher explicitamente `created_by` e `updated_by`.

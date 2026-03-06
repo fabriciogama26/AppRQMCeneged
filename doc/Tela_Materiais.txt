@@ -1,0 +1,30 @@
+Tela: Materiais
+
+Arquivos
+- app/src/main/java/com/example/rqm/ui/materiais/MateriaisFragment.java
+- app/src/main/java/com/example/rqm/ui/materiais/MateriaisViewModel.java
+- app/src/main/res/layout/fragment_materiais.xml
+
+Objetivo
+- Selecionar os materiais da operacao e informar quantidades.
+
+Entradas
+- Tipo da operacao.
+- Projeto.
+- Responsavel.
+- Almoxarife.
+- Data.
+
+Acoes
+- Buscar material por codigo/descricao.
+- Adicionar item.
+- Informar quantidade.
+- Validar LP/serial quando exigido.
+- Avancar para confirmacao.
+
+Dependencias
+- MaterialCacheDao
+- JSON local de fallback
+
+Observacoes
+- Prioriza cache local sincronizado.

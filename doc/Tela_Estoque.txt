@@ -1,0 +1,27 @@
+Tela: Estoque
+
+Arquivos
+- app/src/main/java/com/example/rqm/ui/estoque/EstoqueFragment.java
+- app/src/main/res/layout/fragment_estoque.xml
+- app/src/main/res/layout/item_estoque.xml
+
+Objetivo
+- Consultar estoque atual.
+
+Entradas
+- Projeto opcional
+- Codigo
+- Descricao
+- Quantidade exata
+- Quantidade minima
+- Quantidade maxima
+
+Acoes
+- Consultar saldo fisico quando projeto estiver vazio.
+- Consultar saldo liquido do projeto quando projeto estiver preenchido.
+
+Dependencias
+- SupabaseEdgeClient.getEstoque
+
+Observacoes
+- A tela mostra seta de retorno para a Home.

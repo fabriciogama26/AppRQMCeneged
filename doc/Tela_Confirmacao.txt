@@ -1,0 +1,28 @@
+Tela: Confirmacao
+
+Arquivos
+- app/src/main/java/com/example/rqm/ui/confirmacao/ConfirmacaoFragment.java
+- app/src/main/res/layout/fragment_confirmacao.xml
+
+Objetivo
+- Consolidar a operacao antes da gravacao final.
+
+Entradas
+- Responsavel
+- Projeto
+- Data
+- Almoxarife
+- Lista de materiais
+
+Acoes
+- Salvar localmente em SQLite.
+- Se conectado e fora do modo teste, enviar para o servidor.
+- Exportar localmente.
+
+Dependencias
+- RequisicaoDAO
+- SupabaseUploader
+- ExcelUtils
+
+Observacoes
+- Em modo teste, nunca envia ao servidor.

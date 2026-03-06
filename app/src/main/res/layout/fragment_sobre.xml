@@ -1,34 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="24dp">
+    android:padding="24dp"
+    android:fillViewport="true">
 
-    <TextView
-        android:id="@+id/txtTitulo"
-        android:layout_width="0dp"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Sobre o Aplicativo"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        android:textColor="@color/black"
-        android:gravity="center"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/txtDescricao"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:text="Este aplicativo foi desenvolvido para facilitar requisições de materiais do cliente LIGHT.\n\nVersão: 1.0\nDesenvolvido por: Fabricio G. Gama\nContato: fabgomesgama@gmail.com"
-        android:textSize="16sp"
-        android:gravity="center"
-        app:layout_constraintTop_toBottomOf="@id/txtTitulo"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="24dp"/>
+        <TextView
+            android:id="@+id/txtTitulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sobre_titulo"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@color/indica_navy"
+            android:gravity="center" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <TextView
+            android:id="@+id/txtDescricao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/sobre_descricao"
+            android:textSize="15sp"
+            android:textColor="@color/indica_text" />
+
+        <TextView
+            android:id="@+id/txtEmpresa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/sobre_empresa"
+            android:textSize="14sp"
+            android:textColor="@color/indica_text" />
+
+        <TextView
+            android:id="@+id/txtSite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="@string/sobre_site"
+            android:textSize="14sp"
+            android:textColor="@color/indica_navy"
+            android:autoLink="web" />
+
+    </LinearLayout>
+</ScrollView>

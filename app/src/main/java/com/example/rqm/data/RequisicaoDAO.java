@@ -6,108 +6,116 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 
 import com.example.rqm.models.Requisicao;
+import com.example.rqm.utils.DateUtils;
+import com.example.rqm.utils.OperacaoTipo;
 
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Classe DAO (Data Access Object) para manipular registros de Requisição no banco de dados SQLite.
- */
 public class RequisicaoDAO {
+
+    public static final String SYNC_PENDING = "PENDING";
+    public static final String SYNC_SYNCED = "SYNCED";
+    public static final String SYNC_CONFLICT = "CONFLICT";
+    public static final String SYNC_ERROR = "ERROR";
 
     private final SQLiteDatabase db;
 
-    /**
-     * Construtor que abre o banco em modo leitura e escrita, utilizando o Singleton do DBHelper.
-     */
     public RequisicaoDAO(Context context) {
-        DBHelper helper = DBHelper.getInstance(context);  // Usa o Singleton do DBHelper
+        DBHelper helper = DBHelper.getInstance(context);
         db = helper.getWritableDatabase();
     }
 
-    /**
-     * Insere uma nova requisição no banco.
-     *
-     * @param req Objeto Requisicao a ser salvo.
-     * @return ID da nova requisição inserida.
-     */
     public long salvar(Requisicao req) {
         ContentValues values = new ContentValues();
         values.put("requisitor", req.requisitor);
         values.put("projeto", req.projeto);
         values.put("usuario", req.usuario);
-        values.put("data", req.data); // Ex: 2025-06-13
-        values.put("tipo_operacao", req.tipoOperacao); // Ex: "Requisição" ou "Devolução"
+        values.put("data", req.data);
+        values.put("tipo_operacao", OperacaoTipo.normalize(req.tipoOperacao));
         values.put("observacao", req.observacao);
-        values.put("materiais_json", req.materiaisJson); // Lista serializada em JSON
-
+        values.put("materiais_json", req.materiaisJson);
+        values.put("origem", req.origem);
+        values.put("device_id", req.deviceId);
+        values.put("client_request_id", req.clientRequestId);
+        values.put("sync_status", SYNC_PENDING);
+        values.putNull("last_sync_at");
         return db.insert(DBHelper.TABLE_REQUISICOES, null, values);
     }
 
-    /**
-     * Retorna todas as requisições cadastradas, ordenadas da mais recente para a mais antiga.
-     *
-     * @return Lista com todas as requisições.
-     */
     public List<Requisicao> listarTodas() {
         List<Requisicao> lista = new ArrayList<>();
         Cursor cursor = db.query(DBHelper.TABLE_REQUISICOES, null, null, null, null, null, "id DESC");
-
         while (cursor.moveToNext()) {
             lista.add(converterCursorParaRequisicao(cursor));
         }
-
         cursor.close();
         return lista;
     }
 
-    /**
-     * Filtra as requisições com base em qualquer combinação de:
-     * - data (parcial ou completa),
-     * - prefixo (parte inicial do código do projeto),
-     * - projeto (número),
-     * - tipo de operação ("Requisição", "Devolução", etc).
-     *
-     * Todos os filtros são opcionais e funcionam de forma independente.
-     *
-     * @param data Ex: "2025-06"
-     * @param projeto Ex: "6001"
-     * @param prefixo Ex: "OII-24"
-     * @param tipoOperacao Ex: "Requisição"
-     * @return Lista de requisições que atendem aos critérios.
-     */
+    public List<Requisicao> listarUltimas(int limit) {
+        List<Requisicao> lista = new ArrayList<>();
+        String query = "SELECT * FROM " + DBHelper.TABLE_REQUISICOES +
+                " ORDER BY id DESC LIMIT " + limit;
+        Cursor cursor = db.rawQuery(query, null);
+        while (cursor.moveToNext()) {
+            lista.add(converterCursorParaRequisicao(cursor));
+        }
+        cursor.close();
+        return lista;
+    }
+
+    public List<Requisicao> listarPendentesSync() {
+        List<Requisicao> lista = new ArrayList<>();
+        String query = "SELECT * FROM " + DBHelper.TABLE_REQUISICOES +
+                " WHERE sync_status IS NULL OR sync_status IN (?, ?) ORDER BY id ASC";
+        Cursor cursor = db.rawQuery(query, new String[]{SYNC_PENDING, SYNC_ERROR});
+        while (cursor.moveToNext()) {
+            lista.add(converterCursorParaRequisicao(cursor));
+        }
+        cursor.close();
+        return lista;
+    }
+
+    public void atualizarSyncStatus(long id, String status, String lastSyncAt) {
+        ContentValues values = new ContentValues();
+        values.put("sync_status", status);
+        values.put("last_sync_at", lastSyncAt);
+        db.update(DBHelper.TABLE_REQUISICOES, values, "id = ?", new String[]{String.valueOf(id)});
+    }
+
     public List<Requisicao> filtrarRequisicoes(String data, String projeto, String prefixo, String tipoOperacao) {
         List<Requisicao> lista = new ArrayList<>();
 
-        // Monta a base da query dinâmica
         String query = "SELECT * FROM " + DBHelper.TABLE_REQUISICOES + " WHERE 1=1";
         List<String> args = new ArrayList<>();
 
-        // Filtro por data (formato: yyyy-MM-dd ou parte dele, como "2025-06")
         if (data != null && !data.isEmpty()) {
-            query += " AND data LIKE ?";
+            String isoPrefix = DateUtils.toIsoDatePrefix(data);
+            query += " AND (data LIKE ? OR data LIKE ?)";
             args.add("%" + data + "%");
+            args.add(isoPrefix + "%");
         }
 
-        // Filtro combinando prefixo + projeto, ou apenas um dos dois
         if (projeto != null && !projeto.isEmpty() && prefixo != null && !prefixo.equals("Todos")) {
             query += " AND projeto LIKE ?";
-            args.add("%" + prefixo + projeto + "%");
+            args.add(prefixo + "-" + projeto + "%");
         } else if (projeto != null && !projeto.isEmpty()) {
             query += " AND projeto LIKE ?";
             args.add("%" + projeto + "%");
         } else if (prefixo != null && !prefixo.equals("Todos")) {
             query += " AND projeto LIKE ?";
-            args.add("%" + prefixo + "%");
+            args.add(prefixo + "-%");
         }
 
-        // Filtro por tipo de operação, ignorando o valor "Todos"
         if (tipoOperacao != null && !tipoOperacao.equals("Todos")) {
-            query += " AND tipo_operacao = ?";
-            args.add(tipoOperacao);
+            String code = OperacaoTipo.normalize(tipoOperacao);
+            String label = OperacaoTipo.toLabel(code);
+            query += " AND (tipo_operacao = ? OR tipo_operacao = ?)";
+            args.add(code);
+            args.add(label);
         }
 
-        // Executa a consulta final
         Cursor cursor = db.rawQuery(query, args.toArray(new String[0]));
 
         if (cursor.moveToFirst()) {
@@ -120,12 +128,6 @@ public class RequisicaoDAO {
         return lista;
     }
 
-    /**
-     * Converte um registro do banco (cursor) para o objeto Requisicao.
-     *
-     * @param cursor Posição atual da linha retornada pelo SELECT
-     * @return Objeto Requisicao preenchido com os dados da linha.
-     */
     public static Requisicao converterCursorParaRequisicao(Cursor cursor) {
         Requisicao r = new Requisicao();
         r.id = cursor.getLong(cursor.getColumnIndexOrThrow("id"));
@@ -133,9 +135,15 @@ public class RequisicaoDAO {
         r.projeto = cursor.getString(cursor.getColumnIndexOrThrow("projeto"));
         r.usuario = cursor.getString(cursor.getColumnIndexOrThrow("usuario"));
         r.data = cursor.getString(cursor.getColumnIndexOrThrow("data"));
-        r.tipoOperacao = cursor.getString(cursor.getColumnIndexOrThrow("tipo_operacao"));
+        r.tipoOperacao = OperacaoTipo.normalize(cursor.getString(cursor.getColumnIndexOrThrow("tipo_operacao")));
         r.observacao = cursor.getString(cursor.getColumnIndexOrThrow("observacao"));
         r.materiaisJson = cursor.getString(cursor.getColumnIndexOrThrow("materiais_json"));
+        int origemIndex = cursor.getColumnIndex("origem");
+        if (origemIndex >= 0) r.origem = cursor.getString(origemIndex);
+        int deviceIndex = cursor.getColumnIndex("device_id");
+        if (deviceIndex >= 0) r.deviceId = cursor.getString(deviceIndex);
+        int clientReqIndex = cursor.getColumnIndex("client_request_id");
+        if (clientReqIndex >= 0) r.clientRequestId = cursor.getString(clientReqIndex);
         return r;
     }
 }

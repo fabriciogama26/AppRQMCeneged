@@ -1,0 +1,14 @@
+Padrao adotado para arquivos de tela
+
+Cada TXT de tela segue este formato:
+- Tela
+- Arquivos
+- Objetivo
+- Entradas
+- Acoes
+- Dependencias
+- Observacoes
+
+Objetivo
+- Facilitar manutencao.
+- Mostrar rapidamente onde alterar cada fluxo.

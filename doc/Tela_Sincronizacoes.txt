@@ -1,0 +1,20 @@
+Tela: Sincronizacoes
+
+Arquivos
+- app/src/main/java/com/example/rqm/ui/sync/SyncRunsFragment.java
+- app/src/main/res/layout/fragment_sync_runs.xml
+
+Objetivo
+- Exibir o historico local das sincronizacoes.
+
+Entradas
+- Nenhuma.
+
+Acoes
+- Listar resumos salvos em sync_runs.
+
+Dependencias
+- SyncRunDao
+
+Observacoes
+- A abertura fica no menu lateral.

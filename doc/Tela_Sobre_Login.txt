@@ -1,0 +1,21 @@
+Tela: Sobre Login
+
+Arquivos
+- app/src/main/java/com/example/rqm/ui/sobre/SobreLoginFragment.java
+- app/src/main/res/layout/fragment_sobre_login.xml
+
+Objetivo
+- Permitir salvar o IMEI antes do login.
+- Exibir informacoes basicas do app e da empresa.
+
+Entradas
+- IMEI
+
+Acoes
+- Salvar IMEI localmente.
+
+Dependencias
+- AuthPrefs
+
+Observacoes
+- Esta tela e exclusiva do fluxo de login.

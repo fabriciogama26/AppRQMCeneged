@@ -1,0 +1,20 @@
+Tela: Splash
+
+Arquivos
+- app/src/main/java/com/example/rqm/ui/splash/SplashActivity.java
+
+Objetivo
+- Exibir a marca inicial do app.
+- Encaminhar o fluxo para a activity principal.
+
+Entradas
+- Nenhuma.
+
+Acoes
+- Mostra a splash e entrega o fluxo para a navegacao principal.
+
+Dependencias
+- Recursos visuais do app.
+
+Observacoes
+- Nao e tela de navegacao funcional para o usuario.

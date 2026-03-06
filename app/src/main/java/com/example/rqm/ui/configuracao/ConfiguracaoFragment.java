@@ -39,11 +39,20 @@ public class ConfiguracaoFragment extends Fragment {
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
+        if (!com.example.rqm.utils.AuthPrefs.isAdmin(requireContext())) {
+            Toast.makeText(requireContext(), "Acesso restrito a administradores.", Toast.LENGTH_SHORT).show();
+            androidx.navigation.Navigation.findNavController(view).navigate(R.id.nav_home);
+            return;
+        }
+
         Button btnExportarBanco = view.findViewById(R.id.btnExportarBanco);
         Button btnImportarBanco = view.findViewById(R.id.btnImportarBanco);
+        Button btnConfigurarSupabase = view.findViewById(R.id.btnConfigurarSupabase);
 
         btnExportarBanco.setOnClickListener(v -> exportarBancoDeDados());
         btnImportarBanco.setOnClickListener(v -> selecionarArquivoBanco());
+        btnConfigurarSupabase.setOnClickListener(v ->
+                androidx.navigation.Navigation.findNavController(view).navigate(R.id.nav_supabase_config));
 
         importarBancoLauncher = registerForActivityResult(
                 new ActivityResultContracts.StartActivityForResult(),
@@ -104,13 +113,11 @@ public class ConfiguracaoFragment extends Fragment {
         try {
             String nomeArquivo = getFileName(uri);
 
-            // Verifica se o nome e extensão estão corretos
             if (nomeArquivo == null || !nomeArquivo.endsWith(".db")) {
-                Toast.makeText(requireContext(), "Arquivo inválido. Selecione o banco 'rqm.db'", Toast.LENGTH_LONG).show();
+                Toast.makeText(requireContext(), "Arquivo inválido. Selecione o banco 'rqm.db'.", Toast.LENGTH_LONG).show();
                 return;
             }
 
-            // 🔐 Realiza o backup automático antes de substituir
             File bancoAtual = requireContext().getDatabasePath("rqm.db");
             File destinoBackup = new File(requireContext().getExternalFilesDir(null),
                     "backup_rqm_antes_importacao_" + System.currentTimeMillis() + ".db");
@@ -125,7 +132,6 @@ public class ConfiguracaoFragment extends Fragment {
                 }
             }
 
-            // 🔁 Agora substitui o banco antigo pelo importado
             try (InputStream in = requireContext().getContentResolver().openInputStream(uri);
                  OutputStream out = new FileOutputStream(bancoAtual, false)) {
 
@@ -144,7 +150,6 @@ public class ConfiguracaoFragment extends Fragment {
         }
     }
 
-
     private String getFileName(Uri uri) {
         String result = null;
         if (uri.getScheme().equals("content")) {
@@ -160,6 +165,4 @@ public class ConfiguracaoFragment extends Fragment {
         }
         return result;
     }
-
-
 }

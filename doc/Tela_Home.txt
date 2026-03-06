@@ -1,0 +1,26 @@
+Tela: Home
+
+Arquivos
+- app/src/main/java/com/example/rqm/ui/Home/HomeFragment.java
+- app/src/main/res/layout/fragment_home.xml
+
+Objetivo
+- Ser a tela principal apos o login.
+
+Entradas
+- Flag opcional auto_sync via Bundle.
+
+Acoes
+- Abrir Requisicao.
+- Abrir Devolucao.
+- Abrir Estoque.
+- Executar Sincronizar agora.
+- Mostrar as 5 ultimas movimentacoes locais.
+
+Dependencias
+- RequisicaoDAO
+- SyncManager
+- SyncRateLimiter
+
+Observacoes
+- As operacoes ficam em bloco retratil aberto por padrao.

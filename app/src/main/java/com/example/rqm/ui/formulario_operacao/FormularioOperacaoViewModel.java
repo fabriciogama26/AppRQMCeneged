@@ -36,24 +36,28 @@ public class FormularioOperacaoViewModel extends ViewModel {
         }
 
         String projetoCompleto = prefixo + "-" + numeroProjeto;
-        String regexProjeto = "^(OMI|OII)-\\d{2}-\\d{4}$|^OS-\\d{8}$|^OM-\\d{10}$";
+        String regexProjeto = "^(OMI|OII)-\\d{2}-\\d{4}$|^OS-\\d{8}$|^OE-\\d{10}$";
         return projetoCompleto.matches(regexProjeto);
     }
 
     public String formatarNumeroProjeto(String prefixo, String input) {
-        String texto = input.replaceAll("[^\\d]", ""); // Remove não-dígitos
+        String texto = input.replaceAll("[^\\d]", "");
 
-        if (prefixo.equals("OMI") || prefixo.equals("OII")) {
+        if ("OMI".equals(prefixo) || "OII".equals(prefixo)) {
             if (texto.length() > 2) {
                 texto = texto.substring(0, 2) + "-" + texto.substring(2);
             }
             if (texto.length() > 7) {
                 texto = texto.substring(0, 7);
             }
-        } else if (prefixo.equals("OS")) {
-            if (texto.length() > 8) texto = texto.substring(0, 8);
-        } else if (prefixo.equals("OM")) {
-            if (texto.length() > 10) texto = texto.substring(0, 10);
+        } else if ("OS".equals(prefixo)) {
+            if (texto.length() > 8) {
+                texto = texto.substring(0, 8);
+            }
+        } else if ("OE".equals(prefixo)) {
+            if (texto.length() > 10) {
+                texto = texto.substring(0, 10);
+            }
         }
 
         return texto;

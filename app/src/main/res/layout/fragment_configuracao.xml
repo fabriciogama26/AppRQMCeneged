@@ -14,6 +14,13 @@
         android:text="Exportar Banco de Dados" />
 
     <Button
+        android:id="@+id/btnConfigurarSupabase"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Configurar Banco de Dados" />
+
+    <Button
         android:id="@+id/btnImportarBanco"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

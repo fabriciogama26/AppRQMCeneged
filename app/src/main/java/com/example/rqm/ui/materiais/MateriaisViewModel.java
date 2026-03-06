@@ -9,7 +9,9 @@ import androidx.lifecycle.AndroidViewModel;
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 
+import com.example.rqm.data.MaterialCacheDao;
 import com.example.rqm.models.Material;
+import com.example.rqm.utils.OperacaoTipo;
 import com.google.gson.Gson;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
@@ -28,41 +30,28 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-/**
- * ViewModel responsável por gerenciar os dados da tela de seleção de materiais.
- * - Carrega os materiais do JSON principal.
- * - Carrega a lista de códigos especiais que exigem campos LP/Serial.
- * - Mantém a lista de materiais selecionados pelo usuário.
- */
 public class MateriaisViewModel extends AndroidViewModel {
 
-    // Define se a operação atual é "requisicao" ou "devolucao"
     private String tipoOperacao = "";
-
-    // Lista completa de materiais disponíveis (do JSON "materiais_completos.json")
     private final List<Material> listaCompleta = new ArrayList<>();
-
-    // Lista observável com os materiais selecionados na interface
     private final MutableLiveData<List<Material>> materiaisSelecionados = new MutableLiveData<>(new ArrayList<>());
-
-    // Lista de códigos que devem usar o layout com LP e Serial (item_material_lp.xml)
     private final Set<String> codigosComLP = new HashSet<>();
 
-    /**
-     * Construtor do ViewModel.
-     * - Carrega os materiais.
-     * - Carrega os códigos que têm LP/Serial.
-     */
     public MateriaisViewModel(@NonNull Application application) {
         super(application);
-        carregarMateriais();                // Carrega lista de materiais
-        carregarCodigosComLP(application); // Carrega lista de códigos especiais
+        carregarMateriais();
+        carregarCodigosComLP(application);
     }
 
-    /**
-     * Lê o JSON de materiais e converte em objetos.
-     */
     private void carregarMateriais() {
+        MaterialCacheDao cacheDao = new MaterialCacheDao(getApplication());
+        List<Material> cache = cacheDao.listarTodos();
+        if (!cache.isEmpty()) {
+            listaCompleta.clear();
+            listaCompleta.addAll(cache);
+            return;
+        }
+
         try (InputStream is = getApplication().getAssets().open("materiais_completos.json")) {
             int size = is.available();
             byte[] buffer = new byte[size];
@@ -76,16 +65,13 @@ public class MateriaisViewModel extends AndroidViewModel {
 
             listaCompleta.clear();
             listaCompleta.addAll(materiais);
+            cacheDao.replaceAll(materiais);
 
         } catch (Exception e) {
             Log.e("MateriaisViewModel", "Erro ao carregar materiais", e);
         }
     }
 
-    /**
-     * Lê o arquivo trafo_codigo.json contendo os códigos que exigem LP e Serial.
-     * Esses códigos usarão um layout personalizado com campos adicionais.
-     */
     private void carregarCodigosComLP(Context context) {
         try {
             InputStream is = context.getAssets().open("trafo_codigo.json");
@@ -102,70 +88,46 @@ public class MateriaisViewModel extends AndroidViewModel {
         }
     }
 
-    /**
-     * Getter público para que o MaterialAdapter saiba quais códigos usam LP/Serial.
-     */
     public Set<String> getCodigosComLP() {
         return codigosComLP;
     }
 
-    /**
-     * Retorna todos os materiais disponíveis para seleção.
-     */
     public List<Material> getListaCompleta() {
         return listaCompleta;
     }
 
-    /**
-     * Retorna a lista observável dos materiais que o usuário já adicionou.
-     */
     public LiveData<List<Material>> getMateriaisSelecionados() {
         return materiaisSelecionados;
     }
 
-    /**
-     * Adiciona um material à lista de selecionados com base no código.
-     * Evita duplicatas.
-     */
     public void adicionarMaterial(String codigo) {
-        // Evita adicionar um material que já está na lista
-        for (Material m : materiaisSelecionados.getValue()) {
-            if (m.codigo.equals(codigo)) return;
+        for (Material material : materiaisSelecionados.getValue()) {
+            if (material.codigo.equals(codigo)) return;
         }
 
-        // Busca o material na lista completa e adiciona
-        for (Material m : listaCompleta) {
-            if (m.codigo.equals(codigo)) {
+        for (Material material : listaCompleta) {
+            if (material.codigo.equals(codigo)) {
                 List<Material> listaAtual = new ArrayList<>(materiaisSelecionados.getValue());
-                listaAtual.add(m);
+                listaAtual.add(material);
                 materiaisSelecionados.setValue(listaAtual);
                 return;
             }
         }
     }
 
-    /**
-     * Remove um material da lista de selecionados.
-     */
     public void removerMaterial(Material material) {
         List<Material> atuais = new ArrayList<>(materiaisSelecionados.getValue());
-        atuais.removeIf(m -> m.codigo.equalsIgnoreCase(material.codigo));
+        atuais.removeIf(item -> item.codigo.equalsIgnoreCase(material.codigo));
         materiaisSelecionados.setValue(atuais);
     }
 
-    /**
-     * Define o tipo de operação atual ("requisicao" ou "devolucao").
-     */
     public void setTipoOperacao(String tipo) {
         this.tipoOperacao = tipo;
     }
 
-    /**
-     * Retorna a mensagem de confirmação adequada com base no tipo da operação.
-     */
     public String getMensagemConfirmacao() {
-        return "devolucao".equalsIgnoreCase(tipoOperacao)
-                ? "Deseja finalizar a devolução?"
-                : "Deseja finalizar a requisição?";
+        return OperacaoTipo.isDevolucao(tipoOperacao)
+                ? "Deseja finalizar a devolucao?"
+                : "Deseja finalizar a requisicao?";
     }
 }

@@ -1,6 +1,5 @@
 package com.example.rqm.ui.materiais;
 
-// Importações necessárias para funcionamento do fragmento e UI
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -8,61 +7,66 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
 import android.widget.Button;
-import android.widget.TextView;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.appcompat.app.AlertDialog;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 import androidx.navigation.Navigation;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-import androidx.appcompat.app.AlertDialog;
 
 import com.example.rqm.R;
 import com.example.rqm.adapters.MaterialAdapter;
 import com.example.rqm.models.Material;
-import com.example.rqm.ui.confirmacao.ConfirmacaoFragment;
+import com.example.rqm.utils.DateUtils;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class MateriaisFragment extends Fragment {
 
-    // ViewModel que armazena os dados da tela (materiais disponíveis e selecionados)
     private MateriaisViewModel viewModel;
-
-    // Adapter que irá popular o RecyclerView com os materiais
     private MaterialAdapter adapter;
 
     private RecyclerView recyclerView;
     private String tipoOperacao = "";
     private AutoCompleteTextView autoCompleteBuscar;
-    private Button btnFinalizar, btnCancelar;
-    private List<String> listaOriginal = new ArrayList<>(); // Lista com os nomes dos materiais para autocomplete
+    private Button btnFinalizar;
+    private Button btnCancelar;
+    private final List<String> listaOriginal = new ArrayList<>();
 
-    // Dados recebidos da tela anterior
-    private String requisitor, usuario, projeto, data;
+    private String requisitor;
+    private String usuario;
+    private String projeto;
+    private String dataDisplay;
+    private String dataIso;
 
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        // Inicializa o ViewModel
         viewModel = new ViewModelProvider(this).get(MateriaisViewModel.class);
 
-        // Se vieram argumentos da tela anterior, recupera e salva
         if (getArguments() != null) {
             tipoOperacao = getArguments().getString("tipoOperacao", "");
             requisitor = getArguments().getString("requisitor", "");
             usuario = getArguments().getString("usuario", "");
             projeto = getArguments().getString("projeto", "");
-            data = getArguments().getString("data", "");
+            dataDisplay = getArguments().getString("data_display", "");
+            if (dataDisplay == null || dataDisplay.isEmpty()) {
+                dataDisplay = getArguments().getString("data", "");
+            }
+            dataIso = getArguments().getString("data_iso", "");
+            if (dataIso == null || dataIso.isEmpty()) {
+                dataIso = DateUtils.toIsoWithNow(dataDisplay);
+            }
         }
 
-        // Define o tipo de operação no ViewModel
         viewModel.setTipoOperacao(tipoOperacao);
     }
 
@@ -84,9 +88,8 @@ public class MateriaisFragment extends Fragment {
         adapter = new MaterialAdapter(
                 new ArrayList<>(),
                 material -> viewModel.removerMaterial(material),
-                viewModel.getCodigosComLP() // <- Códigos especiais com layout LP
+                viewModel.getCodigosComLP()
         );
-
         recyclerView.setAdapter(adapter);
 
         viewModel.getMateriaisSelecionados().observe(getViewLifecycleOwner(), materiais -> {
@@ -173,30 +176,25 @@ public class MateriaisFragment extends Fragment {
                 String lpTexto = edtLP != null ? edtLP.getText().toString().trim() : "";
                 String serialTexto = edtSerial != null ? edtSerial.getText().toString().trim() : "";
 
-                // Verifica a quantidade
                 if (qtdTexto.isEmpty() || qtdTexto.equals("0")) {
                     algumInvalido = true;
                 } else {
                     algumPreenchido = true;
                 }
 
-                // Atualiza os campos no objeto Material correspondente
                 if (materiaisSelecionados != null && i < materiaisSelecionados.size()) {
-                    Material m = materiaisSelecionados.get(i);
+                    Material material = materiaisSelecionados.get(i);
 
-                    // Quantidade
                     try {
-                        m.quantidade = Integer.parseInt(qtdTexto);
+                        material.quantidade = Integer.parseInt(qtdTexto);
                     } catch (NumberFormatException e) {
-                        m.quantidade = 0;
+                        material.quantidade = 0;
                     }
 
-                    // LP e Serial (apenas se existirem no layout)
-                    if (edtLP != null) m.lp = lpTexto;
-                    if (edtSerial != null) m.serial = serialTexto;
+                    if (edtLP != null) material.lp = lpTexto;
+                    if (edtSerial != null) material.serial = serialTexto;
 
-                    // Se for material especial, exige LP e Serial preenchidos
-                    if (viewModel.getCodigosComLP().contains(m.codigo)) {
+                    if (viewModel.getCodigosComLP().contains(material.codigo)) {
                         if (lpTexto.isEmpty() || serialTexto.isEmpty()) {
                             algumInvalido = true;
                         }
@@ -205,7 +203,7 @@ public class MateriaisFragment extends Fragment {
             }
 
             if (!algumPreenchido) {
-                Toast.makeText(getContext(), "Preencha valor válido.", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getContext(), "Preencha um valor válido.", Toast.LENGTH_SHORT).show();
                 return;
             }
 
@@ -220,25 +218,23 @@ public class MateriaisFragment extends Fragment {
                     .setTitle("Confirmação")
                     .setMessage(mensagem)
                     .setPositiveButton("Sim", (dialog, which) -> {
-                        // Cria bundle com todos os dados recebidos da tela anterior + materiais
                         Bundle bundle = new Bundle();
                         bundle.putString("tipoOperacao", tipoOperacao);
                         bundle.putString("requisitor", requisitor);
                         bundle.putString("usuario", usuario);
                         bundle.putString("projeto", projeto);
-                        bundle.putString("data", data);
+                        bundle.putString("data", dataDisplay);
+                        bundle.putString("data_display", dataDisplay);
+                        bundle.putString("data_iso", dataIso);
 
-                        // Lista de materiais atualizada com LP e Serial
                         ArrayList<Material> listaSelecionada = new ArrayList<>(materiaisSelecionados);
                         bundle.putSerializable("materiaisSelecionados", listaSelecionada);
 
-                        // Navega para a próxima tela
                         Navigation.findNavController(v).navigate(R.id.nav_confirmacao, bundle);
                     })
                     .setNegativeButton("Não", null)
                     .show();
         });
-
 
         btnCancelar.setOnClickListener(v -> requireActivity().onBackPressed());
 

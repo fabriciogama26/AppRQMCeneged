@@ -1,0 +1,19 @@
+Checklist de Pre-Cadastros Obrigatorios
+
+1) Tenant
+- Criar tenant_id para cada empresa/cliente.
+
+2) Usuarios (app_users)
+- Criar usuario com: matricula, email, role, tenant_id, ativo.
+- Vincular auth_user_id (Supabase Auth) ao app_users.
+
+3) IMEI (imei_whitelist)
+- Cadastrar IMEI por tenant_id (ativo = true).
+
+4) Materiais (materials)
+- Cadastrar codigo e descricao (unicos por tenant_id).
+
+5) Saldo inicial (inventory_balance)
+- Inserir saldo inicial por material_id e tenant_id.
+
+Sem esses cadastros, o login e a movimentacao nao funcionam corretamente.

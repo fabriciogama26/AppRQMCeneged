@@ -1,0 +1,12 @@
+{
+  "url": "https://lcusxnhhrjosxqgiphgp.supabase.co",
+  "anon_key": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImxjdXN4bmhocmpvc3hxZ2lwaGdwIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzI4Mjk0MTUsImV4cCI6MjA4ODQwNTQxNX0.FmS_TgrWJsjuwmt9OzaEIjRB-9a6n6Z9jnAinXiTIEo",
+  "test_mode": {
+    "enabled": true,
+    "matricula": "TESTE",
+    "user_id": "test-user",
+    "role": "admin",
+    "tenant_id": "tenant-teste",
+    "imei": "IMEI-TESTE"
+  }
+}

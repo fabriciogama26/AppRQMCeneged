@@ -1,48 +1,254 @@
-<LinearLayout
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/layout_home"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:gravity="center"
-    android:padding="24dp">
+    android:background="@color/indica_ice"
+    android:padding="20dp">
 
-    <ImageView
-        android:id="@+id/logoRQM"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:contentDescription="Logo RQM"
-        android:src="@drawable/image_removebg_preview" />
-
-    <TextView
-        android:id="@+id/tituloApp"
-        android:layout_width="wrap_content"
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/hero_card"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="RQM - REQUISIÇÃO DE MATERIAL"
-        android:textColor="#B71C1C"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        android:layout_marginTop="12dp" />
+        android:layout_marginBottom="20dp"
+        app:cardBackgroundColor="@color/indica_navy"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="2dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
-    <Button
-        android:id="@+id/btnRequisicao"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Requisição"
-        android:textSize="24sp"
-        android:padding="24dp"
-        android:layout_marginTop="32dp"
-        android:layout_marginBottom="16dp"
-        android:backgroundTint="#2196F3"
-        android:textColor="@android:color/white" />
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp">
 
-    <Button
-        android:id="@+id/btnDevolucao"
-        android:layout_width="match_parent"
+            <ImageView
+                android:id="@+id/logoRQM"
+                android:layout_width="84dp"
+                android:layout_height="84dp"
+                android:contentDescription="Logo RQM"
+                android:src="@drawable/indica"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tituloApp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text="RQM - Requisi&#231;&#227;o de Materiais"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/logoRQM"
+                app:layout_constraintTop_toTopOf="@id/logoRQM" />
+
+            <TextView
+                android:id="@+id/subtituloApp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="6dp"
+                android:text="INDICA - SERVI&#199;OS"
+                android:textColor="@color/indica_ice"
+                android:textSize="14sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/logoRQM"
+                app:layout_constraintTop_toBottomOf="@id/tituloApp" />
+
+            <LinearLayout
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="12dp"
+                android:orientation="vertical"
+                app:layout_constraintStart_toEndOf="@id/logoRQM"
+                app:layout_constraintTop_toBottomOf="@id/subtituloApp">
+
+                <View android:layout_width="match_parent" android:layout_height="2dp" android:layout_marginBottom="4dp" android:background="@color/indica_ice" />
+                <View android:layout_width="match_parent" android:layout_height="2dp" android:layout_marginBottom="4dp" android:background="@color/indica_ice" />
+                <View android:layout_width="match_parent" android:layout_height="2dp" android:layout_marginBottom="4dp" android:background="@color/indica_ice" />
+                <View android:layout_width="match_parent" android:layout_height="2dp" android:background="@color/indica_ice" />
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <LinearLayout
+        android:id="@+id/operacoesContainer"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Devolução"
-        android:textSize="24sp"
-        android:padding="24dp"
-        android:backgroundTint="#F44336"
-        android:textColor="@android:color/white" />
-</LinearLayout>
+        android:animateLayoutChanges="true"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/hero_card">
+
+        <LinearLayout
+            android:id="@+id/homeOperacoesHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingBottom="8dp">
+
+            <TextView
+                android:id="@+id/tituloOperacoes"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Opera&#231;&#245;es"
+                android:textColor="@color/indica_text"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/ivOperacoesArrow"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:contentDescription="Alternar opera&#231;&#245;es"
+                android:src="@android:drawable/arrow_down_float"
+                app:tint="@color/indica_navy" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/homeOperacoesContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnRequisicao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                android:backgroundTint="@color/white"
+                android:minHeight="72dp"
+                android:paddingVertical="18dp"
+                android:text="Requisi&#231;&#227;o"
+                android:textColor="@color/indica_navy"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:cornerRadius="18dp"
+                app:strokeColor="@color/indica_navy"
+                app:strokeWidth="2dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnDevolucao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                android:backgroundTint="@color/white"
+                android:minHeight="72dp"
+                android:paddingVertical="18dp"
+                android:text="Devolu&#231;&#227;o"
+                android:textColor="@color/indica_steel"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:cornerRadius="18dp"
+                app:strokeColor="@color/indica_steel"
+                app:strokeWidth="2dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnEstoque"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                android:backgroundTint="@color/white"
+                android:minHeight="72dp"
+                android:paddingVertical="18dp"
+                android:text="Estoque"
+                android:textColor="@color/indica_navy"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:cornerRadius="18dp"
+                app:strokeColor="@color/indica_navy"
+                app:strokeWidth="2dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnSincronizarAgora"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="18dp"
+                android:backgroundTint="@color/indica_navy"
+                android:text="Sincronizar agora"
+                android:textColor="@color/white"
+                app:cornerRadius="16dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardResumo"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/operacoesContainer">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/tvHomeHistoricoTitle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Hist&#243;rico"
+                android:textColor="@color/indica_text"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tvHomeHistoricoSub"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="Acompanhe as &#250;ltimas opera&#231;&#245;es registradas."
+                android:textColor="@color/indica_muted"
+                android:textSize="12sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvHomeHistoricoTitle" />
+
+            <TextView
+                android:id="@+id/tvHomeHistoricoEmpty"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Sem movimenta&#231;&#245;es recentes."
+                android:textColor="@color/indica_muted"
+                android:textSize="12sp"
+                android:visibility="gone"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvHomeHistoricoSub" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerHomeHistorico"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginTop="8dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvHomeHistoricoSub"
+                tools:listitem="@layout/item_home_historico" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.card.MaterialCardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

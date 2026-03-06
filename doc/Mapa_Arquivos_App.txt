@@ -1,0 +1,41 @@
+Mapa rapido de arquivos do app
+
+Activity principal
+- app/src/main/java/com/example/rqm/MainActivity.java
+
+Navegacao
+- app/src/main/res/navigation/mobile_navigation.xml
+- app/src/main/res/menu/activity_main_drawer.xml
+
+Configuracao e sessao
+- app/src/main/java/com/example/rqm/utils/AuthPrefs.java
+- app/src/main/java/com/example/rqm/utils/SupabasePrefs.java
+- app/src/main/java/com/example/rqm/utils/SupabaseConfigLoader.java
+- app/src/main/res/raw/supabase_config.json
+
+Fluxo de materiais
+- app/src/main/java/com/example/rqm/ui/formulario_operacao/FormularioOperacaoFragment.java
+- app/src/main/java/com/example/rqm/ui/materiais/MateriaisFragment.java
+- app/src/main/java/com/example/rqm/ui/confirmacao/ConfirmacaoFragment.java
+- app/src/main/java/com/example/rqm/utils/SupabaseUploader.java
+
+Estoque
+- app/src/main/java/com/example/rqm/ui/estoque/EstoqueFragment.java
+- app/src/main/java/com/example/rqm/adapters/EstoqueAdapter.java
+- app/src/main/java/com/example/rqm/models/EstoqueItem.java
+
+Sincronizacao
+- app/src/main/java/com/example/rqm/utils/SyncManager.java
+- app/src/main/java/com/example/rqm/utils/SyncRateLimiter.java
+- app/src/main/java/com/example/rqm/ui/sync/SyncRunsFragment.java
+- app/src/main/java/com/example/rqm/data/SyncRunDao.java
+
+Persistencia local
+- app/src/main/java/com/example/rqm/data/DBHelper.java
+- app/src/main/java/com/example/rqm/data/RequisicaoDAO.java
+- app/src/main/java/com/example/rqm/data/MaterialCacheDao.java
+- app/src/main/java/com/example/rqm/data/ResponsavelDao.java
+
+Cliente Supabase
+- app/src/main/java/com/example/rqm/utils/SupabaseEdgeClient.java
+- app/src/main/java/com/example/rqm/utils/SupabaseUploader.java

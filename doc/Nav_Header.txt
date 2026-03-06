@@ -1,0 +1,15 @@
+Componente: Nav Header
+
+Arquivos
+- app/src/main/res/layout/nav_header_main.xml
+
+Objetivo
+- Exibir identidade visual no menu lateral.
+
+Conteudo
+- Logo
+- Nome do app
+- Nome da empresa
+
+Observacoes
+- Texto padrao atual: INDICA - SERVICOS.

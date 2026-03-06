@@ -1,0 +1,20 @@
+Tela: Configuracao
+
+Arquivos
+- app/src/main/java/com/example/rqm/ui/configuracao/ConfiguracaoFragment.java
+- app/src/main/res/layout/fragment_configuracao.xml
+
+Objetivo
+- Ser o hub de configuracoes administrativas.
+
+Entradas
+- Nenhuma diretamente.
+
+Acoes
+- Abrir configuracao do Supabase.
+
+Dependencias
+- Navegacao apos PIN admin.
+
+Observacoes
+- Estrutura preparada para crescer com outras configuracoes.

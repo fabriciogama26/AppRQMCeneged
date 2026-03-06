@@ -1,137 +1,178 @@
+﻿# RQM
 
-# 📦 RQM - Requisição de Materiais
+Aplicativo Android para requisicao, devolucao, consulta de estoque e sincronizacao de materiais com backend em Supabase.
 
-Aplicativo Android para gerenciamento de requisições e devoluções de materiais, com suporte a confirmação, histórico e exportação de dados.
+## Estado atual
 
----
+### App Android
+- Login por matricula + IMEI.
+- Modo teste local.
+- Home com operacoes retrateis.
+- Fluxo completo de requisicao/devolucao:
+  - formulario
+  - materiais
+  - confirmacao
+  - salvamento local
+  - envio ao backend quando conectado
+  - exportacao local
+- Historico local.
+- Tela de estoque.
+- Tela de sincronizacoes.
+- Cache local de materiais e responsaveis.
 
-## ✨ Funcionalidades Concluídas
+### Backend Supabase
+- Migrations de `000` a `015`.
+- Edge Functions para login, PIN admin, logout, log de erro, sync, envio de movimentacao e consultas de saldo/catalogo.
+- RPCs de materiais com controle de saldo fisico e saldo liquido por projeto.
+- Padrao de auditoria com:
+  - `created_by`
+  - `updated_by`
+  - `created_at`
+  - `updated_at`
 
-### 🧾 Formulário de Operação (`FormularioOperacaoFragment`)
-- Entrada de dados obrigatórios:
-  - Requisitor
-  - Usuário
-  - Projeto (prefixo + número)
-  - Data (com `DatePicker`)
-- Validação de formato do projeto (OMI/OII, OS, OM).
-- Customização do `hint` do requisitor (requisição ou devolução).
-- Navegação para `MateriaisFragment` via `Bundle`.
+## Fluxo principal do app
 
-### 📦 Tela de Materiais (`MateriaisFragment`)
-- Leitura de materiais via JSON (`materiais_completos.json`).
-- Filtro dinâmico com `AutoCompleteTextView`.
-- Lista de materiais via `RecyclerView` com campo de quantidade.
-- Validação:
-  - Ao menos 1 item válido.
-  - Nenhum item com quantidade zerada/vazia.
-- Envio de todos os dados via `Bundle` para `ConfirmacaoFragment`.
+1. Splash.
+2. Login.
+3. Home.
+4. Operacao:
+   - Requisicao
+   - Devolucao
+   - Estoque
+5. Requisicao/Devolucao:
+   - `FormularioOperacaoFragment`
+   - `MateriaisFragment`
+   - `ConfirmacaoFragment`
+6. Salvamento local em SQLite.
+7. Se conectado ao Supabase:
+   - envia para `submit_material_request`
+   - exporta localmente
+8. Se nao conectado:
+   - mantem pendente
+   - exporta localmente
+9. `Sincronizar agora` reenfileira e baixa cadastros base.
 
-### ✅ Tela de Confirmação (`ConfirmacaoFragment`)
-- Recebe os dados de `FormularioOperacaoFragment` e `MateriaisFragment`.
-- Exibe:
-  - Dados do formulário.
-  - Lista de materiais.
-- Botão **Confirmar**:
-  - Exibe `Toast` de sucesso.
-  - Navega para a tela inicial (`HomeFragment`).
+## Estrutura principal
 
----
+### App
+- `app/src/main/java/com/example/rqm/MainActivity.java`
+- `app/src/main/java/com/example/rqm/ui/`
+- `app/src/main/java/com/example/rqm/data/`
+- `app/src/main/java/com/example/rqm/utils/`
+- `app/src/main/res/layout/`
+- `app/src/main/res/navigation/mobile_navigation.xml`
+- `app/src/main/res/raw/supabase_config.json`
 
-## 🔧 Em Desenvolvimento
+### Backend
+- `supabase/migrations/`
+- `supabase/edge_functions/`
+- `supabase/sql/`
 
-### ⚙️ Tela de Configuração (`ConfiguracaoFragment`)
-- [ ] **Salvar e-mails de destino** (para envio futuro).
-- [ ] **Importar materiais** a partir de JSON.
-- [ ] **Importar dados de funcionários** via JSON (uso futuro no formulário).
-- [ ] **Exportar banco de dados** (SQLite) para compartilhamento.
+### Documentacao
+- `doc/`
 
-### 📜 Histórico (`HistoricoFragment`)
-- [ ] Listagem das requisições feitas.
-- [ ] Exportação para Excel ou JSON.
-- [ ] Filtro por data ou tipo (requisicao/devolucao).
-- [ ] Botão “compartilhar” **Exportar banco de dados** (JSON)
+## Arquivos importantes
 
----
+### Configuracao do app
+- `app/src/main/res/raw/supabase_config.json`
+  - `url`
+  - `anon_key`
+  - `test_mode`
 
-## 📁 Estrutura de Diretórios
+### Navegacao
+- `app/src/main/res/navigation/mobile_navigation.xml`
+- `app/src/main/res/menu/activity_main_drawer.xml`
+- `app/src/main/java/com/example/rqm/MainActivity.java`
 
-```
-com.example.rqm/
-├── adapters/
-│   ├── MaterialAdapter.java
-│   └── MaterialResumoAdapter.java
-│
-├── models/
-│   └── Material.java
-│
-├── ui/
-│   ├── configuracao/
-│   │   └── ConfiguracaoFragment.java
-│   ├── confirmacao/
-│   │   └── ConfirmacaoFragment.java
-│   ├── formulario_operacao/
-│   │   ├── FormularioOperacaoFragment.java
-│   │   └── FormularioOperacaoViewModel.java
-│   ├── historico/
-│   │   └── HistoricoFragment.java *(em breve)*
-│   ├── Home/
-│   │   ├── HomeFragment.java
-│   │   └── HomeViewModel.java
-│   ├── materiais/
-│   │   ├── MateriaisFragment.java
-│   │   └── MateriaisViewModel.java
-│   └── sobre/
-│       └── SobreFragment.java
-│
-├── MainActivity.java
-```
+### Fluxo de materiais
+- `app/src/main/java/com/example/rqm/ui/formulario_operacao/FormularioOperacaoFragment.java`
+- `app/src/main/java/com/example/rqm/ui/materiais/MateriaisFragment.java`
+- `app/src/main/java/com/example/rqm/ui/confirmacao/ConfirmacaoFragment.java`
+- `app/src/main/java/com/example/rqm/utils/SupabaseUploader.java`
 
-## 📂 Recursos
+### Sincronizacao
+- `app/src/main/java/com/example/rqm/utils/SyncManager.java`
+- `app/src/main/java/com/example/rqm/data/SyncRunDao.java`
+- `app/src/main/java/com/example/rqm/ui/sync/SyncRunsFragment.java`
 
-```
-res/
-├── layout/
-│   ├── fragment_confirmacao.xml
-│   ├── fragment_formulario_operacao.xml
-│   ├── fragment_materiais.xml
-│   ├── item_material.xml
-│   └── item_material_resumo.xml
-│   ...
-├── navigation/
-│   └── mobile_navigation.xml
-├── menu/
-│   └── activity_main_drawer.xml
-├── drawable/
-│   └── image_removebg_preview.png (logo)
-├── anim/
-│   └── logo_animation.xml
-├── assets/
-│   └── materiais_completos.json
-```
+## Banco e regras de materiais
 
----
+### Saldo fisico
+- Tabela: `inventory_balance`
+- Nao pode ficar negativo.
 
-## 🚧 Próximos Passos
+### Saldo liquido por projeto
+- Tabela: `project_material_balance`
+- Guarda:
+  - `qty_issued`
+  - `qty_returned`
+  - `qty_net`
 
-- [ ] Finalizar `ConfiguracaoFragment` com importações e exportações.
-- [ ] Armazenar dados em SQLite com Room.
-- [ ] Implementar `HistoricoFragment` com filtro e exportação.
-- [ ] Adicionar autenticação de usuário (futuro).
-- [ ] Envio real de e-mail com dados da requisição (SMTP/Intent).
+### Historico
+- Tabela: `stock_movements`
 
----
+### Regras
+- Requisicao baixa estoque fisico e aumenta saldo liquido do projeto.
+- Devolucao sobe estoque fisico e aumenta retorno no projeto.
+- Devolucao nao pode exceder o saldo liquido do projeto.
+- RPC aplica tudo em transacao unica.
 
-## 📌 Requisitos Técnicos
+## Convencao de auditoria
 
-- Android Studio Arctic Fox ou superior
-- SDK mínimo: 21+
-- Linguagem: Java
-- Padrão de navegação: Jetpack Navigation
-- Gerenciamento de estado: `ViewModel` + `LiveData`
+Toda tabela de cadastro do SaaS e toda tabela alimentada pelo app deve usar:
+- `created_by`
+- `updated_by`
+- `created_at`
+- `updated_at`
 
----
+Referencia
+- `doc/Auditoria_Padrao.txt`
+- `supabase/migrations/015_add_audit_columns.sql`
 
-## 🧑‍💻 Desenvolvedor
+## O que ja existe no Supabase
 
-Fabricio Gama  
-Rio de Janeiro, 2025
+### Migrations
+Ver `supabase/migrations/README.txt`.
+
+### Edge Functions
+Ver `supabase/edge_functions/doc/README.txt`.
+
+## Pendencia principal restante
+- modelagem final de `projects`
+
+O app esta funcional usando projeto como texto. A migracao para tabela oficial de projetos ainda depende da definicao final do fluxo.
+
+## Como configurar para rodar
+
+1. Preencher `app/src/main/res/raw/supabase_config.json`.
+2. Aplicar as migrations em ordem.
+3. Publicar as Edge Functions usadas pelo app.
+4. Fazer build do app.
+
+## Ordem recomendada de deploy no Supabase
+
+1. Migrations `000` ate `015`.
+2. Deploy das Edge Functions:
+   - `login_matricula`
+   - `verify_admin_pin`
+   - `logout`
+   - `log_error`
+   - `sync_run`
+   - `submit_material_request`
+   - `get_inventory_balance`
+   - `get_project_material_balance`
+   - `get_materials`
+   - `get_responsaveis`
+3. Configurar secrets:
+   - `SUPABASE_URL`
+   - `SUPABASE_SERVICE_ROLE_KEY`
+
+## Documentacao complementar
+
+- `doc/00_Indice_Documentacao.txt`
+- `doc/Fluxo_Aplicativo.txt`
+- `doc/Mapa_Arquivos_App.txt`
+- `doc/Pendencias_Backend_Supabase.txt`
+- `doc/Auditoria_Padrao.txt`
+- `doc/Checklist_PreCadastros.txt`
+- `doc/Modelo_Materiais.txt`

@@ -1,0 +1,24 @@
+Tela: Configurar Supabase
+
+Arquivos
+- app/src/main/java/com/example/rqm/ui/configuracao/SupabaseConfigFragment.java
+- app/src/main/res/layout/fragment_supabase_config.xml
+
+Objetivo
+- Permitir configurar URL e chave publica do Supabase no app.
+
+Entradas
+- URL
+- anon_key
+
+Acoes
+- Salvar configuracao.
+- Testar conexao.
+- Atualizar status visual.
+
+Dependencias
+- SupabasePrefs
+- SupabaseConfigLoader
+
+Observacoes
+- O arquivo base do projeto tambem pode iniciar essa configuracao em `app/src/main/res/raw/supabase_config.json`.

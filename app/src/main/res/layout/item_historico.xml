@@ -1,106 +1,144 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_margin="8dp"
-    card_view:cardElevation="4dp"
-    card_view:cardCornerRadius="8dp">
+    app:cardBackgroundColor="@color/white"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="2dp"
+    app:strokeColor="@color/indica_steel"
+    app:strokeWidth="1dp">
 
     <LinearLayout
         android:orientation="vertical"
         android:padding="12dp"
         android:layout_width="match_parent"
-        android:background="#0058FF"
         android:layout_height="wrap_content">
 
-        <TextView
-            android:id="@+id/tvData"
-            android:textStyle="bold"
-            android:textColor="@color/white"
-            android:text="Data:"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvData"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Data:"
+                android:textColor="@color/indica_text"
+                android:textStyle="bold"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tvOperacao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Operacao:"
+                android:textColor="@color/indica_steel"
+                android:textSize="12sp" />
+        </LinearLayout>
 
         <TextView
             android:id="@+id/tvProjeto"
-            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
             android:text="Projeto:"
-            android:textColor="@color/white"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:textColor="@color/indica_text"
+            android:textStyle="bold"
+            android:textSize="13sp" />
 
         <TextView
             android:id="@+id/tvRequisitor"
-            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
             android:text="Requisitor:"
-            android:textColor="@color/white"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:textColor="@color/indica_text"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/tvCodigo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="Codigo:"
+            android:textColor="@color/indica_text"
             android:textStyle="bold"
-            android:text="Código:"
-            android:textColor="@color/white"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/tvDescricao"
-            android:textStyle="bold"
-            android:text="Descrição:"
-            android:textColor="@color/white"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="Descricao:"
+            android:textColor="@color/indica_text"
+            android:textSize="12sp" />
 
-        <TextView
-            android:id="@+id/tvQuantidade"
-            android:textStyle="bold"
-            android:text="Quantidade:"
-            android:textColor="@color/white"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@color/indica_ice" />
 
-        <TextView
-            android:id="@+id/tvLP"
-            android:textStyle="bold"
-            android:text="LP:"
-            android:textColor="@color/white"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
 
-        <TextView
-            android:id="@+id/tvSerial"
-            android:textStyle="bold"
-            android:text="Serial:"
-            android:textColor="@color/white"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/tvQuantidade"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Quantidade:"
+                android:textColor="@color/indica_text"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tvValor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Valor:"
+                android:textColor="@color/indica_text"
+                android:textSize="12sp" />
+        </LinearLayout>
 
         <TextView
             android:id="@+id/tvTotal"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
             android:text="Valor Total:"
-            android:textColor="@color/white"
-            android:textStyle="bold"
-            android:paddingTop="4dp"/>
+            android:textColor="@color/indica_steel"
+            android:textSize="12sp" />
 
-        <TextView
-            android:id="@+id/tvValor"
-            android:textStyle="bold"
-            android:text="Valor:"
-            android:textColor="@color/white"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:orientation="horizontal">
 
-        <TextView
-            android:id="@+id/tvOperacao"
-            android:textStyle="bold"
-            android:text="Operação:"
-            android:textColor="@color/white"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/tvLP"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="LP:"
+                android:textColor="@color/indica_muted"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tvSerial"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Serial:"
+                android:textColor="@color/indica_muted"
+                android:textSize="12sp" />
+        </LinearLayout>
     </LinearLayout>
-</androidx.cardview.widget.CardView>
+</com.google.android.material.card.MaterialCardView>

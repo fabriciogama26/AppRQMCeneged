@@ -1,0 +1,45 @@
+Modelo: Materiais
+
+Objetivo
+- Separar o saldo fisico do estoque do saldo liquido por projeto.
+- Impedir estoque fisico negativo.
+- Impedir devolucao maior que o material liquido ja entregue ao projeto.
+- Registrar todos os movimentos para auditoria.
+
+Tabelas principais
+1. inventory_balance
+- Saldo fisico do estoque por tenant + material.
+- E o saldo que nunca pode ficar negativo.
+
+2. project_material_balance
+- Saldo do projeto por tenant + projeto + material.
+- Guarda:
+  - qty_issued
+  - qty_returned
+  - qty_net = qty_issued - qty_returned
+
+3. stock_movements
+- Historico dos movimentos.
+- Agora tambem guarda projeto e movement_type.
+
+Regras
+- Requisicao:
+  - baixa do inventory_balance
+  - aumenta qty_issued em project_material_balance
+- Devolucao:
+  - sobe no inventory_balance
+  - aumenta qty_returned em project_material_balance
+  - nao pode deixar qty_net negativo no projeto
+
+Exemplo
+- Estoque fisico inicial: 3
+- Projeto recebe 2:
+  - estoque fisico: 1
+  - saldo liquido do projeto: 2
+- Projeto devolve 1:
+  - estoque fisico: 2
+  - saldo liquido do projeto: 1
+
+Observacao
+- Por enquanto o vinculo do projeto esta em texto normalizado (campo projeto).
+- Depois isso pode evoluir para project_id sem perder a logica de saldo.

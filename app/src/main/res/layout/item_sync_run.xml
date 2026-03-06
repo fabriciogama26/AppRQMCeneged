@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    app:cardBackgroundColor="@color/white"
+    app:cardCornerRadius="14dp"
+    app:cardElevation="2dp"
+    app:strokeColor="@color/indica_steel"
+    app:strokeWidth="1dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="14dp">
+
+        <TextView
+            android:id="@+id/tvSyncStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Status: SUCCESS"
+            android:textColor="@color/indica_text"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvSyncDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Início: 06/03/2026 12:00"
+            android:textColor="@color/indica_muted" />
+
+        <TextView
+            android:id="@+id/tvSyncResumo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="3 pendências enviadas | 12 itens"
+            android:textColor="@color/indica_text" />
+
+        <TextView
+            android:id="@+id/tvSyncConflitos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Conflitos: 0 | Erros: 0"
+            android:textColor="@color/indica_text" />
+
+        <TextView
+            android:id="@+id/tvSyncMensagem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="Sincronização concluída."
+            android:textColor="@color/indica_muted" />
+
+        <TextView
+            android:id="@+id/tvSyncEnvio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="Resumo enviado ao SaaS"
+            android:textColor="@color/indica_steel"
+            android:textStyle="bold" />
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>
