@@ -1,0 +1,21 @@
+Tela: Settings PIN
+
+Arquivos
+- app/src/main/java/com/example/rqm/ui/configuracao/SettingsPinFragment.java
+- app/src/main/res/layout/fragment_settings_pin.xml
+
+Objetivo
+- Restringir o acesso a configuracoes administrativas.
+
+Entradas
+- PIN admin
+
+Acoes
+- Validar acesso admin antes de abrir a configuracao.
+
+Dependencias
+- SupabaseEdgeClient.verifyAdminPin
+- AuthPrefs.isAdmin
+
+Observacoes
+- A Edge Function verify_admin_pin ainda nao esta versionada no repositorio.

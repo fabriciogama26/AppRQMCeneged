@@ -1,11 +1,13 @@
 <resources>
     <string name="app_name">RQM</string>
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">RQM-Requisição de Materiais</string>
-    <string name="nav_header_subtitle">CENEGED-Energia Positiva </string>
-    <string name="nav_header_desc">Navigation header</string>
-    <string name="action_settings">Settings</string>
+    <string name="navigation_drawer_open">Abrir menu de navegação</string>
+    <string name="navigation_drawer_close">Fechar menu de navegação</string>
+    <string name="nav_header_title">RQM - Requisição de Materiais</string>
+    <string name="nav_header_subtitle">INDICA - SERVIÇOS</string>
+    <string name="nav_header_desc">Cabeçalho de navegação</string>
+    <string name="action_settings">Banco de dados</string>
+    <string name="db_status">Status do banco</string>
+    <string name="menu_supabase_config">Configurar Supabase</string>
 
     <string name="menu_home">Nova Operação</string>
     <string name="menu_operacao">Operação</string>
@@ -15,31 +17,108 @@
     <string name="menu_sobre">Sobre</string>
     <string name="menu_confirmacao">Confirmação</string>
     <string name="menu_login">Login</string>
+    <string name="menu_sair">Sair</string>
 
-    <!-- Spinner -->
+    <string name="label_matricula">Matrícula</string>
+    <string name="label_imei">IMEI</string>
+    <string name="label_senha">Senha</string>
+    <string name="label_rqm">RQM</string>
+    <string name="btn_sobre">Sobre</string>
+    <string name="btn_salvar_imei">Salvar IMEI</string>
+    <string name="btn_sim">Sim</string>
+    <string name="btn_nao">Não</string>
+    <string name="btn_acessar">Acessar</string>
+    <string name="btn_desbloquear">Desbloquear</string>
+    <string name="btn_avancar">Avançar</string>
+    <string name="hint_imei_contato">IMEI</string>
+
+    <string name="sobre_titulo">Sobre o aplicativo</string>
+    <string name="sobre_descricao">O RQM facilita requisições e devoluções de materiais com sincronização segura de estoque. Use o app para registrar operações mesmo offline e sincronizar depois.</string>
+    <string name="sobre_empresa">Empresa: INDICA - SERVIÇOS</string>
+    <string name="sobre_site">Site: https://indicaservicos.com.br/</string>
+    <string name="sobre_imei_titulo">IMEI do aparelho</string>
+
+    <string name="erro_matricula">Informe a matrícula</string>
+    <string name="erro_senha">Informe a senha</string>
+    <string name="erro_imei">Informe o IMEI</string>
+    <string name="msg_imei_salvo">IMEI salvo com sucesso.</string>
+    <string name="msg_imei_obrigatorio">Cadastre o IMEI na tela Sobre.</string>
+    <string name="btn_entrar_teste">Entrar em modo teste</string>
+    <string name="test_mode_info">Modo teste ativo. O app vai entrar sem autenticar no Supabase.</string>
+
+    <string name="home_title">RQM - Requisição de Materiais</string>
+    <string name="home_operations">Operações</string>
+    <string name="home_toggle_operations">Alternar operações</string>
+    <string name="home_action_requisicao">Requisição</string>
+    <string name="home_action_devolucao">Devolução</string>
+    <string name="home_historico_title">Histórico</string>
+    <string name="home_historico_sub">Acompanhe as últimas operações registradas.</string>
+    <string name="home_historico_empty">Sem movimentações recentes.</string>
+
+    <string name="hint_numero_projeto">Digite o número do projeto</string>
+    <string name="hint_data_requisicao">Data da Requisição</string>
+    <string name="hint_requisitor">Requisitor</string>
+    <string name="hint_usuario">Usuário</string>
+    <string name="hint_quem_requisita">Quem requisita</string>
+    <string name="hint_quem_devolve">Quem devolve</string>
+    <string name="hint_projeto_generico">Projeto, OS ou OE</string>
+
+    <string name="confirmacao_titulo_requisicao">Confirmação de Requisição</string>
+    <string name="confirmacao_titulo_devolucao">Confirmação de Devolução</string>
+    <string name="confirmacao_dialog_titulo">Confirmação</string>
+    <string name="msg_preencha_todos_campos">Preencha todos os campos.</string>
+    <string name="msg_formato_projeto_invalido">Formato de projeto inválido.</string>
+    <string name="msg_preencha_valor_valido">Preencha um valor válido.</string>
+    <string name="msg_corrija_campos_vazios">Corrija os campos vazios.</string>
+    <string name="msg_operacao_salva">Operação salva com sucesso.</string>
+    <string name="msg_erro_salvar_operacao">Erro ao salvar a operação.</string>
+    <string name="msg_conectando_exportacao_local">Conectando... exportação local.</string>
+    <string name="msg_base_atualizada">Base de dados atualizada.</string>
+
+    <string name="msg_nenhum_dado_exportar">Nenhum dado para exportar.</string>
+    <string name="msg_permissao_armazenamento">Permissão de armazenamento necessária.</string>
+    <string name="msg_erro_compartilhar_json">Erro ao compartilhar JSON.</string>
+    <string name="msg_erro_carregar_dados">Erro ao carregar dados.</string>
+    <string name="msg_erro_aplicar_filtro">Erro ao aplicar filtro.</string>
+    <string name="msg_nenhum_resultado">Nenhum resultado encontrado.</string>
+    <string name="titulo_exportar_como">Exportar como</string>
+
+    <string name="msg_supabase_ausente">Configuração do Supabase ausente.</string>
+    <string name="msg_falha_conexao">Falha de conexão.</string>
+    <string name="msg_login_invalido">Login inválido.</string>
+    <string name="msg_pin_invalido">PIN inválido.</string>
+    <string name="msg_acesso_admin_info">Informe o PIN para acessar as configurações.</string>
+    <string name="msg_informe_pin">Informe o PIN</string>
+    <string name="status_conectado">Conectado</string>
+    <string name="status_conectando">Conectando</string>
+    <string name="status_desconectado">Desconectado</string>
+    <string name="msg_permissao_android11">Permissão não necessária no Android 11+.</string>
+    <string name="msg_permissao_concedida">Permissão de armazenamento concedida.</string>
+    <string name="msg_permissao_negada">Permissão negada. Algumas funções podem não funcionar.</string>
+
+    <string name="unlock_title">RQM - REQUISIÇÃO DE MATERIAL\nDESBLOQUEAR INSIRA O SERIAL</string>
+    <string name="unlock_serial_hint">Digite o serial</string>
+
     <string-array name="prefixo_array">
         <item>OMI</item>
         <item>OII</item>
         <item>OS</item>
-        <item>OM</item>
+        <item>OE</item>
     </string-array>
 
-    <!-- Spinner -->
     <string-array name="operacao_array">
         <item>Requisição</item>
         <item>Devolução</item>
     </string-array>
 
-    <!-- Spinner -->
     <string-array name="prefixo_array_filtro">
         <item>Todos</item>
         <item>OMI</item>
         <item>OII</item>
         <item>OS</item>
-        <item>OM</item>
+        <item>OE</item>
     </string-array>
 
-    <!-- Spinner -->
     <string-array name="operacao_array_filtro">
         <item>Todos</item>
         <item>Requisição</item>
@@ -47,16 +126,8 @@
     </string-array>
 
     <string-array name="grafico_array">
-        <item>Total por Requisitor</item>
-        <item>Valor por Prefixo</item>
-        <item>Quantidade por Tipo</item>
+        <item>Total por requisitor</item>
+        <item>Valor por prefixo</item>
+        <item>Quantidade por tipo</item>
     </string-array>
-
-    <!-- Requisição -->
-    <string name="label_projeto">Projeto</string>
-    <string name="hint_numero_projeto">Digite o número do projeto</string>
-    <string name="hint_data_requisicao">Data da Requisição</string>
-    <string name="hint_requisitor">Requisitor</string>
-    <string name="hint_usuario">Usuário</string>
-    <string name="btn_avancar">Avançar</string>
 </resources>

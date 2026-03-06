@@ -11,23 +11,18 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.example.rqm.R;
 import com.example.rqm.models.Material;
 import com.example.rqm.models.Requisicao;
+import com.example.rqm.utils.DateUtils;
+import com.example.rqm.utils.OperacaoTipo;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Adapter do RecyclerView que exibe os materiais de cada requisição.
- * Para cada material de cada requisição, é criada uma linha (item) individual.
- */
 public class HistoricoAdapter extends RecyclerView.Adapter<HistoricoAdapter.ViewHolder> {
 
     private final List<MaterialComRequisicao> itens = new ArrayList<>();
 
-    /**
-     * Construtor que recebe a lista de Requisições e desmembra em materiais individuais.
-     */
     public HistoricoAdapter(List<Requisicao> requisicoes) {
         for (Requisicao r : requisicoes) {
             List<Material> materiais = new Gson().fromJson(
@@ -51,34 +46,31 @@ public class HistoricoAdapter extends RecyclerView.Adapter<HistoricoAdapter.View
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
         MaterialComRequisicao item = itens.get(position);
 
-        // Exibe os dados básicos
         holder.tvProjeto.setText("Projeto: " + safe(item.requisicao.projeto));
         holder.tvRequisitor.setText("Requisitor: " + safe(item.requisicao.requisitor));
         holder.tvCodigo.setText("Código: " + safe(item.material.codigo));
         holder.tvDescricao.setText("Descrição: " + safe(item.material.descricao));
-        holder.tvData.setText("Data: " + safe(item.requisicao.data));
-        holder.tvOperacao.setText("Operação: " + safe(item.requisicao.tipoOperacao));
+        holder.tvData.setText("Data: " + DateUtils.toDisplayDate(item.requisicao.data));
+        holder.tvOperacao.setText("Operação: " + OperacaoTipo.toLabel(item.requisicao.tipoOperacao));
 
-        // Exibe quantidade e valor unitário
         holder.tvQuantidade.setText("Quantidade: " + item.material.quantidade);
         holder.tvValor.setText("Valor: " + safe(item.material.valor_unitario));
 
-        // Informações adicionais: LP e Serial (podem ser nulos ou vazios)
         holder.tvLP.setText("LP: " + (item.material.lp != null && !item.material.lp.isEmpty() ? item.material.lp : "N/A"));
         holder.tvSerial.setText("Serial: " + (item.material.serial != null && !item.material.serial.isEmpty() ? item.material.serial : "N/A"));
 
-        // Converte quantidade e valor para cálculo de total
         double quantidade = 0;
         double valorUnitario = 0;
         try {
             quantidade = Double.parseDouble(String.valueOf(item.material.quantidade));
-        } catch (NumberFormatException ignored) {}
+        } catch (NumberFormatException ignored) {
+        }
 
         try {
             valorUnitario = Double.parseDouble(item.material.valor_unitario);
-        } catch (Exception ignored) {}
+        } catch (Exception ignored) {
+        }
 
-        // Total = quantidade x valor (ou só quantidade se valor for zero)
         double total = valorUnitario > 0 ? quantidade * valorUnitario : quantidade;
         holder.tvTotal.setText("Valor Total: R$ " + String.format("%.2f", total));
     }
@@ -88,9 +80,6 @@ public class HistoricoAdapter extends RecyclerView.Adapter<HistoricoAdapter.View
         return itens.size();
     }
 
-    /**
-     * Classe que representa um item visual contendo Material + dados da Requisição.
-     */
     static class MaterialComRequisicao {
         Requisicao requisicao;
         Material material;
@@ -101,9 +90,6 @@ public class HistoricoAdapter extends RecyclerView.Adapter<HistoricoAdapter.View
         }
     }
 
-    /**
-     * ViewHolder que conecta os elementos visuais do item_historico.xml.
-     */
     public static class ViewHolder extends RecyclerView.ViewHolder {
         TextView tvProjeto, tvRequisitor, tvCodigo, tvDescricao,
                 tvQuantidade, tvValor, tvData, tvOperacao, tvLP, tvSerial, tvTotal;
@@ -124,9 +110,6 @@ public class HistoricoAdapter extends RecyclerView.Adapter<HistoricoAdapter.View
         }
     }
 
-    /**
-     * Função auxiliar para evitar valores nulos.
-     */
     private String safe(String valor) {
         return valor != null ? valor : "";
     }

@@ -1,0 +1,17 @@
+Componente: Status do banco
+
+Arquivos
+- app/src/main/java/com/example/rqm/MainActivity.java
+- app/src/main/res/layout/db_status_action_view.xml
+
+Objetivo
+- Mostrar o estado da conexao com o backend.
+
+Estados
+- Conectado
+- Conectando
+- Desconectado
+
+Observacoes
+- O texto aparece apenas na Home.
+- Nas demais telas fica so a luz indicadora.

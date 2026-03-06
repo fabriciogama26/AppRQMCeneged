@@ -1,0 +1,33 @@
+Indice da documentacao
+
+Leitura recomendada
+1. README.md
+2. doc/Fluxo_Aplicativo.txt
+3. doc/Mapa_Arquivos_App.txt
+4. doc/Pendencias_Backend_Supabase.txt
+5. supabase/migrations/README.txt
+6. supabase/edge_functions/doc/README.txt
+
+Documentos de apoio
+- doc/Checklist_PreCadastros.txt
+- doc/Modelo_Materiais.txt
+- doc/Modo_Teste.txt
+
+Documentos por tela
+- doc/Tela_Splash.txt
+- doc/Tela_Login.txt
+- doc/Tela_Sobre_Login.txt
+- doc/Tela_Home.txt
+- doc/Tela_Materiais.txt
+- doc/Tela_Confirmacao.txt
+- doc/Tela_Historico.txt
+- doc/Tela_Estoque.txt
+- doc/Tela_Sincronizacoes.txt
+- doc/Tela_Settings_PIN.txt
+- doc/Tela_Configuracao.txt
+- doc/Tela_Config_Supabase.txt
+- doc/Tela_Sobre.txt
+
+Componentes de layout e navegacao
+- doc/Nav_Header.txt
+- doc/App_Bar_Status.txt

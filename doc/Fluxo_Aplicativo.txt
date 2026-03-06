@@ -1,0 +1,59 @@
+Fluxo do aplicativo
+
+1. Splash
+- Arquivo: app/src/main/java/com/example/rqm/ui/splash/SplashActivity.java
+- Exibe a identidade visual e entrega a navegacao para a activity principal.
+
+2. Login
+- Tela: app/src/main/java/com/example/rqm/ui/login/LoginFragment.java
+- Entrada:
+  - matricula
+  - senha
+  - IMEI salvo no Sobre Login
+- Saida:
+  - sessao local salva em AuthPrefs
+  - navega para Home
+- Modo teste:
+  - ignora autenticacao remota
+
+3. Home
+- Tela: app/src/main/java/com/example/rqm/ui/Home/HomeFragment.java
+- Acoes:
+  - abrir Requisicao
+  - abrir Devolucao
+  - abrir Estoque
+  - sincronizar agora
+  - consultar historico recente
+
+4. Requisicao/Devolucao
+- Formulario: app/src/main/java/com/example/rqm/ui/formulario_operacao/FormularioOperacaoFragment.java
+- Materiais: app/src/main/java/com/example/rqm/ui/materiais/MateriaisFragment.java
+- Confirmacao: app/src/main/java/com/example/rqm/ui/confirmacao/ConfirmacaoFragment.java
+
+5. Persistencia local
+- Banco SQLite:
+  - requisicoes
+  - sync_runs
+  - material_cache
+  - responsaveis_cache
+
+6. Envio remoto
+- Cliente: app/src/main/java/com/example/rqm/utils/SupabaseUploader.java
+- Endpoint: submit_material_request
+- Regra:
+  - se conectado e sessao valida, envia
+  - senao salva local e exporta
+
+7. Sincronizacao
+- Gerente: app/src/main/java/com/example/rqm/utils/SyncManager.java
+- Faz:
+  - envia pendencias
+  - baixa materiais
+  - baixa responsaveis
+  - grava resumo local e tenta subir para sync_run
+
+8. Estoque
+- Tela: app/src/main/java/com/example/rqm/ui/estoque/EstoqueFragment.java
+- Consulta:
+  - saldo fisico por material
+  - saldo liquido por projeto quando o projeto e informado

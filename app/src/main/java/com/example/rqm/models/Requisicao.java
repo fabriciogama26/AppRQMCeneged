@@ -16,6 +16,9 @@ public class Requisicao {
     public String materiaisJson;
     public String lp;
     public String serial;
+    public String origem;
+    public String deviceId;
+    public String clientRequestId;
 
     private transient List<Material> materiaisSelecionados; // Cache não serializado
     public void setMateriaisSelecionados(List<Material> materiais) {

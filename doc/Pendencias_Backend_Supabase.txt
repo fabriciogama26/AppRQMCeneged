@@ -1,0 +1,19 @@
+﻿Pendencias reais do backend Supabase
+
+Itens ainda faltando no repositorio
+1. Modelagem final de projects
+- O app ainda usa projeto como texto.
+- Falta definir tabela e fluxo oficial de cadastro/consulta.
+
+Ja versionado
+- migration de app_users
+- migration de imei_whitelist
+- migration de login_audit
+- migration de app_error_logs
+- Edge Function verify_admin_pin
+- Edge Function logout
+- Edge Function log_error
+
+Observacao
+- O app esta funcional para materiais com projeto em texto.
+- Para fechar o backend de producao, falta fechar a estrutura oficial de projetos.

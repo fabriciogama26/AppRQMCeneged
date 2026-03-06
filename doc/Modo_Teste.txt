@@ -1,0 +1,23 @@
+Modo teste local
+
+Arquivo:
+- app/src/main/res/raw/supabase_config.json
+
+Como ativar:
+- Em test_mode, mudar enabled para true.
+
+Campos usados:
+- matricula
+- user_id
+- role
+- tenant_id
+- imei
+
+Comportamento:
+- O login real e ignorado.
+- O app cria sessao local fake.
+- Nao chama Edge Function de login.
+- Nao chama Edge Function de logout.
+
+Como desativar:
+- Voltar enabled para false.

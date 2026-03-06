@@ -6,45 +6,45 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFFFF"
+    android:background="@color/indica_ice"
     android:padding="16dp"
     tools:context=".ui.materiais.MateriaisFragment">
 
-    <!-- Campo de busca estilizado -->
-    <androidx.cardview.widget.CardView
+    <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/card_search"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
-        app:cardCornerRadius="12dp"
-        app:cardElevation="4dp"
-        app:cardBackgroundColor="@android:color/white"
+        android:layout_marginTop="8dp"
+        android:hint="Buscar por codigo ou descricao"
+        app:boxBackgroundColor="@color/white"
+        app:boxBackgroundMode="outline"
+        app:boxCornerRadiusBottomEnd="12dp"
+        app:boxCornerRadiusBottomStart="12dp"
+        app:boxCornerRadiusTopEnd="12dp"
+        app:boxCornerRadiusTopStart="12dp"
+        app:boxStrokeColor="@color/indica_navy"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent">
 
-        <AutoCompleteTextView
+        <com.google.android.material.textfield.MaterialAutoCompleteTextView
             android:id="@+id/autoCompleteMaterial"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Buscar por código ou descrição"
             android:inputType="text"
-            android:background="#D42027"
-            android:textColor="@color/white"
-            android:textColorHint="@color/white"
-            android:padding="12dp"/>
-    </androidx.cardview.widget.CardView>
-
-    <!-- RecyclerView em colunas -->
+            android:padding="12dp"
+            android:textColor="@color/indica_text"
+            android:textColorHint="@color/indica_muted" />
+    </com.google.android.material.textfield.TextInputLayout>
 
     <TextView
         android:id="@+id/emptyText"
-        android:layout_width="271dp"
-        android:layout_height="102dp"
-        android:layout_marginTop="292dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
         android:text="NENHUM MATERIAL SELECIONADO"
-        android:textColor="@android:color/darker_gray"
-        android:textSize="25sp"
+        android:textColor="@color/indica_muted"
+        android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="@+id/recyclerMateriais"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -56,39 +56,46 @@
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:padding="4dp"
-        tools:listitem="@layout/item_material"
         app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
         app:layout_constraintTop_toBottomOf="@id/card_search"
         app:layout_constraintBottom_toTopOf="@id/groupButtons"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:listitem="@layout/item_material" />
 
-    <!-- Botões Cancelar e Finalizar -->
     <LinearLayout
         android:id="@+id/groupButtons"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
+        android:layout_marginTop="12dp"
         android:gravity="end"
-        android:layout_marginTop="8dp"
+        android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent">
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/btnCancelar"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Cancelar" />
+            android:backgroundTint="@color/white"
+            android:text="Cancelar"
+            android:textColor="@color/indica_navy"
+            app:cornerRadius="14dp"
+            app:strokeColor="@color/indica_navy"
+            app:strokeWidth="1dp" />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/btnFinalizar"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
             android:layout_weight="1"
+            android:backgroundTint="@color/indica_navy"
             android:text="Finalizar"
-            android:layout_marginStart="8dp" />
+            android:textColor="@color/white"
+            app:cornerRadius="14dp" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

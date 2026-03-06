@@ -1,32 +1,31 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
-    android:padding="32dp"
-    android:gravity="center"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="32dp">
 
     <TextView
         android:id="@+id/tituloApp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="RQM - REQUISIÇÃO DE MATERIAL
-                        DESBLOQUEAR INSIRA O SERIAL"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="120dp"
+        android:text="@string/unlock_title"
         android:textColor="#B71C1C"
         android:textSize="20sp"
-        android:textStyle="bold"
-        android:layout_marginTop="12dp"
-        android:layout_marginBottom="120dp" />
+        android:textStyle="bold" />
 
     <EditText
         android:id="@+id/edtSerial"
-        android:hint="Digite o serial"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:hint="@string/unlock_serial_hint" />
 
     <Button
         android:id="@+id/btnDesbloquear"
-        android:text="Desbloquear"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"/>
+        android:layout_marginTop="16dp"
+        android:text="@string/btn_desbloquear" />
 </LinearLayout>

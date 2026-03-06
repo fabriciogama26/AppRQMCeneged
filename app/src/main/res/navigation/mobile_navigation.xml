@@ -3,51 +3,83 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@id/nav_home">
+    app:startDestination="@id/nav_loginFragment">
 
     <fragment
         android:id="@+id/nav_home"
         android:name="com.example.rqm.ui.Home.HomeFragment"
+        android:label="RQM"
         tools:layout="@layout/fragment_home" />
 
     <fragment
         android:id="@+id/nav_operacao"
         android:name="com.example.rqm.ui.formulario_operacao.FormularioOperacaoFragment"
+        android:label="Operacao"
         tools:layout="@layout/fragment_formulario_operacao" />
 
     <fragment
         android:id="@+id/nav_materiais"
         android:name="com.example.rqm.ui.materiais.MateriaisFragment"
-        android:label="@string/menu_materiais"
+        android:label="Materiais"
         tools:layout="@layout/fragment_materiais" />
+
+    <fragment
+        android:id="@+id/nav_estoque"
+        android:name="com.example.rqm.ui.estoque.EstoqueFragment"
+        android:label="Estoque"
+        tools:layout="@layout/fragment_estoque" />
 
     <fragment
         android:id="@+id/nav_historico"
         android:name="com.example.rqm.ui.historico.HistoricoFragment"
-        android:label="@string/menu_historico"
+        android:label="Historico"
         tools:layout="@layout/fragment_historico" />
+
+    <fragment
+        android:id="@+id/nav_sync_runs"
+        android:name="com.example.rqm.ui.sync.SyncRunsFragment"
+        android:label="Sincronizacoes"
+        tools:layout="@layout/fragment_sync_runs" />
 
     <fragment
         android:id="@+id/nav_configuracao"
         android:name="com.example.rqm.ui.configuracao.ConfiguracaoFragment"
-        android:label="@string/menu_configuracao"
+        android:label="Configuracao"
         tools:layout="@layout/fragment_configuracao" />
+
+    <fragment
+        android:id="@+id/nav_supabase_config"
+        android:name="com.example.rqm.ui.configuracao.SupabaseConfigFragment"
+        android:label="Configurar Supabase"
+        tools:layout="@layout/fragment_supabase_config" />
 
     <fragment
         android:id="@+id/nav_sobre"
         android:name="com.example.rqm.ui.sobre.SobreFragment"
-        android:label="@string/menu_sobre"
+        android:label="Sobre"
         tools:layout="@layout/fragment_sobre" />
+
+    <fragment
+        android:id="@+id/nav_sobre_login"
+        android:name="com.example.rqm.ui.sobre.SobreLoginFragment"
+        android:label="Sobre"
+        tools:layout="@layout/fragment_sobre_login" />
 
     <fragment
         android:id="@+id/nav_confirmacao"
         android:name="com.example.rqm.ui.confirmacao.ConfirmacaoFragment"
-        android:label="@string/menu_confirmacao"
+        android:label="Confirmacao"
         tools:layout="@layout/fragment_confirmacao" />
+
     <fragment
         android:id="@+id/nav_loginFragment"
         android:name="com.example.rqm.ui.login.LoginFragment"
-        android:label="@string/menu_login"
+        android:label="Login"
         tools:layout="@layout/fragment_login" />
 
+    <fragment
+        android:id="@+id/nav_settings_pin"
+        android:name="com.example.rqm.ui.configuracao.SettingsPinFragment"
+        android:label="Configuracoes"
+        tools:layout="@layout/fragment_settings_pin" />
 </navigation>

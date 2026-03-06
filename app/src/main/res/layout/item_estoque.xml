@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="12dp"
+    app:cardBackgroundColor="@color/white"
+    app:cardCornerRadius="14dp"
+    app:cardElevation="2dp"
+    app:strokeColor="@color/indica_steel"
+    app:strokeWidth="1dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="14dp">
+
+        <TextView
+            android:id="@+id/tvEstoqueCodigo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/indica_text"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            tools:text="Codigo: 210232" />
+
+        <TextView
+            android:id="@+id/tvEstoqueDescricao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:textColor="@color/indica_text"
+            android:textSize="13sp"
+            tools:text="Descricao: CAPACITOR WHSE GM-5C" />
+
+        <TextView
+            android:id="@+id/tvEstoqueQuantidade"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:textColor="@color/indica_navy"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            tools:text="Quantidade: 2" />
+
+        <TextView
+            android:id="@+id/tvEstoqueProjeto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:textColor="@color/indica_text"
+            android:textSize="12sp"
+            android:visibility="gone"
+            tools:text="Projeto: OMI-22-2122"
+            tools:visibility="visible" />
+
+        <TextView
+            android:id="@+id/tvEstoqueDetalhe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:textColor="@color/indica_muted"
+            android:textSize="12sp"
+            android:visibility="gone"
+            tools:text="Saido: 2 | Devolvido: 1"
+            tools:visibility="visible" />
+
+        <TextView
+            android:id="@+id/tvEstoqueAtualizado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:textColor="@color/indica_muted"
+            android:textSize="11sp"
+            android:visibility="gone"
+            tools:text="Atualizado: 06/03/2026"
+            tools:visibility="visible" />
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

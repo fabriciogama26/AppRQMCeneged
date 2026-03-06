@@ -5,101 +5,156 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="16dp"
-    android:background="#FFFFFF">
+    android:background="@color/indica_ice">
 
-    <ImageView
-        android:id="@+id/imageLogo"
-        android:layout_width="48dp"
-        android:layout_height="48dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:contentDescription="Logo"
-        android:src="@drawable/image_removebg_preview"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
-
-    <!-- Cabeçalho fixo -->
-    <LinearLayout
-        android:id="@+id/layoutCabecalho"
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardHeader"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:layout_marginBottom="8dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="2dp"
+        app:strokeColor="@color/indica_steel"
+        app:strokeWidth="1dp"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent">
 
-        <TextView
-            android:id="@+id/tvTituloConfirmacao"
+        <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="12dp"
-            android:text="Confirmação"
-            android:textSize="20sp"
-            android:textStyle="bold" />
+            android:padding="14dp">
 
-        <TextView
-            android:id="@+id/tvRequisitorResumo"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Requisitor:" />
+            <ImageView
+                android:id="@+id/imageLogo"
+                android:layout_width="44dp"
+                android:layout_height="44dp"
+                android:contentDescription="Logo"
+                android:src="@drawable/indica"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
 
-        <TextView
-            android:id="@+id/tvProjetoResumo"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Projeto:" />
+            <TextView
+                android:id="@+id/tvTituloConfirmacao"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:text="Confirmação"
+                android:textColor="@color/indica_text"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/imageLogo"
+                app:layout_constraintTop_toTopOf="parent" />
 
-        <TextView
-            android:id="@+id/tvDataResumo"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Data:" />
+            <TextView
+                android:id="@+id/tvRequisitorResumo"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Requisitor:"
+                android:textColor="@color/indica_text"
+                android:textSize="13sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvTituloConfirmacao"
+                app:layout_constraintEnd_toEndOf="parent" />
 
-        <TextView
-            android:id="@+id/tvUsuarioResumo"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Almoxarife:" />
+            <TextView
+                android:id="@+id/tvProjetoResumo"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="Projeto:"
+                android:textColor="@color/indica_text"
+                android:textSize="13sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvRequisitorResumo"
+                app:layout_constraintEnd_toEndOf="parent" />
 
-        <EditText
-            android:id="@+id/tvObservacaoResumo"
-            android:layout_width="match_parent"
-            android:layout_height="74dp"
-            android:hint="Observação"
-            android:inputType="textMultiLine"
-            android:gravity="top"
-            android:background="@android:drawable/edit_text" />
+            <TextView
+                android:id="@+id/tvDataResumo"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="Data:"
+                android:textColor="@color/indica_text"
+                android:textSize="13sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvProjetoResumo"
+                app:layout_constraintEnd_toEndOf="parent" />
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Materiais:"
-            android:textStyle="bold"
-            android:layout_marginTop="8dp" />
-    </LinearLayout>
+            <TextView
+                android:id="@+id/tvUsuarioResumo"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="Almoxarife:"
+                android:textColor="@color/indica_text"
+                android:textSize="13sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvDataResumo"
+                app:layout_constraintEnd_toEndOf="parent" />
 
-    <!-- RecyclerView central -->
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/observacaoLayout"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="Observacao"
+                app:boxBackgroundMode="outline"
+                app:boxCornerRadiusBottomEnd="12dp"
+                app:boxCornerRadiusBottomStart="12dp"
+                app:boxCornerRadiusTopEnd="12dp"
+                app:boxCornerRadiusTopStart="12dp"
+                app:boxStrokeColor="@color/indica_steel"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvUsuarioResumo"
+                app:layout_constraintEnd_toEndOf="parent">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/tvObservacaoResumo"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:gravity="top"
+                    android:inputType="textMultiLine"
+                    android:textColor="@color/indica_text" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:id="@+id/tvMateriaisLabel"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Materiais"
+                android:textColor="@color/indica_text"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/observacaoLayout"
+                app:layout_constraintEnd_toEndOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.card.MaterialCardView>
+
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerResumo"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:overScrollMode="ifContentScrolls"
         android:clipToPadding="false"
-        android:layout_marginTop="4dp"
+        android:layout_marginTop="12dp"
         android:layout_marginBottom="16dp"
-        app:layout_constraintTop_toBottomOf="@id/layoutCabecalho"
+        app:layout_constraintTop_toBottomOf="@id/cardHeader"
         app:layout_constraintBottom_toTopOf="@id/btnConfirmarResumo"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
-
-    <!-- Botão CONFIRMAR -->
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/btnConfirmarResumo"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="Confirmar"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/indica_navy"
+        app:cornerRadius="14dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />

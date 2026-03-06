@@ -1,6 +1,7 @@
 package com.example.rqm.ui.confirmacao;
 
 import android.os.Bundle;
+import android.provider.Settings;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -21,22 +22,32 @@ import com.example.rqm.adapters.MaterialResumoAdapter;
 import com.example.rqm.data.RequisicaoDAO;
 import com.example.rqm.models.Material;
 import com.example.rqm.models.Requisicao;
+import com.example.rqm.utils.AuthPrefs;
+import com.example.rqm.utils.DateUtils;
 import com.example.rqm.utils.ExcelUtils;
+import com.example.rqm.utils.OperacaoTipo;
+import com.example.rqm.utils.SupabasePrefs;
+import com.example.rqm.utils.SupabaseUploader;
 
 import java.util.ArrayList;
+import java.util.UUID;
+import java.util.concurrent.Executors;
 
 public class ConfirmacaoFragment extends Fragment {
 
-    // Componentes da interface
-    private TextView tvRequisitorResumo, tvProjetoResumo, tvDataResumo,
-            tvUsuarioResumo, tvTituloConfirmacao, tvObservacaoResumo;
+    private TextView tvRequisitorResumo;
+    private TextView tvProjetoResumo;
+    private TextView tvDataResumo;
+    private TextView tvUsuarioResumo;
+    private TextView tvTituloConfirmacao;
+    private TextView tvObservacaoResumo;
     private RecyclerView recyclerResumo;
     private Button btnConfirmarResumo;
 
-    // Dados recebidos da tela anterior
     private String requisitor = "";
     private String projeto = "";
-    private String data = "";
+    private String dataDisplay = "";
+    private String dataIso = "";
     private String usuario = "";
     private String tipoOperacao = "";
     private ArrayList<Material> materiaisSelecionados = new ArrayList<>();
@@ -49,18 +60,15 @@ public class ConfirmacaoFragment extends Fragment {
 
         View view = inflater.inflate(R.layout.fragment_confirmacao, container, false);
 
-        inicializarComponentes(view);     // Liga os componentes da tela
-        recuperarDados();                 // Pega os dados vindos da tela anterior
-        configurarRecycler();             // Exibe os materiais selecionados
-        configurarBotoes(view);           // Define os comportamentos dos botões
-        atualizarTituloToolbar();         // Muda o título da barra de navegação
+        inicializarComponentes(view);
+        recuperarDados();
+        configurarRecycler();
+        configurarBotoes(view);
+        atualizarTituloToolbar();
 
         return view;
     }
 
-    /**
-     * Liga os elementos da interface com seus IDs do layout
-     */
     private void inicializarComponentes(View view) {
         tvTituloConfirmacao = view.findViewById(R.id.tvTituloConfirmacao);
         tvRequisitorResumo = view.findViewById(R.id.tvRequisitorResumo);
@@ -72,87 +80,104 @@ public class ConfirmacaoFragment extends Fragment {
         btnConfirmarResumo = view.findViewById(R.id.btnConfirmarResumo);
     }
 
-    /**
-     * Recupera os dados passados por Bundle da tela anterior
-     */
+    @SuppressWarnings("unchecked")
     private void recuperarDados() {
         Bundle args = getArguments();
         if (args != null) {
             requisitor = args.getString("requisitor", "");
             projeto = args.getString("projeto", "");
-            data = args.getString("data", "");
+            dataDisplay = args.getString("data_display", "");
+            if (dataDisplay.isEmpty()) {
+                dataDisplay = args.getString("data", "");
+            }
+            dataIso = args.getString("data_iso", "");
+            if (dataIso.isEmpty()) {
+                dataIso = DateUtils.toIsoWithNow(dataDisplay);
+            }
             usuario = args.getString("usuario", "");
             tipoOperacao = args.getString("tipoOperacao", "");
             materiaisSelecionados = (ArrayList<Material>) args.getSerializable("materiaisSelecionados");
         }
 
-        // Atualiza os textos na interface com os dados recebidos
-        tvTituloConfirmacao.setText(tipoOperacao.equalsIgnoreCase("Devolução")
-                ? "Confirmação de Devolução"
-                : "Confirmação de Requisição");
+        tvTituloConfirmacao.setText(OperacaoTipo.isDevolucao(tipoOperacao)
+                ? getString(R.string.confirmacao_titulo_devolucao)
+                : getString(R.string.confirmacao_titulo_requisicao));
 
-        tvRequisitorResumo.setText("Requisitor: " + requisitor);
+        tvRequisitorResumo.setText("Responsavel: " + requisitor);
         tvProjetoResumo.setText("Projeto: " + projeto);
-        tvDataResumo.setText("Data: " + data);
+        tvDataResumo.setText("Data: " + dataDisplay);
         tvUsuarioResumo.setText("Almoxarife: " + usuario);
-        tvObservacaoResumo.setText("Observação: "); // Campo reservado
     }
 
-    /**
-     * Configura o RecyclerView com os materiais escolhidos
-     */
     private void configurarRecycler() {
         recyclerResumo.setLayoutManager(new LinearLayoutManager(requireContext()));
         recyclerResumo.setAdapter(new MaterialResumoAdapter(materiaisSelecionados));
     }
 
-    /**
-     * Define os comportamentos dos botões Confirmar e Voltar
-     */
     private void configurarBotoes(View view) {
-
-
-        // Botão Confirmar: Salva no banco e exporta Excel
         btnConfirmarResumo.setOnClickListener(v -> {
-            // Cria objeto Requisicao com os dados atuais
             Requisicao req = new Requisicao();
             req.usuario = usuario;
             req.requisitor = requisitor;
             req.projeto = projeto;
-            req.data = data;
-            req.tipoOperacao = tipoOperacao;
-            req.observacao = ""; // Pode ser ajustado com campo editável
-            req.setMateriaisSelecionados(materiaisSelecionados); // Inclui todos os dados, inclusive LP e Serial
+            req.data = dataIso;
+            req.tipoOperacao = OperacaoTipo.normalize(tipoOperacao);
+            req.observacao = tvObservacaoResumo.getText().toString().trim();
+            req.origem = "APP";
+            String imei = AuthPrefs.getImei(requireContext());
+            if (imei == null || imei.isEmpty()) {
+                imei = Settings.Secure.getString(requireContext().getContentResolver(), Settings.Secure.ANDROID_ID);
+            }
+            req.deviceId = imei;
+            if (req.clientRequestId == null || req.clientRequestId.trim().isEmpty()) {
+                req.clientRequestId = UUID.randomUUID().toString();
+            }
+            req.setMateriaisSelecionados(materiaisSelecionados);
 
-            // Salva no banco de dados local (SQLite)
             RequisicaoDAO dao = new RequisicaoDAO(requireContext());
             long resultado = dao.salvar(req);
 
-            if (resultado > 0) {
-                Toast.makeText(requireContext(), "Operação salva com sucesso!", Toast.LENGTH_SHORT).show();
-
-                // Exporta e compartilha como Excel automaticamente
-                ExcelUtils.compartilharRequisicao(requireContext(), req);
-
-                // Volta para tela inicial
-                Navigation.findNavController(view).navigate(R.id.nav_home);
-            } else {
-                Toast.makeText(requireContext(), "Erro ao salvar a operação!", Toast.LENGTH_LONG).show();
+            if (resultado <= 0) {
+                Toast.makeText(requireContext(), "Erro ao salvar a operacao.", Toast.LENGTH_LONG).show();
+                return;
             }
-        });
 
+            Toast.makeText(requireContext(), "Operacao salva com sucesso.", Toast.LENGTH_SHORT).show();
+
+            int status = SupabasePrefs.getStatus(requireContext());
+            boolean conectado = status == SupabasePrefs.STATUS_CONNECTED && SupabasePrefs.hasConfig(requireContext());
+            boolean sessaoValidaServidor = !AuthPrefs.isTestSession(requireContext());
+
+            if (conectado && sessaoValidaServidor) {
+                btnConfirmarResumo.setEnabled(false);
+                Executors.newSingleThreadExecutor().execute(() -> {
+                    SupabaseUploader.UploadResult enviado = SupabaseUploader.enviarRequisicao(requireContext(), req);
+                    requireActivity().runOnUiThread(() -> {
+                        btnConfirmarResumo.setEnabled(true);
+                        String msg = enviado.success ? "Base de dados atualizada." : enviado.message;
+                        Toast.makeText(requireContext(), msg, Toast.LENGTH_SHORT).show();
+                        ExcelUtils.compartilharRequisicao(requireContext(), req);
+                        Navigation.findNavController(view).navigate(R.id.nav_home);
+                    });
+                });
+                return;
+            }
+
+            if (status == SupabasePrefs.STATUS_CONNECTING) {
+                Toast.makeText(requireContext(), "Conectando... exportacao local.", Toast.LENGTH_SHORT).show();
+            } else if (!sessaoValidaServidor) {
+                Toast.makeText(requireContext(), "Modo teste ativo. Exportacao local.", Toast.LENGTH_SHORT).show();
+            }
+            ExcelUtils.compartilharRequisicao(requireContext(), req);
+            Navigation.findNavController(view).navigate(R.id.nav_home);
+        });
     }
 
-    /**
-     * Atualiza o título da Toolbar com base na operação
-     */
     private void atualizarTituloToolbar() {
         if (getActivity() instanceof AppCompatActivity) {
             AppCompatActivity appCompatActivity = (AppCompatActivity) getActivity();
             if (appCompatActivity.getSupportActionBar() != null) {
-                appCompatActivity.getSupportActionBar().setTitle(
-                        tipoOperacao.equalsIgnoreCase("Devolução") ? "Devolução" : "Requisição"
-                );
+                appCompatActivity.getSupportActionBar().setTitle(getString(OperacaoTipo.toLabelResId(tipoOperacao)));
             }
         }
     }

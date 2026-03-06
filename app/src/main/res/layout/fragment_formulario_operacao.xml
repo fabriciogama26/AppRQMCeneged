@@ -10,13 +10,12 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-        <!-- Linha com Spinner e EditText para o código do projeto -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
+            android:layout_marginBottom="8dp"
             android:gravity="center_vertical"
-            android:layout_marginBottom="8dp">
+            android:orientation="horizontal">
 
             <Spinner
                 android:id="@+id/spinnerPrefixo"
@@ -29,46 +28,45 @@
                 android:id="@+id/etProjetoNumero"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
                 android:layout_weight="2"
-                android:hint="Projeto, OS ou OM"
+                android:hint="@string/hint_projeto_generico"
                 android:inputType="text"
-                android:maxLength="10"
-                android:layout_marginStart="8dp" />
+                android:maxLength="10" />
         </LinearLayout>
 
-        <!-- Data da Requisição -->
         <EditText
             android:id="@+id/etData"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Data da Requisição"
+            android:clickable="true"
             android:focusable="false"
-            android:clickable="true" />
+            android:hint="@string/hint_data_requisicao" />
 
-        <!-- Requisitor -->
-        <EditText
+        <AutoCompleteTextView
             android:id="@+id/etRequisitor"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Requisitor"
+            android:completionThreshold="1"
+            android:hint="Respons&#225;vel (Encarregado/Supervisor)"
             android:inputType="text"
             android:textAllCaps="true" />
 
-        <!-- Usuário -->
         <EditText
             android:id="@+id/etUsuario"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:enabled="false"
+            android:focusable="false"
             android:hint="Almoxarife"
             android:inputType="text"
             android:textAllCaps="true" />
 
-        <!-- Botão Avançar -->
         <Button
             android:id="@+id/btnAvancar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Avançar"
-            android:layout_marginTop="16dp" />
+            android:layout_marginTop="16dp"
+            android:text="@string/btn_avancar" />
     </LinearLayout>
 </ScrollView>

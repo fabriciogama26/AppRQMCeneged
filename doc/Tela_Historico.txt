@@ -1,0 +1,26 @@
+Tela: Historico
+
+Arquivos
+- app/src/main/java/com/example/rqm/ui/historico/HistoricoFragment.java
+- app/src/main/java/com/example/rqm/ui/historico/HistoricoViewModel.java
+- app/src/main/res/layout/fragment_historico.xml
+
+Objetivo
+- Consultar movimentacoes registradas localmente.
+
+Entradas
+- Data
+- Tipo de projeto
+- Projeto
+- Operacao
+
+Acoes
+- Filtrar registros.
+- Limpar filtros.
+- Exportar.
+
+Dependencias
+- RequisicaoDAO
+
+Observacoes
+- O filtro e retratil.

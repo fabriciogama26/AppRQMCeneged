@@ -1,0 +1,26 @@
+Tela: Login
+
+Arquivos
+- app/src/main/java/com/example/rqm/ui/login/LoginFragment.java
+- app/src/main/res/layout/fragment_login.xml
+
+Objetivo
+- Autenticar o usuario por matricula e senha.
+- Usar o IMEI salvo previamente.
+
+Entradas
+- Matricula
+- Senha
+
+Acoes
+- Login normal via Edge Function login_matricula.
+- Login em modo teste quando habilitado em supabase_config.json.
+- Acesso ao Sobre Login para salvar IMEI.
+
+Dependencias
+- AuthPrefs
+- SupabaseEdgeClient.login
+- TestModeConfig
+
+Observacoes
+- Apos login bem-sucedido, a tela e removida da pilha.

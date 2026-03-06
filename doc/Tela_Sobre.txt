@@ -1,0 +1,20 @@
+Tela: Sobre
+
+Arquivos
+- app/src/main/java/com/example/rqm/ui/sobre/SobreFragment.java
+- app/src/main/res/layout/fragment_sobre.xml
+
+Objetivo
+- Exibir informacoes institucionais do app.
+
+Entradas
+- Nenhuma.
+
+Acoes
+- Mostrar descricao e link institucional.
+
+Dependencias
+- Recursos estaticos.
+
+Observacoes
+- Nao possui cadastro de IMEI. Esse fluxo fica no Sobre Login.
